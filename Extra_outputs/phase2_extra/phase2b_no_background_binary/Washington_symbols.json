@@ -1,0 +1,26 @@
+{
+  "input": "outputs\\phase1\\Washington_binary.png",
+  "filters": {
+    "F1_noise_max_area": 3,
+    "F2_aspect_line_ratio": 50.0,
+    "F2_line_min_dim": 50,
+    "F3_thin_max_area": 20,
+    "F4_density_sigma": 8.0,
+    "F4_density_threshold": 0.12,
+    "F4_density_max_area": 100,
+    "F5_chord_min_dim": 25,
+    "F5_chord_threshold": 1.3,
+    "F5_solidity_threshold": 0.45
+  },
+  "stats": {
+    "noise": 56278,
+    "long_line": 143,
+    "thin_frag": 1852,
+    "density_line": 88078,
+    "chord_line": 1911,
+    "kept": 54660
+  },
+  "input_fg_pct": 13.1784,
+  "output_fg_pct": 10.7465,
+  "elapsed_sec": 270.17
+}

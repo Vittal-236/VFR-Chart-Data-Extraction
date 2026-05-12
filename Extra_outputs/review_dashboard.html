@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Atlas AI — Chart Review Dashboard</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: system-ui, -apple-system, sans-serif; background: #f8f7f3; color: #2c2c2a; display: flex; flex-direction: column; height: 100vh; }
+  header { background: #fff; border-bottom: 1px solid #e5e3dc; padding: 12px 20px; display: flex; align-items: center; gap: 16px; }
+  header h1 { font-size: 16px; font-weight: 600; color: #1a1a18; }
+  header span { font-size: 13px; color: #888; }
+  .toolbar { display: flex; gap: 8px; margin-left: auto; align-items: center; }
+  .toolbar input[type=file] { display: none; }
+  .btn { font-size: 13px; padding: 6px 14px; border-radius: 6px; border: 1px solid #d3d1c7; background: #fff; cursor: pointer; color: #3d3d3a; transition: background .15s; }
+  .btn:hover { background: #f0ede6; }
+  .btn-primary { background: #1a6ef5; color: #fff; border-color: #1a6ef5; }
+  .btn-primary:hover { background: #155bd4; }
+  .layout { display: flex; flex: 1; overflow: hidden; }
+  #map { flex: 1; }
+  .sidebar { width: 320px; background: #fff; border-left: 1px solid #e5e3dc; display: flex; flex-direction: column; overflow: hidden; }
+  .sidebar-header { padding: 14px 16px; border-bottom: 1px solid #e5e3dc; font-size: 13px; font-weight: 600; }
+  .filters { padding: 10px 16px; border-bottom: 1px solid #e5e3dc; display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip { font-size: 12px; padding: 3px 10px; border-radius: 999px; border: 1px solid; cursor: pointer; user-select: none; transition: opacity .15s; }
+  .chip.off { opacity: .35; }
+  .chip-wp  { border-color:#E24B4A; color:#A32D2D; background:#FCEBEB; }
+  .chip-hp  { border-color:#185FA5; color:#0C447C; background:#E6F1FB; }
+  .chip-fr  { border-color:#0F6E56; color:#085041; background:#E1F5EE; }
+  .chip-rt  { border-color:#BA7517; color:#854F0B; background:#FAEEDA; }
+  .chip-ob  { border-color:#534AB7; color:#3C3489; background:#EEEDFE; }
+  .chip-nh  { border-color:#993556; color:#72243E; background:#FBEAF0; }
+  .chip-hr  { border-color:#993C1D; color:#712B13; background:#FAECE7; }
+  .list { flex: 1; overflow-y: auto; }
+  .item { padding: 10px 16px; border-bottom: 1px solid #f0ede6; cursor: pointer; transition: background .1s; }
+  .item:hover { background: #f8f7f3; }
+  .item-name { font-size: 13px; font-weight: 500; }
+  .item-meta { font-size: 11px; color: #888; margin-top: 2px; }
+  .dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 5px; }
+  .empty { padding: 40px 16px; text-align: center; font-size: 13px; color: #aaa; }
+  .stats { display: flex; flex-wrap: wrap; gap: 6px; padding: 10px 16px; border-bottom: 1px solid #e5e3dc; }
+  .stat { font-size: 11px; background: #f0ede6; border-radius: 4px; padding: 3px 8px; }
+  .stat b { font-weight: 600; }
+</style>
+</head>
+<body>
+<header>
+  <h1>🛩 Atlas AI — Chart Review</h1>
+  <span id="filename">No file loaded</span>
+  <div class="toolbar">
+    <label class="btn">Load JSON <input type="file" id="fileInput" accept=".json"></label>
+    <button class="btn btn-primary" onclick="exportFiltered()">Export filtered</button>
+  </div>
+</header>
+<div class="layout">
+  <div id="map"></div>
+  <div class="sidebar">
+    <div class="sidebar-header">Entities <span id="count" style="color:#888;font-weight:400"></span></div>
+    <div class="stats" id="stats"></div>
+    <div class="filters" id="filters"></div>
+    <div class="list" id="list"><div class="empty">Load a JSON file to begin.</div></div>
+  </div>
+</div>
+<script>
+const CATS = {
+  waypoints:        { label:'Waypoints',        chip:'chip-wp', color:'#E24B4A', icon:'▲' },
+  holding_patterns: { label:'Holdings',         chip:'chip-hp', color:'#378ADD', icon:'⟳' },
+  frequencies:      { label:'Frequencies',      chip:'chip-fr', color:'#1D9E75', icon:'📡' },
+  routes:           { label:'Routes',           chip:'chip-rt', color:'#EF9F27', icon:'━' },
+  obstacles:        { label:'Obstacles',        chip:'chip-ob', color:'#7F77DD', icon:'⚠' },
+  nhp:              { label:'NHP/VRP',          chip:'chip-nh', color:'#D4537E', icon:'◉' },
+  heli_routes:      { label:'Heli-routes',      chip:'chip-hr', color:'#D85A30', icon:'H' },
+};
+
+const map = L.map('map').setView([37.9, 23.7], 7);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  attribution:'© OpenStreetMap contributors', maxZoom:18
+}).addTo(map);
+
+let data = null, markers = [], active = new Set(Object.keys(CATS)), layerGroup = L.layerGroup().addTo(map);
+
+document.getElementById('fileInput').addEventListener('change', e => {
+  const f = e.target.files[0];
+  if (!f) return;
+  document.getElementById('filename').textContent = f.name;
+  const reader = new FileReader();
+  reader.onload = ev => {
+    try {
+      data = JSON.parse(ev.target.result);
+      render();
+    } catch(err) { alert('Invalid JSON: ' + err.message); }
+  };
+  reader.readAsText(f);
+});
+
+function render() {
+  if (!data) return;
+  renderFilters();
+  renderStats();
+  renderList();
+  renderMap();
+}
+
+function renderFilters() {
+  const el = document.getElementById('filters');
+  el.innerHTML = '';
+  for (const [key, cat] of Object.entries(CATS)) {
+    const n = (data[key] || []).length;
+    if (!n) continue;
+    const chip = document.createElement('span');
+    chip.className = `chip ${cat.chip}`;
+    chip.textContent = `${cat.label} (${n})`;
+    if (!active.has(key)) chip.classList.add('off');
+    chip.onclick = () => { active.has(key) ? active.delete(key) : active.add(key); chip.classList.toggle('off'); render(); };
+    el.appendChild(chip);
+  }
+}
+
+function renderStats() {
+  const el = document.getElementById('stats');
+  el.innerHTML = '';
+  const verified = (data.waypoints || []).filter(w => w.verified).length;
+  const total    = (data.waypoints || []).length;
+  if (total) el.innerHTML += `<span class="stat">✓ <b>${verified}/${total}</b> waypoints verified</span>`;
+  if (data.airport) el.innerHTML += `<span class="stat">🏢 <b>${data.airport.icao}</b> ${data.airport.elevation_ft ? data.airport.elevation_ft+'ft' : ''}</span>`;
+}
+
+function renderMap() {
+  layerGroup.clearLayers();
+  markers = [];
+  for (const [key, cat] of Object.entries(CATS)) {
+    if (!active.has(key)) continue;
+    for (const item of (data[key] || [])) {
+      const lat = item.lat ?? item.reference_point?.lat;
+      const lon = item.lon ?? item.reference_point?.lon;
+      if (!lat || !lon) continue;
+      const icon = L.divIcon({
+        className: '',
+        html: `<div style="background:${cat.color};color:#fff;font-size:10px;width:20px;height:20px;border-radius:3px;display:flex;align-items:center;justify-content:center;border:1.5px solid rgba(0,0,0,.2);font-weight:bold;">${cat.icon}</div>`,
+        iconSize:[20,20], iconAnchor:[10,10],
+      });
+      const name = item.name || item.callsign || item.value_mhz || '?';
+      const m = L.marker([lat, lon], {icon})
+        .bindPopup(`<b>${name}</b><br><small>${key} · ${lat.toFixed(5)}, ${lon.toFixed(5)}</small>`)
+        .addTo(layerGroup);
+      markers.push({marker:m, key, item, lat, lon, name});
+    }
+  }
+  if (markers.length) {
+    const bounds = L.latLngBounds(markers.map(m => [m.lat, m.lon]));
+    map.fitBounds(bounds, {padding:[30,30]});
+  }
+  document.getElementById('count').textContent = `— ${markers.length} shown`;
+}
+
+function renderList() {
+  const el = document.getElementById('list');
+  el.innerHTML = '';
+  const items = markers.filter(m => active.has(m.key));
+  if (!items.length) { el.innerHTML = '<div class="empty">No items to show.</div>'; return; }
+  for (const {key, item, lat, lon, name, marker} of items) {
+    const cat = CATS[key];
+    const div = document.createElement('div');
+    div.className = 'item';
+    const verified = item.verified === false ? ' ⚠️' : item.verified ? ' ✓' : '';
+    div.innerHTML = `
+      <div class="item-name"><span class="dot" style="background:${cat.color}"></span>${name}${verified}</div>
+      <div class="item-meta">${cat.label} · ${lat ? lat.toFixed(4) : '—'}, ${lon ? lon.toFixed(4) : '—'}</div>`;
+    div.onclick = () => { map.setView([lat, lon], 12); marker.openPopup(); };
+    el.appendChild(div);
+  }
+}
+
+function exportFiltered() {
+  if (!data) return;
+  const out = {};
+  for (const key of active) { if (data[key]) out[key] = data[key]; }
+  const blob = new Blob([JSON.stringify(out, null, 2)], {type:'application/json'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'filtered_output.json';
+  a.click();
+}
+</script>
+</body>
+</html>

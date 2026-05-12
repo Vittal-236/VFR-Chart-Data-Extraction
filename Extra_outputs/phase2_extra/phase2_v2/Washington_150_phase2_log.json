@@ -1,0 +1,20 @@
+{
+  "stem": "Washington_150",
+  "image_shape": [
+    6173,
+    8385,
+    3
+  ],
+  "hsv_tile_size": 2048,
+  "coverage_pct": {
+    "text": 0.945,
+    "routes": 2.563,
+    "symbols": 2.942,
+    "boundaries": 32.832
+  },
+  "notes": [
+    "Layer 'blue' coverage 42.2% > maximum 15.0% \u2014 HSV ranges may be too broad.",
+    "Layer 'black' coverage 1.9% < minimum 5.0% \u2014 HSV ranges may need widening."
+  ],
+  "elapsed_sec": 215.59
+}

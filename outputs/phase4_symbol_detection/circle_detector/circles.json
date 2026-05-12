@@ -1,0 +1,4264 @@
+{
+  "total_confirmed": 531,
+  "params": {
+    "binary_path": "outputs/phase1_preprocessing/Washington_binary.png",
+    "dpi": 150,
+    "radius_min": 17,
+    "radius_max": 26,
+    "hough_threshold": 0.6,
+    "min_circumference_coverage": 0.88,
+    "interior_ink_min": 0.05,
+    "interior_ink_max": 0.7,
+    "legend_strip_width": 140
+  },
+  "circles": [
+    {
+      "row": 712,
+      "col": 232,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3344
+    },
+    {
+      "row": 373,
+      "col": 290,
+      "radius": 21,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.5693
+    },
+    {
+      "row": 961,
+      "col": 244,
+      "radius": 21,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.5954
+    },
+    {
+      "row": 961,
+      "col": 412,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.416
+    },
+    {
+      "row": 971,
+      "col": 1972,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3083
+    },
+    {
+      "row": 775,
+      "col": 261,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 0.9928,
+      "interior_ink_frac": 0.3589
+    },
+    {
+      "row": 776,
+      "col": 204,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3573
+    },
+    {
+      "row": 841,
+      "col": 236,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3132
+    },
+    {
+      "row": 841,
+      "col": 370,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3328
+    },
+    {
+      "row": 841,
+      "col": 780,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.2447
+    },
+    {
+      "row": 841,
+      "col": 573,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.2953
+    },
+    {
+      "row": 386,
+      "col": 2068,
+      "radius": 21,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.2822
+    },
+    {
+      "row": 1444,
+      "col": 3614,
+      "radius": 21,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.4976
+    },
+    {
+      "row": 468,
+      "col": 2275,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.2887
+    },
+    {
+      "row": 218,
+      "col": 4007,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3638
+    },
+    {
+      "row": 145,
+      "col": 2872,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.31
+    },
+    {
+      "row": 1786,
+      "col": 4010,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3687
+    },
+    {
+      "row": 399,
+      "col": 2948,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.6803
+    },
+    {
+      "row": 587,
+      "col": 3790,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3116
+    },
+    {
+      "row": 692,
+      "col": 2884,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3344
+    },
+    {
+      "row": 786,
+      "col": 2084,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 0.9928,
+      "interior_ink_frac": 0.3132
+    },
+    {
+      "row": 1536,
+      "col": 5787,
+      "radius": 21,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3785
+    },
+    {
+      "row": 1735,
+      "col": 5965,
+      "radius": 21,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.6966
+    },
+    {
+      "row": 330,
+      "col": 4735,
+      "radius": 21,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3442
+    },
+    {
+      "row": 922,
+      "col": 5576,
+      "radius": 21,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3214
+    },
+    {
+      "row": 297,
+      "col": 4266,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 0.9928,
+      "interior_ink_frac": 0.3002
+    },
+    {
+      "row": 264,
+      "col": 5256,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3458
+    },
+    {
+      "row": 178,
+      "col": 4962,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.4176
+    },
+    {
+      "row": 65,
+      "col": 4153,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3197
+    },
+    {
+      "row": 1698,
+      "col": 5520,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3409
+    },
+    {
+      "row": 1201,
+      "col": 5392,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3246
+    },
+    {
+      "row": 1160,
+      "col": 5512,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 0.9928,
+      "interior_ink_frac": 0.3442
+    },
+    {
+      "row": 1043,
+      "col": 5785,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3246
+    },
+    {
+      "row": 891,
+      "col": 4914,
+      "radius": 21,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3703
+    },
+    {
+      "row": 612,
+      "col": 6008,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3605
+    },
+    {
+      "row": 663,
+      "col": 5990,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.168
+    },
+    {
+      "row": 752,
+      "col": 4870,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3605
+    },
+    {
+      "row": 802,
+      "col": 5472,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3116
+    },
+    {
+      "row": 816,
+      "col": 6054,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3475
+    },
+    {
+      "row": 578,
+      "col": 6046,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.2398
+    },
+    {
+      "row": 831,
+      "col": 6179,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3132
+    },
+    {
+      "row": 898,
+      "col": 6458,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.31
+    },
+    {
+      "row": 928,
+      "col": 6251,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.6998
+    },
+    {
+      "row": 1039,
+      "col": 7779,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.2887
+    },
+    {
+      "row": 1255,
+      "col": 6704,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.1925
+    },
+    {
+      "row": 1452,
+      "col": 7585,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3719
+    },
+    {
+      "row": 475,
+      "col": 7024,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 0.9928,
+      "interior_ink_frac": 0.3507
+    },
+    {
+      "row": 567,
+      "col": 7135,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3197
+    },
+    {
+      "row": 1978,
+      "col": 9949,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.2349
+    },
+    {
+      "row": 1539,
+      "col": 9744,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3573
+    },
+    {
+      "row": 1780,
+      "col": 9571,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3409
+    },
+    {
+      "row": 1308,
+      "col": 10145,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.6509
+    },
+    {
+      "row": 1282,
+      "col": 9579,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 0.9928,
+      "interior_ink_frac": 0.3393
+    },
+    {
+      "row": 1175,
+      "col": 8482,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.6069
+    },
+    {
+      "row": 756,
+      "col": 8862,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3083
+    },
+    {
+      "row": 196,
+      "col": 9880,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3214
+    },
+    {
+      "row": 196,
+      "col": 9671,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 0.9928,
+      "interior_ink_frac": 0.4046
+    },
+    {
+      "row": 287,
+      "col": 8931,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.4454
+    },
+    {
+      "row": 110,
+      "col": 8922,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3344
+    },
+    {
+      "row": 194,
+      "col": 9168,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 0.9928,
+      "interior_ink_frac": 0.2447
+    },
+    {
+      "row": 1871,
+      "col": 9131,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.4584
+    },
+    {
+      "row": 1942,
+      "col": 10110,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3246
+    },
+    {
+      "row": 168,
+      "col": 10834,
+      "radius": 21,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.6688
+    },
+    {
+      "row": 653,
+      "col": 10661,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.2007
+    },
+    {
+      "row": 1218,
+      "col": 11206,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3409
+    },
+    {
+      "row": 771,
+      "col": 10654,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3148
+    },
+    {
+      "row": 3172,
+      "col": 1541,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.062
+    },
+    {
+      "row": 3172,
+      "col": 174,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.0522
+    },
+    {
+      "row": 4056,
+      "col": 2598,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.292
+    },
+    {
+      "row": 2213,
+      "col": 2555,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3377
+    },
+    {
+      "row": 2249,
+      "col": 3628,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3556
+    },
+    {
+      "row": 2296,
+      "col": 3316,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3524
+    },
+    {
+      "row": 2356,
+      "col": 3775,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3083
+    },
+    {
+      "row": 2400,
+      "col": 3067,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3736
+    },
+    {
+      "row": 2408,
+      "col": 3720,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3638
+    },
+    {
+      "row": 2468,
+      "col": 2420,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3964
+    },
+    {
+      "row": 3501,
+      "col": 2562,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.31
+    },
+    {
+      "row": 3133,
+      "col": 3093,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.4682
+    },
+    {
+      "row": 3120,
+      "col": 3738,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.354
+    },
+    {
+      "row": 2944,
+      "col": 4071,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3638
+    },
+    {
+      "row": 2668,
+      "col": 3904,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 0.9928,
+      "interior_ink_frac": 0.3116
+    },
+    {
+      "row": 3566,
+      "col": 2760,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3393
+    },
+    {
+      "row": 3510,
+      "col": 2994,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3573
+    },
+    {
+      "row": 2509,
+      "col": 3214,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.323
+    },
+    {
+      "row": 2324,
+      "col": 5832,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3148
+    },
+    {
+      "row": 3659,
+      "col": 5836,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.416
+    },
+    {
+      "row": 2881,
+      "col": 5626,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3801
+    },
+    {
+      "row": 4023,
+      "col": 4099,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.4405
+    },
+    {
+      "row": 2175,
+      "col": 5120,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3132
+    },
+    {
+      "row": 2456,
+      "col": 5773,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3361
+    },
+    {
+      "row": 2080,
+      "col": 5578,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3116
+    },
+    {
+      "row": 4051,
+      "col": 4644,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3687
+    },
+    {
+      "row": 4052,
+      "col": 4282,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3263
+    },
+    {
+      "row": 3369,
+      "col": 4175,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.2708
+    },
+    {
+      "row": 2428,
+      "col": 5352,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 0.9928,
+      "interior_ink_frac": 0.3361
+    },
+    {
+      "row": 3935,
+      "col": 4331,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.2757
+    },
+    {
+      "row": 3426,
+      "col": 4427,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.4111
+    },
+    {
+      "row": 2589,
+      "col": 4626,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.2969
+    },
+    {
+      "row": 3994,
+      "col": 6085,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.2692
+    },
+    {
+      "row": 2102,
+      "col": 6992,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3475
+    },
+    {
+      "row": 3562,
+      "col": 7266,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.0636
+    },
+    {
+      "row": 3723,
+      "col": 7260,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.4078
+    },
+    {
+      "row": 3853,
+      "col": 8017,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3083
+    },
+    {
+      "row": 3118,
+      "col": 7736,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3622
+    },
+    {
+      "row": 2708,
+      "col": 7605,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3475
+    },
+    {
+      "row": 2787,
+      "col": 7953,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3915
+    },
+    {
+      "row": 2364,
+      "col": 8182,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3931
+    },
+    {
+      "row": 3866,
+      "col": 8096,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.2953
+    },
+    {
+      "row": 4014,
+      "col": 7350,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3148
+    },
+    {
+      "row": 3866,
+      "col": 7447,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3915
+    },
+    {
+      "row": 2625,
+      "col": 7889,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3931
+    },
+    {
+      "row": 2320,
+      "col": 7416,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3458
+    },
+    {
+      "row": 3951,
+      "col": 9759,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3263
+    },
+    {
+      "row": 4011,
+      "col": 9315,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.4062
+    },
+    {
+      "row": 4024,
+      "col": 8959,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3148
+    },
+    {
+      "row": 2393,
+      "col": 9500,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3132
+    },
+    {
+      "row": 2519,
+      "col": 9626,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3491
+    },
+    {
+      "row": 3346,
+      "col": 8652,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 0.9928,
+      "interior_ink_frac": 0.323
+    },
+    {
+      "row": 2182,
+      "col": 9408,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3067
+    },
+    {
+      "row": 2113,
+      "col": 9669,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.0979
+    },
+    {
+      "row": 2361,
+      "col": 8518,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3817
+    },
+    {
+      "row": 3740,
+      "col": 8642,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3116
+    },
+    {
+      "row": 3300,
+      "col": 8866,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 0.9928,
+      "interior_ink_frac": 0.3931
+    },
+    {
+      "row": 3176,
+      "col": 9051,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3475
+    },
+    {
+      "row": 3942,
+      "col": 9571,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3638
+    },
+    {
+      "row": 3936,
+      "col": 8886,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 0.9928,
+      "interior_ink_frac": 0.3018
+    },
+    {
+      "row": 3715,
+      "col": 8891,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.398
+    },
+    {
+      "row": 3579,
+      "col": 9344,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3361
+    },
+    {
+      "row": 3420,
+      "col": 8788,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3409
+    },
+    {
+      "row": 3391,
+      "col": 8454,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3295
+    },
+    {
+      "row": 2546,
+      "col": 8846,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.2887
+    },
+    {
+      "row": 2219,
+      "col": 9237,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 0.9928,
+      "interior_ink_frac": 0.3083
+    },
+    {
+      "row": 2265,
+      "col": 8678,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.354
+    },
+    {
+      "row": 3321,
+      "col": 8958,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3442
+    },
+    {
+      "row": 2857,
+      "col": 8258,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.385
+    },
+    {
+      "row": 2782,
+      "col": 8823,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.6884
+    },
+    {
+      "row": 2564,
+      "col": 8424,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.1223
+    },
+    {
+      "row": 2962,
+      "col": 9018,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3964
+    },
+    {
+      "row": 2875,
+      "col": 8194,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.4046
+    },
+    {
+      "row": 2862,
+      "col": 8428,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 0.9928,
+      "interior_ink_frac": 0.3034
+    },
+    {
+      "row": 2776,
+      "col": 10465,
+      "radius": 21,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.6591
+    },
+    {
+      "row": 2656,
+      "col": 10846,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.5269
+    },
+    {
+      "row": 4887,
+      "col": 1889,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.6803
+    },
+    {
+      "row": 5396,
+      "col": 1850,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3312
+    },
+    {
+      "row": 5515,
+      "col": 1477,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.2251
+    },
+    {
+      "row": 5184,
+      "col": 2090,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3703
+    },
+    {
+      "row": 4900,
+      "col": 3884,
+      "radius": 21,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.4307
+    },
+    {
+      "row": 4714,
+      "col": 3856,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 0.9928,
+      "interior_ink_frac": 0.3442
+    },
+    {
+      "row": 4535,
+      "col": 3968,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3132
+    },
+    {
+      "row": 4797,
+      "col": 2110,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 0.9928,
+      "interior_ink_frac": 0.3197
+    },
+    {
+      "row": 4417,
+      "col": 4038,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3034
+    },
+    {
+      "row": 4997,
+      "col": 2306,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 0.9928,
+      "interior_ink_frac": 0.3051
+    },
+    {
+      "row": 5873,
+      "col": 3906,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.6998
+    },
+    {
+      "row": 6009,
+      "col": 3074,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3165
+    },
+    {
+      "row": 6059,
+      "col": 4048,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 0.9928,
+      "interior_ink_frac": 0.3915
+    },
+    {
+      "row": 4624,
+      "col": 5671,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.4192
+    },
+    {
+      "row": 4619,
+      "col": 5307,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.6591
+    },
+    {
+      "row": 4904,
+      "col": 5549,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 0.9928,
+      "interior_ink_frac": 0.3834
+    },
+    {
+      "row": 4586,
+      "col": 5797,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.4405
+    },
+    {
+      "row": 4550,
+      "col": 4522,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3214
+    },
+    {
+      "row": 5761,
+      "col": 5260,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.5514
+    },
+    {
+      "row": 5562,
+      "col": 4828,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3051
+    },
+    {
+      "row": 4119,
+      "col": 4812,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3116
+    },
+    {
+      "row": 5043,
+      "col": 4142,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.31
+    },
+    {
+      "row": 4996,
+      "col": 5002,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.6868
+    },
+    {
+      "row": 4529,
+      "col": 4163,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.6966
+    },
+    {
+      "row": 4482,
+      "col": 4466,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3148
+    },
+    {
+      "row": 5400,
+      "col": 5922,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 0.9928,
+      "interior_ink_frac": 0.3638
+    },
+    {
+      "row": 5487,
+      "col": 4168,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3964
+    },
+    {
+      "row": 4307,
+      "col": 4735,
+      "radius": 21,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.4861
+    },
+    {
+      "row": 4202,
+      "col": 4325,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 0.9928,
+      "interior_ink_frac": 0.3915
+    },
+    {
+      "row": 4260,
+      "col": 4385,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 0.9928,
+      "interior_ink_frac": 0.3687
+    },
+    {
+      "row": 4285,
+      "col": 4325,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3589
+    },
+    {
+      "row": 4341,
+      "col": 4609,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3556
+    },
+    {
+      "row": 4390,
+      "col": 4479,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.6786
+    },
+    {
+      "row": 5627,
+      "col": 6565,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3556
+    },
+    {
+      "row": 4498,
+      "col": 6670,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3116
+    },
+    {
+      "row": 4480,
+      "col": 7408,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3426
+    },
+    {
+      "row": 5614,
+      "col": 6909,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.6884
+    },
+    {
+      "row": 5580,
+      "col": 7109,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 0.9928,
+      "interior_ink_frac": 0.4992
+    },
+    {
+      "row": 4477,
+      "col": 7511,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3736
+    },
+    {
+      "row": 5172,
+      "col": 6674,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 0.9928,
+      "interior_ink_frac": 0.4176
+    },
+    {
+      "row": 5196,
+      "col": 6205,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 0.9928,
+      "interior_ink_frac": 0.3491
+    },
+    {
+      "row": 5240,
+      "col": 6498,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3507
+    },
+    {
+      "row": 5520,
+      "col": 6915,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3426
+    },
+    {
+      "row": 5568,
+      "col": 7251,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3834
+    },
+    {
+      "row": 4982,
+      "col": 7000,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 0.9928,
+      "interior_ink_frac": 0.323
+    },
+    {
+      "row": 4588,
+      "col": 6590,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 0.9928,
+      "interior_ink_frac": 0.5546
+    },
+    {
+      "row": 4561,
+      "col": 7936,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.6884
+    },
+    {
+      "row": 5140,
+      "col": 6860,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.6868
+    },
+    {
+      "row": 5069,
+      "col": 6472,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.4372
+    },
+    {
+      "row": 5037,
+      "col": 6212,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 0.9928,
+      "interior_ink_frac": 0.3116
+    },
+    {
+      "row": 6040,
+      "col": 6520,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.323
+    },
+    {
+      "row": 6136,
+      "col": 7266,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.323
+    },
+    {
+      "row": 5653,
+      "col": 7188,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3279
+    },
+    {
+      "row": 5652,
+      "col": 6722,
+      "radius": 21,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.4144
+    },
+    {
+      "row": 5163,
+      "col": 9803,
+      "radius": 21,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.6248
+    },
+    {
+      "row": 4258,
+      "col": 8572,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3165
+    },
+    {
+      "row": 4823,
+      "col": 9730,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3556
+    },
+    {
+      "row": 4836,
+      "col": 8716,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 0.9928,
+      "interior_ink_frac": 0.3132
+    },
+    {
+      "row": 4586,
+      "col": 9719,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 0.9928,
+      "interior_ink_frac": 0.3051
+    },
+    {
+      "row": 4555,
+      "col": 8834,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.1289
+    },
+    {
+      "row": 4369,
+      "col": 8616,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3197
+    },
+    {
+      "row": 4782,
+      "col": 8416,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3279
+    },
+    {
+      "row": 5976,
+      "col": 8855,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3703
+    },
+    {
+      "row": 4174,
+      "col": 9318,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.6183
+    },
+    {
+      "row": 4108,
+      "col": 8306,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 0.9928,
+      "interior_ink_frac": 0.3181
+    },
+    {
+      "row": 5855,
+      "col": 8923,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 0.9928,
+      "interior_ink_frac": 0.4127
+    },
+    {
+      "row": 5958,
+      "col": 8784,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 0.9928,
+      "interior_ink_frac": 0.354
+    },
+    {
+      "row": 5030,
+      "col": 8822,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.2871
+    },
+    {
+      "row": 5010,
+      "col": 9583,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.31
+    },
+    {
+      "row": 5439,
+      "col": 8592,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3687
+    },
+    {
+      "row": 4937,
+      "col": 8910,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3817
+    },
+    {
+      "row": 7942,
+      "col": 2044,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 0.9928,
+      "interior_ink_frac": 0.3148
+    },
+    {
+      "row": 6171,
+      "col": 1980,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3361
+    },
+    {
+      "row": 6534,
+      "col": 1823,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.367
+    },
+    {
+      "row": 6719,
+      "col": 1902,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 0.9928,
+      "interior_ink_frac": 0.3295
+    },
+    {
+      "row": 6744,
+      "col": 1852,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.4307
+    },
+    {
+      "row": 8164,
+      "col": 2440,
+      "radius": 21,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.4258
+    },
+    {
+      "row": 6556,
+      "col": 3560,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3458
+    },
+    {
+      "row": 7077,
+      "col": 2580,
+      "radius": 21,
+      "hough_score": 1.0,
+      "circumference_coverage": 0.9924,
+      "interior_ink_frac": 0.5449
+    },
+    {
+      "row": 6715,
+      "col": 2359,
+      "radius": 21,
+      "hough_score": 1.0,
+      "circumference_coverage": 0.9924,
+      "interior_ink_frac": 0.4176
+    },
+    {
+      "row": 6386,
+      "col": 3730,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3279
+    },
+    {
+      "row": 6986,
+      "col": 3070,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 0.9928,
+      "interior_ink_frac": 0.3018
+    },
+    {
+      "row": 7000,
+      "col": 3984,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3116
+    },
+    {
+      "row": 7918,
+      "col": 2915,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3214
+    },
+    {
+      "row": 7709,
+      "col": 4082,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3507
+    },
+    {
+      "row": 6282,
+      "col": 2699,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3279
+    },
+    {
+      "row": 8060,
+      "col": 2738,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3475
+    },
+    {
+      "row": 6283,
+      "col": 2129,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.323
+    },
+    {
+      "row": 6222,
+      "col": 3713,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3197
+    },
+    {
+      "row": 6311,
+      "col": 4761,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3573
+    },
+    {
+      "row": 6466,
+      "col": 4192,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3458
+    },
+    {
+      "row": 6394,
+      "col": 5686,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3703
+    },
+    {
+      "row": 6504,
+      "col": 4886,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3181
+    },
+    {
+      "row": 6689,
+      "col": 5275,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3573
+    },
+    {
+      "row": 7875,
+      "col": 5563,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3948
+    },
+    {
+      "row": 7914,
+      "col": 4851,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 0.9928,
+      "interior_ink_frac": 0.3622
+    },
+    {
+      "row": 8071,
+      "col": 4824,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.6868
+    },
+    {
+      "row": 6733,
+      "col": 5704,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3377
+    },
+    {
+      "row": 6894,
+      "col": 4343,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3083
+    },
+    {
+      "row": 6954,
+      "col": 5285,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.31
+    },
+    {
+      "row": 6675,
+      "col": 5447,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3377
+    },
+    {
+      "row": 6921,
+      "col": 6729,
+      "radius": 21,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3328
+    },
+    {
+      "row": 6931,
+      "col": 6806,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.354
+    },
+    {
+      "row": 7682,
+      "col": 6801,
+      "radius": 21,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.4225
+    },
+    {
+      "row": 7494,
+      "col": 7171,
+      "radius": 21,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.4046
+    },
+    {
+      "row": 7972,
+      "col": 8012,
+      "radius": 21,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.4192
+    },
+    {
+      "row": 7993,
+      "col": 7965,
+      "radius": 21,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.4568
+    },
+    {
+      "row": 7772,
+      "col": 8124,
+      "radius": 21,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.4617
+    },
+    {
+      "row": 7762,
+      "col": 6645,
+      "radius": 21,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.6754
+    },
+    {
+      "row": 7815,
+      "col": 7975,
+      "radius": 21,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3785
+    },
+    {
+      "row": 6217,
+      "col": 7386,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3132
+    },
+    {
+      "row": 6242,
+      "col": 7251,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3002
+    },
+    {
+      "row": 6296,
+      "col": 6471,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3883
+    },
+    {
+      "row": 7210,
+      "col": 6387,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.6998
+    },
+    {
+      "row": 7303,
+      "col": 8191,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3475
+    },
+    {
+      "row": 6705,
+      "col": 7230,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 0.9928,
+      "interior_ink_frac": 0.3279
+    },
+    {
+      "row": 6334,
+      "col": 6460,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3246
+    },
+    {
+      "row": 6420,
+      "col": 7423,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.4013
+    },
+    {
+      "row": 6429,
+      "col": 6736,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 0.9928,
+      "interior_ink_frac": 0.2692
+    },
+    {
+      "row": 6989,
+      "col": 8400,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3393
+    },
+    {
+      "row": 6147,
+      "col": 8799,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3458
+    },
+    {
+      "row": 6277,
+      "col": 9157,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3344
+    },
+    {
+      "row": 6441,
+      "col": 9038,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3556
+    },
+    {
+      "row": 6478,
+      "col": 8800,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 0.9783,
+      "interior_ink_frac": 0.354
+    },
+    {
+      "row": 6699,
+      "col": 8432,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3263
+    },
+    {
+      "row": 6819,
+      "col": 8590,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3442
+    },
+    {
+      "row": 6903,
+      "col": 8483,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.6754
+    },
+    {
+      "row": 7582,
+      "col": 8210,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 0.9928,
+      "interior_ink_frac": 0.3214
+    },
+    {
+      "row": 7105,
+      "col": 8428,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3361
+    },
+    {
+      "row": 7394,
+      "col": 8221,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.0506
+    },
+    {
+      "row": 7857,
+      "col": 15057,
+      "radius": 21,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.5367
+    },
+    {
+      "row": 9573,
+      "col": 1648,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 0.9928,
+      "interior_ink_frac": 0.3834
+    },
+    {
+      "row": 8949,
+      "col": 2150,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3458
+    },
+    {
+      "row": 9800,
+      "col": 3189,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3148
+    },
+    {
+      "row": 10170,
+      "col": 2613,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.6966
+    },
+    {
+      "row": 9585,
+      "col": 2689,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.4339
+    },
+    {
+      "row": 9125,
+      "col": 3001,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3377
+    },
+    {
+      "row": 9713,
+      "col": 3624,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 0.9928,
+      "interior_ink_frac": 0.3491
+    },
+    {
+      "row": 9715,
+      "col": 3433,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3573
+    },
+    {
+      "row": 9374,
+      "col": 4846,
+      "radius": 21,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.6933
+    },
+    {
+      "row": 10034,
+      "col": 4489,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3458
+    },
+    {
+      "row": 8235,
+      "col": 6702,
+      "radius": 21,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.6493
+    },
+    {
+      "row": 8707,
+      "col": 7337,
+      "radius": 21,
+      "hough_score": 1.0,
+      "circumference_coverage": 0.9924,
+      "interior_ink_frac": 0.4894
+    },
+    {
+      "row": 9465,
+      "col": 7297,
+      "radius": 21,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.6884
+    },
+    {
+      "row": 9414,
+      "col": 6708,
+      "radius": 21,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.5824
+    },
+    {
+      "row": 9135,
+      "col": 7032,
+      "radius": 21,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.615
+    },
+    {
+      "row": 8930,
+      "col": 6532,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3132
+    },
+    {
+      "row": 9433,
+      "col": 7906,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3638
+    },
+    {
+      "row": 9442,
+      "col": 6436,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3295
+    },
+    {
+      "row": 9658,
+      "col": 6624,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3263
+    },
+    {
+      "row": 10166,
+      "col": 7938,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.6835
+    },
+    {
+      "row": 8196,
+      "col": 6324,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.31
+    },
+    {
+      "row": 10056,
+      "col": 6683,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3148
+    },
+    {
+      "row": 11067,
+      "col": 1716,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.2985
+    },
+    {
+      "row": 10938,
+      "col": 2046,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 0.9928,
+      "interior_ink_frac": 0.3279
+    },
+    {
+      "row": 10973,
+      "col": 3882,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3246
+    },
+    {
+      "row": 10578,
+      "col": 2734,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3703
+    },
+    {
+      "row": 10402,
+      "col": 2734,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 0.9928,
+      "interior_ink_frac": 0.3491
+    },
+    {
+      "row": 11066,
+      "col": 3008,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.6281
+    },
+    {
+      "row": 10723,
+      "col": 4511,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.4046
+    },
+    {
+      "row": 10802,
+      "col": 5222,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3687
+    },
+    {
+      "row": 10264,
+      "col": 4763,
+      "radius": 21,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3491
+    },
+    {
+      "row": 10318,
+      "col": 4504,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.6835
+    },
+    {
+      "row": 10446,
+      "col": 5856,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3703
+    },
+    {
+      "row": 11066,
+      "col": 5036,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 0.9928,
+      "interior_ink_frac": 0.31
+    },
+    {
+      "row": 10952,
+      "col": 7256,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.6966
+    },
+    {
+      "row": 11021,
+      "col": 6665,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.4176
+    },
+    {
+      "row": 10660,
+      "col": 6554,
+      "radius": 21,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3866
+    },
+    {
+      "row": 10474,
+      "col": 7250,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3638
+    },
+    {
+      "row": 10734,
+      "col": 7653,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 0.9928,
+      "interior_ink_frac": 0.3116
+    },
+    {
+      "row": 10674,
+      "col": 7467,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 0.9928,
+      "interior_ink_frac": 0.3018
+    },
+    {
+      "row": 10247,
+      "col": 7336,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 0.9928,
+      "interior_ink_frac": 0.3736
+    },
+    {
+      "row": 11167,
+      "col": 8663,
+      "radius": 21,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.4339
+    },
+    {
+      "row": 10543,
+      "col": 8420,
+      "radius": 21,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.6444
+    },
+    {
+      "row": 10666,
+      "col": 8274,
+      "radius": 22,
+      "hough_score": 1.0,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3442
+    },
+    {
+      "row": 4082,
+      "col": 5776,
+      "radius": 20,
+      "hough_score": 0.9999999999999989,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.4707
+    },
+    {
+      "row": 9558,
+      "col": 2574,
+      "radius": 20,
+      "hough_score": 0.9999999999999989,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.5142
+    },
+    {
+      "row": 2383,
+      "col": 5282,
+      "radius": 19,
+      "hough_score": 0.9999999999999988,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.6712
+    },
+    {
+      "row": 3534,
+      "col": 5818,
+      "radius": 19,
+      "hough_score": 0.9999999999999988,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3537
+    },
+    {
+      "row": 8604,
+      "col": 5871,
+      "radius": 19,
+      "hough_score": 0.9999999999999988,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.6871
+    },
+    {
+      "row": 3411,
+      "col": 1416,
+      "radius": 17,
+      "hough_score": 0.9999999999999987,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3846
+    },
+    {
+      "row": 3354,
+      "col": 1446,
+      "radius": 17,
+      "hough_score": 0.9999999999999987,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3873
+    },
+    {
+      "row": 2415,
+      "col": 5289,
+      "radius": 17,
+      "hough_score": 0.9999999999999987,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.4218
+    },
+    {
+      "row": 6768,
+      "col": 11662,
+      "radius": 17,
+      "hough_score": 0.9999999999999987,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.1936
+    },
+    {
+      "row": 6766,
+      "col": 11726,
+      "radius": 18,
+      "hough_score": 0.9999999999999987,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.1565
+    },
+    {
+      "row": 9617,
+      "col": 12486,
+      "radius": 17,
+      "hough_score": 0.9999999999999987,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.496
+    },
+    {
+      "row": 207,
+      "col": 5655,
+      "radius": 26,
+      "hough_score": 0.9999999999999979,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.6049
+    },
+    {
+      "row": 400,
+      "col": 7429,
+      "radius": 26,
+      "hough_score": 0.9999999999999979,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.5494
+    },
+    {
+      "row": 1977,
+      "col": 8563,
+      "radius": 26,
+      "hough_score": 0.9999999999999979,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.6293
+    },
+    {
+      "row": 786,
+      "col": 8290,
+      "radius": 26,
+      "hough_score": 0.9999999999999979,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.6459
+    },
+    {
+      "row": 904,
+      "col": 11467,
+      "radius": 26,
+      "hough_score": 0.9999999999999979,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.6448
+    },
+    {
+      "row": 618,
+      "col": 11346,
+      "radius": 26,
+      "hough_score": 0.9999999999999979,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.4639
+    },
+    {
+      "row": 2906,
+      "col": 3627,
+      "radius": 26,
+      "hough_score": 0.9999999999999979,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.5794
+    },
+    {
+      "row": 3105,
+      "col": 4822,
+      "radius": 26,
+      "hough_score": 0.9999999999999979,
+      "circumference_coverage": 0.9877,
+      "interior_ink_frac": 0.5261
+    },
+    {
+      "row": 4048,
+      "col": 4886,
+      "radius": 26,
+      "hough_score": 0.9999999999999979,
+      "circumference_coverage": 0.9877,
+      "interior_ink_frac": 0.5583
+    },
+    {
+      "row": 4073,
+      "col": 5575,
+      "radius": 26,
+      "hough_score": 0.9999999999999979,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.5205
+    },
+    {
+      "row": 3866,
+      "col": 7860,
+      "radius": 26,
+      "hough_score": 0.9999999999999979,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.6049
+    },
+    {
+      "row": 3955,
+      "col": 7847,
+      "radius": 26,
+      "hough_score": 0.9999999999999979,
+      "circumference_coverage": 0.9939,
+      "interior_ink_frac": 0.2653
+    },
+    {
+      "row": 2387,
+      "col": 9900,
+      "radius": 26,
+      "hough_score": 0.9999999999999979,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.596
+    },
+    {
+      "row": 3328,
+      "col": 10235,
+      "radius": 26,
+      "hough_score": 0.9999999999999979,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.5882
+    },
+    {
+      "row": 5175,
+      "col": 2011,
+      "radius": 26,
+      "hough_score": 0.9999999999999979,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.6182
+    },
+    {
+      "row": 7483,
+      "col": 4792,
+      "radius": 26,
+      "hough_score": 0.9999999999999979,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.6315
+    },
+    {
+      "row": 8530,
+      "col": 6740,
+      "radius": 26,
+      "hough_score": 0.9999999999999979,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.6448
+    },
+    {
+      "row": 828,
+      "col": 3959,
+      "radius": 24,
+      "hough_score": 0.9999999999999974,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.4216
+    },
+    {
+      "row": 194,
+      "col": 9716,
+      "radius": 24,
+      "hough_score": 0.9999999999999974,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3476
+    },
+    {
+      "row": 5791,
+      "col": 2815,
+      "radius": 24,
+      "hough_score": 0.9999999999999974,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3952
+    },
+    {
+      "row": 4884,
+      "col": 5282,
+      "radius": 25,
+      "hough_score": 0.9999999999999974,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.333
+    },
+    {
+      "row": 5714,
+      "col": 4911,
+      "radius": 25,
+      "hough_score": 0.9999999999999974,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.2386
+    },
+    {
+      "row": 4820,
+      "col": 9228,
+      "radius": 24,
+      "hough_score": 0.9999999999999974,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.3137
+    },
+    {
+      "row": 5078,
+      "col": 5852,
+      "radius": 23,
+      "hough_score": 0.9999999999999973,
+      "circumference_coverage": 1.0,
+      "interior_ink_frac": 0.5134
+    },
+    {
+      "row": 151,
+      "col": 6309,
+      "radius": 26,
+      "hough_score": 0.9934210526315769,
+      "circumference_coverage": 0.9939,
+      "interior_ink_frac": 0.4928
+    },
+    {
+      "row": 9341,
+      "col": 3639,
+      "radius": 26,
+      "hough_score": 0.9934210526315769,
+      "circumference_coverage": 0.9939,
+      "interior_ink_frac": 0.6393
+    },
+    {
+      "row": 3413,
+      "col": 1358,
+      "radius": 17,
+      "hough_score": 0.9903846153846141,
+      "circumference_coverage": 0.9811,
+      "interior_ink_frac": 0.2997
+    },
+    {
+      "row": 1441,
+      "col": 4513,
+      "radius": 26,
+      "hough_score": 0.9868421052631559,
+      "circumference_coverage": 0.9877,
+      "interior_ink_frac": 0.5971
+    },
+    {
+      "row": 511,
+      "col": 10017,
+      "radius": 26,
+      "hough_score": 0.9868421052631559,
+      "circumference_coverage": 0.9755,
+      "interior_ink_frac": 0.5816
+    },
+    {
+      "row": 5085,
+      "col": 9008,
+      "radius": 26,
+      "hough_score": 0.9868421052631559,
+      "circumference_coverage": 0.9877,
+      "interior_ink_frac": 0.596
+    },
+    {
+      "row": 8338,
+      "col": 3880,
+      "radius": 26,
+      "hough_score": 0.9868421052631559,
+      "circumference_coverage": 0.9816,
+      "interior_ink_frac": 0.515
+    },
+    {
+      "row": 3410,
+      "col": 1205,
+      "radius": 23,
+      "hough_score": 0.9852941176470562,
+      "circumference_coverage": 0.9861,
+      "interior_ink_frac": 0.4908
+    },
+    {
+      "row": 3353,
+      "col": 1479,
+      "radius": 19,
+      "hough_score": 0.982142857142856,
+      "circumference_coverage": 0.9664,
+      "interior_ink_frac": 0.4444
+    },
+    {
+      "row": 3411,
+      "col": 1448,
+      "radius": 19,
+      "hough_score": 0.982142857142856,
+      "circumference_coverage": 0.9664,
+      "interior_ink_frac": 0.458
+    },
+    {
+      "row": 3356,
+      "col": 1161,
+      "radius": 17,
+      "hough_score": 0.9807692307692295,
+      "circumference_coverage": 0.9717,
+      "interior_ink_frac": 0.2971
+    },
+    {
+      "row": 5478,
+      "col": 1490,
+      "radius": 18,
+      "hough_score": 0.9807692307692295,
+      "circumference_coverage": 0.9735,
+      "interior_ink_frac": 0.424
+    },
+    {
+      "row": 6060,
+      "col": 3644,
+      "radius": 17,
+      "hough_score": 0.9807692307692295,
+      "circumference_coverage": 0.9717,
+      "interior_ink_frac": 0.4271
+    },
+    {
+      "row": 222,
+      "col": 11798,
+      "radius": 25,
+      "hough_score": 0.9791666666666642,
+      "circumference_coverage": 0.9682,
+      "interior_ink_frac": 0.6193
+    },
+    {
+      "row": 1327,
+      "col": 15586,
+      "radius": 24,
+      "hough_score": 0.9791666666666642,
+      "circumference_coverage": 0.98,
+      "interior_ink_frac": 0.3802
+    },
+    {
+      "row": 3354,
+      "col": 1397,
+      "radius": 24,
+      "hough_score": 0.9791666666666642,
+      "circumference_coverage": 0.9733,
+      "interior_ink_frac": 0.4304
+    },
+    {
+      "row": 3354,
+      "col": 1255,
+      "radius": 23,
+      "hough_score": 0.9779411764705856,
+      "circumference_coverage": 0.9583,
+      "interior_ink_frac": 0.5444
+    },
+    {
+      "row": 3412,
+      "col": 1288,
+      "radius": 21,
+      "hough_score": 0.9765625,
+      "circumference_coverage": 0.9695,
+      "interior_ink_frac": 0.4535
+    },
+    {
+      "row": 5526,
+      "col": 1510,
+      "radius": 19,
+      "hough_score": 0.9732142857142846,
+      "circumference_coverage": 0.9664,
+      "interior_ink_frac": 0.6327
+    },
+    {
+      "row": 3514,
+      "col": 1492,
+      "radius": 17,
+      "hough_score": 0.9711538461538449,
+      "circumference_coverage": 0.9623,
+      "interior_ink_frac": 0.4509
+    },
+    {
+      "row": 3412,
+      "col": 1254,
+      "radius": 17,
+      "hough_score": 0.9711538461538449,
+      "circumference_coverage": 0.9528,
+      "interior_ink_frac": 0.4456
+    },
+    {
+      "row": 3410,
+      "col": 1176,
+      "radius": 23,
+      "hough_score": 0.9705882352941151,
+      "circumference_coverage": 0.9722,
+      "interior_ink_frac": 0.4513
+    },
+    {
+      "row": 3355,
+      "col": 1227,
+      "radius": 21,
+      "hough_score": 0.96875,
+      "circumference_coverage": 0.9618,
+      "interior_ink_frac": 0.4698
+    },
+    {
+      "row": 9366,
+      "col": 6063,
+      "radius": 25,
+      "hough_score": 0.9652777777777753,
+      "circumference_coverage": 0.9554,
+      "interior_ink_frac": 0.6182
+    },
+    {
+      "row": 9452,
+      "col": 9407,
+      "radius": 24,
+      "hough_score": 0.9652777777777753,
+      "circumference_coverage": 0.96,
+      "interior_ink_frac": 0.2321
+    },
+    {
+      "row": 1663,
+      "col": 2406,
+      "radius": 23,
+      "hough_score": 0.9632352941176445,
+      "circumference_coverage": 0.9514,
+      "interior_ink_frac": 0.4457
+    },
+    {
+      "row": 8934,
+      "col": 12697,
+      "radius": 18,
+      "hough_score": 0.9615384615384603,
+      "circumference_coverage": 0.9558,
+      "interior_ink_frac": 0.5057
+    },
+    {
+      "row": 3407,
+      "col": 1327,
+      "radius": 20,
+      "hough_score": 0.9583333333333324,
+      "circumference_coverage": 0.968,
+      "interior_ink_frac": 0.431
+    },
+    {
+      "row": 1625,
+      "col": 2407,
+      "radius": 25,
+      "hough_score": 0.9583333333333309,
+      "circumference_coverage": 0.9554,
+      "interior_ink_frac": 0.6304
+    },
+    {
+      "row": 6706,
+      "col": 5477,
+      "radius": 23,
+      "hough_score": 0.955882352941174,
+      "circumference_coverage": 0.9514,
+      "interior_ink_frac": 0.1735
+    },
+    {
+      "row": 2225,
+      "col": 5200,
+      "radius": 26,
+      "hough_score": 0.9539473684210508,
+      "circumference_coverage": 0.9264,
+      "interior_ink_frac": 0.3929
+    },
+    {
+      "row": 10521,
+      "col": 7596,
+      "radius": 26,
+      "hough_score": 0.9539473684210508,
+      "circumference_coverage": 0.9571,
+      "interior_ink_frac": 0.505
+    },
+    {
+      "row": 1338,
+      "col": 15519,
+      "radius": 18,
+      "hough_score": 0.9519230769230758,
+      "circumference_coverage": 0.9469,
+      "interior_ink_frac": 0.0975
+    },
+    {
+      "row": 3396,
+      "col": 972,
+      "radius": 17,
+      "hough_score": 0.9519230769230758,
+      "circumference_coverage": 0.9434,
+      "interior_ink_frac": 0.6393
+    },
+    {
+      "row": 3154,
+      "col": 747,
+      "radius": 17,
+      "hough_score": 0.9519230769230758,
+      "circumference_coverage": 0.9528,
+      "interior_ink_frac": 0.191
+    },
+    {
+      "row": 4979,
+      "col": 3392,
+      "radius": 17,
+      "hough_score": 0.9519230769230758,
+      "circumference_coverage": 0.9434,
+      "interior_ink_frac": 0.5942
+    },
+    {
+      "row": 5215,
+      "col": 11840,
+      "radius": 17,
+      "hough_score": 0.9519230769230758,
+      "circumference_coverage": 0.9528,
+      "interior_ink_frac": 0.4536
+    },
+    {
+      "row": 4120,
+      "col": 10617,
+      "radius": 17,
+      "hough_score": 0.9519230769230758,
+      "circumference_coverage": 0.9528,
+      "interior_ink_frac": 0.5517
+    },
+    {
+      "row": 424,
+      "col": 15993,
+      "radius": 24,
+      "hough_score": 0.9513888888888865,
+      "circumference_coverage": 0.9533,
+      "interior_ink_frac": 0.1468
+    },
+    {
+      "row": 5148,
+      "col": 11903,
+      "radius": 20,
+      "hough_score": 0.9499999999999991,
+      "circumference_coverage": 0.952,
+      "interior_ink_frac": 0.1682
+    },
+    {
+      "row": 8856,
+      "col": 12836,
+      "radius": 23,
+      "hough_score": 0.9485294117647034,
+      "circumference_coverage": 0.9514,
+      "interior_ink_frac": 0.1481
+    },
+    {
+      "row": 1236,
+      "col": 15636,
+      "radius": 26,
+      "hough_score": 0.9473684210526298,
+      "circumference_coverage": 0.9448,
+      "interior_ink_frac": 0.1509
+    },
+    {
+      "row": 6666,
+      "col": 11808,
+      "radius": 26,
+      "hough_score": 0.9473684210526298,
+      "circumference_coverage": 0.9448,
+      "interior_ink_frac": 0.1476
+    },
+    {
+      "row": 9671,
+      "col": 10750,
+      "radius": 26,
+      "hough_score": 0.9473684210526298,
+      "circumference_coverage": 0.9448,
+      "interior_ink_frac": 0.1387
+    },
+    {
+      "row": 1220,
+      "col": 4414,
+      "radius": 25,
+      "hough_score": 0.9444444444444421,
+      "circumference_coverage": 0.9363,
+      "interior_ink_frac": 0.2642
+    },
+    {
+      "row": 1333,
+      "col": 4176,
+      "radius": 17,
+      "hough_score": 0.9423076923076912,
+      "circumference_coverage": 0.8962,
+      "interior_ink_frac": 0.5464
+    },
+    {
+      "row": 778,
+      "col": 11203,
+      "radius": 17,
+      "hough_score": 0.9423076923076912,
+      "circumference_coverage": 0.934,
+      "interior_ink_frac": 0.374
+    },
+    {
+      "row": 519,
+      "col": 15887,
+      "radius": 17,
+      "hough_score": 0.9423076923076912,
+      "circumference_coverage": 0.9528,
+      "interior_ink_frac": 0.1008
+    },
+    {
+      "row": 6707,
+      "col": 2151,
+      "radius": 17,
+      "hough_score": 0.9423076923076912,
+      "circumference_coverage": 0.9245,
+      "interior_ink_frac": 0.6366
+    },
+    {
+      "row": 1105,
+      "col": 7031,
+      "radius": 20,
+      "hough_score": 0.9416666666666658,
+      "circumference_coverage": 0.896,
+      "interior_ink_frac": 0.259
+    },
+    {
+      "row": 6056,
+      "col": 8455,
+      "radius": 20,
+      "hough_score": 0.9416666666666658,
+      "circumference_coverage": 0.944,
+      "interior_ink_frac": 0.4594
+    },
+    {
+      "row": 4887,
+      "col": 5002,
+      "radius": 23,
+      "hough_score": 0.9411764705882328,
+      "circumference_coverage": 0.9306,
+      "interior_ink_frac": 0.4161
+    },
+    {
+      "row": 9716,
+      "col": 12780,
+      "radius": 26,
+      "hough_score": 0.9407894736842087,
+      "circumference_coverage": 0.9264,
+      "interior_ink_frac": 0.4406
+    },
+    {
+      "row": 5019,
+      "col": 5335,
+      "radius": 21,
+      "hough_score": 0.9375,
+      "circumference_coverage": 0.9466,
+      "interior_ink_frac": 0.4225
+    },
+    {
+      "row": 12250,
+      "col": 16216,
+      "radius": 22,
+      "hough_score": 0.9375,
+      "circumference_coverage": 0.942,
+      "interior_ink_frac": 0.1289
+    },
+    {
+      "row": 12294,
+      "col": 486,
+      "radius": 22,
+      "hough_score": 0.9375,
+      "circumference_coverage": 0.942,
+      "interior_ink_frac": 0.1468
+    },
+    {
+      "row": 3340,
+      "col": 1133,
+      "radius": 19,
+      "hough_score": 0.937499999999999,
+      "circumference_coverage": 0.9412,
+      "interior_ink_frac": 0.3605
+    },
+    {
+      "row": 4844,
+      "col": 11154,
+      "radius": 25,
+      "hough_score": 0.9374999999999977,
+      "circumference_coverage": 0.9363,
+      "interior_ink_frac": 0.1487
+    },
+    {
+      "row": 10350,
+      "col": 1647,
+      "radius": 24,
+      "hough_score": 0.9374999999999977,
+      "circumference_coverage": 0.94,
+      "interior_ink_frac": 0.3977
+    },
+    {
+      "row": 2748,
+      "col": 13666,
+      "radius": 26,
+      "hough_score": 0.9342105263157877,
+      "circumference_coverage": 0.9264,
+      "interior_ink_frac": 0.2042
+    },
+    {
+      "row": 60,
+      "col": 916,
+      "radius": 18,
+      "hough_score": 0.9326923076923066,
+      "circumference_coverage": 0.9381,
+      "interior_ink_frac": 0.1497
+    },
+    {
+      "row": 3350,
+      "col": 1424,
+      "radius": 24,
+      "hough_score": 0.9236111111111088,
+      "circumference_coverage": 0.9133,
+      "interior_ink_frac": 0.5144
+    },
+    {
+      "row": 3407,
+      "col": 1393,
+      "radius": 24,
+      "hough_score": 0.9236111111111088,
+      "circumference_coverage": 0.9133,
+      "interior_ink_frac": 0.5144
+    },
+    {
+      "row": 3351,
+      "col": 1322,
+      "radius": 24,
+      "hough_score": 0.9236111111111088,
+      "circumference_coverage": 0.92,
+      "interior_ink_frac": 0.4366
+    },
+    {
+      "row": 2786,
+      "col": 4660,
+      "radius": 17,
+      "hough_score": 0.923076923076922,
+      "circumference_coverage": 0.8962,
+      "interior_ink_frac": 0.4191
+    },
+    {
+      "row": 6019,
+      "col": 8452,
+      "radius": 17,
+      "hough_score": 0.923076923076922,
+      "circumference_coverage": 0.8962,
+      "interior_ink_frac": 0.4297
+    },
+    {
+      "row": 5918,
+      "col": 9510,
+      "radius": 17,
+      "hough_score": 0.923076923076922,
+      "circumference_coverage": 0.8868,
+      "interior_ink_frac": 0.4271
+    },
+    {
+      "row": 10599,
+      "col": 7693,
+      "radius": 17,
+      "hough_score": 0.923076923076922,
+      "circumference_coverage": 0.9057,
+      "interior_ink_frac": 0.3395
+    },
+    {
+      "row": 8512,
+      "col": 16272,
+      "radius": 21,
+      "hough_score": 0.921875,
+      "circumference_coverage": 0.9084,
+      "interior_ink_frac": 0.6493
+    },
+    {
+      "row": 5441,
+      "col": 1490,
+      "radius": 19,
+      "hough_score": 0.9196428571428562,
+      "circumference_coverage": 0.8908,
+      "interior_ink_frac": 0.1088
+    },
+    {
+      "row": 8449,
+      "col": 16205,
+      "radius": 23,
+      "hough_score": 0.9191176470588212,
+      "circumference_coverage": 0.9097,
+      "interior_ink_frac": 0.653
+    },
+    {
+      "row": 1577,
+      "col": 8795,
+      "radius": 20,
+      "hough_score": 0.9166666666666659,
+      "circumference_coverage": 0.904,
+      "interior_ink_frac": 0.6276
+    },
+    {
+      "row": 5499,
+      "col": 1438,
+      "radius": 20,
+      "hough_score": 0.9166666666666659,
+      "circumference_coverage": 0.912,
+      "interior_ink_frac": 0.3384
+    },
+    {
+      "row": 3353,
+      "col": 1356,
+      "radius": 21,
+      "hough_score": 0.9140625,
+      "circumference_coverage": 0.9084,
+      "interior_ink_frac": 0.4959
+    },
+    {
+      "row": 9407,
+      "col": 7696,
+      "radius": 21,
+      "hough_score": 0.9140625,
+      "circumference_coverage": 0.916,
+      "interior_ink_frac": 0.4405
+    },
+    {
+      "row": 1001,
+      "col": 2227,
+      "radius": 18,
+      "hough_score": 0.9134615384615374,
+      "circumference_coverage": 0.8938,
+      "interior_ink_frac": 0.2857
+    },
+    {
+      "row": 3719,
+      "col": 5854,
+      "radius": 17,
+      "hough_score": 0.9134615384615374,
+      "circumference_coverage": 0.9151,
+      "interior_ink_frac": 0.2069
+    },
+    {
+      "row": 5403,
+      "col": 1491,
+      "radius": 18,
+      "hough_score": 0.9134615384615374,
+      "circumference_coverage": 0.885,
+      "interior_ink_frac": 0.1746
+    },
+    {
+      "row": 5218,
+      "col": 11795,
+      "radius": 17,
+      "hough_score": 0.9134615384615374,
+      "circumference_coverage": 0.9151,
+      "interior_ink_frac": 0.4403
+    },
+    {
+      "row": 6026,
+      "col": 8488,
+      "radius": 19,
+      "hough_score": 0.9107142857142848,
+      "circumference_coverage": 0.9076,
+      "interior_ink_frac": 0.0952
+    },
+    {
+      "row": 7767,
+      "col": 5541,
+      "radius": 19,
+      "hough_score": 0.9107142857142848,
+      "circumference_coverage": 0.9076,
+      "interior_ink_frac": 0.2494
+    },
+    {
+      "row": 9425,
+      "col": 2577,
+      "radius": 19,
+      "hough_score": 0.9107142857142848,
+      "circumference_coverage": 0.8992,
+      "interior_ink_frac": 0.2971
+    },
+    {
+      "row": 308,
+      "col": 11679,
+      "radius": 20,
+      "hough_score": 0.9083333333333325,
+      "circumference_coverage": 0.92,
+      "interior_ink_frac": 0.3459
+    },
+    {
+      "row": 3415,
+      "col": 1040,
+      "radius": 20,
+      "hough_score": 0.9083333333333325,
+      "circumference_coverage": 0.904,
+      "interior_ink_frac": 0.6465
+    },
+    {
+      "row": 2122,
+      "col": 7656,
+      "radius": 23,
+      "hough_score": 0.90441176470588,
+      "circumference_coverage": 0.9097,
+      "interior_ink_frac": 0.4386
+    },
+    {
+      "row": 535,
+      "col": 291,
+      "radius": 18,
+      "hough_score": 0.9038461538461529,
+      "circumference_coverage": 0.8938,
+      "interior_ink_frac": 0.4785
+    },
+    {
+      "row": 237,
+      "col": 3577,
+      "radius": 18,
+      "hough_score": 0.9038461538461529,
+      "circumference_coverage": 0.8938,
+      "interior_ink_frac": 0.3923
+    },
+    {
+      "row": 2280,
+      "col": 2600,
+      "radius": 18,
+      "hough_score": 0.9038461538461529,
+      "circumference_coverage": 0.8938,
+      "interior_ink_frac": 0.3787
+    },
+    {
+      "row": 2454,
+      "col": 4530,
+      "radius": 17,
+      "hough_score": 0.9038461538461529,
+      "circumference_coverage": 0.9057,
+      "interior_ink_frac": 0.4509
+    },
+    {
+      "row": 4376,
+      "col": 5238,
+      "radius": 17,
+      "hough_score": 0.9038461538461529,
+      "circumference_coverage": 0.8868,
+      "interior_ink_frac": 0.5782
+    },
+    {
+      "row": 8227,
+      "col": 6961,
+      "radius": 17,
+      "hough_score": 0.9038461538461529,
+      "circumference_coverage": 0.8868,
+      "interior_ink_frac": 0.5676
+    },
+    {
+      "row": 9752,
+      "col": 10604,
+      "radius": 17,
+      "hough_score": 0.9038461538461529,
+      "circumference_coverage": 0.8962,
+      "interior_ink_frac": 0.252
+    },
+    {
+      "row": 9179,
+      "col": 9321,
+      "radius": 24,
+      "hough_score": 0.9027777777777756,
+      "circumference_coverage": 0.8933,
+      "interior_ink_frac": 0.0903
+    },
+    {
+      "row": 3512,
+      "col": 1580,
+      "radius": 19,
+      "hough_score": 0.9017857142857134,
+      "circumference_coverage": 0.8992,
+      "interior_ink_frac": 0.6825
+    },
+    {
+      "row": 6190,
+      "col": 6347,
+      "radius": 19,
+      "hough_score": 0.9017857142857134,
+      "circumference_coverage": 0.916,
+      "interior_ink_frac": 0.322
+    },
+    {
+      "row": 1517,
+      "col": 9441,
+      "radius": 21,
+      "hough_score": 0.8984375,
+      "circumference_coverage": 0.8855,
+      "interior_ink_frac": 0.2561
+    },
+    {
+      "row": 3350,
+      "col": 1198,
+      "radius": 22,
+      "hough_score": 0.8984375,
+      "circumference_coverage": 0.8986,
+      "interior_ink_frac": 0.4486
+    },
+    {
+      "row": 11130,
+      "col": 6739,
+      "radius": 23,
+      "hough_score": 0.8970588235294095,
+      "circumference_coverage": 0.8819,
+      "interior_ink_frac": 0.457
+    },
+    {
+      "row": 3417,
+      "col": 879,
+      "radius": 24,
+      "hough_score": 0.8958333333333311,
+      "circumference_coverage": 0.88,
+      "interior_ink_frac": 0.5885
+    },
+    {
+      "row": 4910,
+      "col": 8316,
+      "radius": 17,
+      "hough_score": 0.8942307692307683,
+      "circumference_coverage": 0.8868,
+      "interior_ink_frac": 0.3714
+    },
+    {
+      "row": 6517,
+      "col": 8620,
+      "radius": 17,
+      "hough_score": 0.8942307692307683,
+      "circumference_coverage": 0.8868,
+      "interior_ink_frac": 0.3077
+    },
+    {
+      "row": 6659,
+      "col": 11551,
+      "radius": 17,
+      "hough_score": 0.8942307692307683,
+      "circumference_coverage": 0.9057,
+      "interior_ink_frac": 0.2971
+    },
+    {
+      "row": 3209,
+      "col": 6417,
+      "radius": 20,
+      "hough_score": 0.8916666666666659,
+      "circumference_coverage": 0.904,
+      "interior_ink_frac": 0.2949
+    },
+    {
+      "row": 9704,
+      "col": 12700,
+      "radius": 20,
+      "hough_score": 0.8916666666666659,
+      "circumference_coverage": 0.88,
+      "interior_ink_frac": 0.1739
+    },
+    {
+      "row": 275,
+      "col": 4498,
+      "radius": 22,
+      "hough_score": 0.890625,
+      "circumference_coverage": 0.8913,
+      "interior_ink_frac": 0.2365
+    },
+    {
+      "row": 427,
+      "col": 10382,
+      "radius": 21,
+      "hough_score": 0.890625,
+      "circumference_coverage": 0.8931,
+      "interior_ink_frac": 0.3573
+    },
+    {
+      "row": 8248,
+      "col": 6948,
+      "radius": 23,
+      "hough_score": 0.8897058823529389,
+      "circumference_coverage": 0.8958,
+      "interior_ink_frac": 0.4528
+    },
+    {
+      "row": 3368,
+      "col": 871,
+      "radius": 24,
+      "hough_score": 0.8888888888888867,
+      "circumference_coverage": 0.88,
+      "interior_ink_frac": 0.6274
+    },
+    {
+      "row": 1234,
+      "col": 15379,
+      "radius": 17,
+      "hough_score": 0.8846153846153837,
+      "circumference_coverage": 0.9057,
+      "interior_ink_frac": 0.3156
+    },
+    {
+      "row": 3375,
+      "col": 1154,
+      "radius": 18,
+      "hough_score": 0.8846153846153837,
+      "circumference_coverage": 0.885,
+      "interior_ink_frac": 0.6122
+    },
+    {
+      "row": 3316,
+      "col": 210,
+      "radius": 18,
+      "hough_score": 0.8846153846153837,
+      "circumference_coverage": 0.8938,
+      "interior_ink_frac": 0.6644
+    },
+    {
+      "row": 3249,
+      "col": 153,
+      "radius": 18,
+      "hough_score": 0.8846153846153837,
+      "circumference_coverage": 0.8938,
+      "interior_ink_frac": 0.6735
+    },
+    {
+      "row": 3246,
+      "col": 198,
+      "radius": 18,
+      "hough_score": 0.8846153846153837,
+      "circumference_coverage": 0.885,
+      "interior_ink_frac": 0.6667
+    },
+    {
+      "row": 3806,
+      "col": 6224,
+      "radius": 18,
+      "hough_score": 0.8846153846153837,
+      "circumference_coverage": 0.885,
+      "interior_ink_frac": 0.5193
+    },
+    {
+      "row": 2085,
+      "col": 7652,
+      "radius": 17,
+      "hough_score": 0.8846153846153837,
+      "circumference_coverage": 0.8868,
+      "interior_ink_frac": 0.4615
+    },
+    {
+      "row": 5544,
+      "col": 1488,
+      "radius": 17,
+      "hough_score": 0.8846153846153837,
+      "circumference_coverage": 0.8868,
+      "interior_ink_frac": 0.6048
+    },
+    {
+      "row": 5836,
+      "col": 8988,
+      "radius": 17,
+      "hough_score": 0.8846153846153837,
+      "circumference_coverage": 0.9057,
+      "interior_ink_frac": 0.1167
+    },
+    {
+      "row": 8868,
+      "col": 2113,
+      "radius": 17,
+      "hough_score": 0.8846153846153837,
+      "circumference_coverage": 0.8868,
+      "interior_ink_frac": 0.244
+    },
+    {
+      "row": 3319,
+      "col": 177,
+      "radius": 19,
+      "hough_score": 0.8839285714285706,
+      "circumference_coverage": 0.8824,
+      "interior_ink_frac": 0.6735
+    },
+    {
+      "row": 3250,
+      "col": 1512,
+      "radius": 19,
+      "hough_score": 0.8839285714285706,
+      "circumference_coverage": 0.8908,
+      "interior_ink_frac": 0.6939
+    },
+    {
+      "row": 3248,
+      "col": 334,
+      "radius": 19,
+      "hough_score": 0.8839285714285706,
+      "circumference_coverage": 0.8908,
+      "interior_ink_frac": 0.6871
+    },
+    {
+      "row": 4465,
+      "col": 6317,
+      "radius": 19,
+      "hough_score": 0.8839285714285706,
+      "circumference_coverage": 0.8908,
+      "interior_ink_frac": 0.3016
+    },
+    {
+      "row": 3449,
+      "col": 4992,
+      "radius": 20,
+      "hough_score": 0.8833333333333326,
+      "circumference_coverage": 0.88,
+      "interior_ink_frac": 0.5104
+    },
+    {
+      "row": 2673,
+      "col": 11547,
+      "radius": 21,
+      "hough_score": 0.8828125,
+      "circumference_coverage": 0.8931,
+      "interior_ink_frac": 0.4029
+    },
+    {
+      "row": 5778,
+      "col": 7622,
+      "radius": 21,
+      "hough_score": 0.8828125,
+      "circumference_coverage": 0.8931,
+      "interior_ink_frac": 0.3605
+    },
+    {
+      "row": 9223,
+      "col": 8794,
+      "radius": 21,
+      "hough_score": 0.8828125,
+      "circumference_coverage": 0.8931,
+      "interior_ink_frac": 0.3524
+    },
+    {
+      "row": 10362,
+      "col": 5387,
+      "radius": 21,
+      "hough_score": 0.8828125,
+      "circumference_coverage": 0.8931,
+      "interior_ink_frac": 0.3507
+    },
+    {
+      "row": 7254,
+      "col": 5238,
+      "radius": 23,
+      "hough_score": 0.8823529411764683,
+      "circumference_coverage": 0.8889,
+      "interior_ink_frac": 0.591
+    },
+    {
+      "row": 3834,
+      "col": 7221,
+      "radius": 21,
+      "hough_score": 0.875,
+      "circumference_coverage": 0.8855,
+      "interior_ink_frac": 0.3197
+    },
+    {
+      "row": 2628,
+      "col": 9477,
+      "radius": 22,
+      "hough_score": 0.875,
+      "circumference_coverage": 0.8841,
+      "interior_ink_frac": 0.3132
+    },
+    {
+      "row": 3898,
+      "col": 9624,
+      "radius": 21,
+      "hough_score": 0.875,
+      "circumference_coverage": 0.8855,
+      "interior_ink_frac": 0.3328
+    },
+    {
+      "row": 6014,
+      "col": 6590,
+      "radius": 21,
+      "hough_score": 0.875,
+      "circumference_coverage": 0.8855,
+      "interior_ink_frac": 0.3328
+    },
+    {
+      "row": 5403,
+      "col": 6564,
+      "radius": 21,
+      "hough_score": 0.875,
+      "circumference_coverage": 0.8855,
+      "interior_ink_frac": 0.3687
+    },
+    {
+      "row": 5754,
+      "col": 7622,
+      "radius": 21,
+      "hough_score": 0.875,
+      "circumference_coverage": 0.8855,
+      "interior_ink_frac": 0.3964
+    },
+    {
+      "row": 6070,
+      "col": 7440,
+      "radius": 21,
+      "hough_score": 0.875,
+      "circumference_coverage": 0.8855,
+      "interior_ink_frac": 0.3491
+    },
+    {
+      "row": 5381,
+      "col": 6564,
+      "radius": 21,
+      "hough_score": 0.875,
+      "circumference_coverage": 0.8855,
+      "interior_ink_frac": 0.3475
+    },
+    {
+      "row": 4103,
+      "col": 10571,
+      "radius": 21,
+      "hough_score": 0.875,
+      "circumference_coverage": 0.8855,
+      "interior_ink_frac": 0.3654
+    },
+    {
+      "row": 4126,
+      "col": 10571,
+      "radius": 21,
+      "hough_score": 0.875,
+      "circumference_coverage": 0.8855,
+      "interior_ink_frac": 0.3654
+    },
+    {
+      "row": 7746,
+      "col": 5542,
+      "radius": 21,
+      "hough_score": 0.875,
+      "circumference_coverage": 0.8855,
+      "interior_ink_frac": 0.398
+    },
+    {
+      "row": 6713,
+      "col": 7782,
+      "radius": 22,
+      "hough_score": 0.875,
+      "circumference_coverage": 0.8841,
+      "interior_ink_frac": 0.3703
+    },
+    {
+      "row": 6736,
+      "col": 7782,
+      "radius": 21,
+      "hough_score": 0.875,
+      "circumference_coverage": 0.8855,
+      "interior_ink_frac": 0.3458
+    },
+    {
+      "row": 7660,
+      "col": 7484,
+      "radius": 21,
+      "hough_score": 0.875,
+      "circumference_coverage": 0.8855,
+      "interior_ink_frac": 0.3638
+    },
+    {
+      "row": 7683,
+      "col": 7484,
+      "radius": 21,
+      "hough_score": 0.875,
+      "circumference_coverage": 0.8855,
+      "interior_ink_frac": 0.367
+    },
+    {
+      "row": 6579,
+      "col": 8323,
+      "radius": 21,
+      "hough_score": 0.875,
+      "circumference_coverage": 0.8855,
+      "interior_ink_frac": 0.3246
+    },
+    {
+      "row": 7682,
+      "col": 16087,
+      "radius": 22,
+      "hough_score": 0.875,
+      "circumference_coverage": 0.8841,
+      "interior_ink_frac": 0.354
+    },
+    {
+      "row": 6616,
+      "col": 15111,
+      "radius": 21,
+      "hough_score": 0.875,
+      "circumference_coverage": 0.8855,
+      "interior_ink_frac": 0.3524
+    },
+    {
+      "row": 7233,
+      "col": 16419,
+      "radius": 22,
+      "hough_score": 0.875,
+      "circumference_coverage": 0.8841,
+      "interior_ink_frac": 0.3458
+    },
+    {
+      "row": 8014,
+      "col": 16463,
+      "radius": 21,
+      "hough_score": 0.875,
+      "circumference_coverage": 0.8855,
+      "interior_ink_frac": 0.3442
+    },
+    {
+      "row": 8923,
+      "col": 5316,
+      "radius": 21,
+      "hough_score": 0.875,
+      "circumference_coverage": 0.8855,
+      "interior_ink_frac": 0.3361
+    },
+    {
+      "row": 9202,
+      "col": 8794,
+      "radius": 21,
+      "hough_score": 0.875,
+      "circumference_coverage": 0.8855,
+      "interior_ink_frac": 0.4192
+    },
+    {
+      "row": 10384,
+      "col": 5386,
+      "radius": 21,
+      "hough_score": 0.875,
+      "circumference_coverage": 0.8855,
+      "interior_ink_frac": 0.4535
+    },
+    {
+      "row": 2644,
+      "col": 11546,
+      "radius": 20,
+      "hough_score": 0.8749999999999993,
+      "circumference_coverage": 0.888,
+      "interior_ink_frac": 0.3611
+    },
+    {
+      "row": 5316,
+      "col": 8508,
+      "radius": 20,
+      "hough_score": 0.8749999999999993,
+      "circumference_coverage": 0.888,
+      "interior_ink_frac": 0.3516
+    },
+    {
+      "row": 5290,
+      "col": 8508,
+      "radius": 20,
+      "hough_score": 0.8749999999999993,
+      "circumference_coverage": 0.888,
+      "interior_ink_frac": 0.3535
+    },
+    {
+      "row": 10142,
+      "col": 7604,
+      "radius": 20,
+      "hough_score": 0.8749999999999993,
+      "circumference_coverage": 0.888,
+      "interior_ink_frac": 0.3535
+    },
+    {
+      "row": 10168,
+      "col": 7603,
+      "radius": 20,
+      "hough_score": 0.8749999999999993,
+      "circumference_coverage": 0.888,
+      "interior_ink_frac": 0.3989
+    },
+    {
+      "row": 3269,
+      "col": 402,
+      "radius": 19,
+      "hough_score": 0.8749999999999992,
+      "circumference_coverage": 0.8908,
+      "interior_ink_frac": 0.6916
+    },
+    {
+      "row": 3358,
+      "col": 225,
+      "radius": 19,
+      "hough_score": 0.8749999999999992,
+      "circumference_coverage": 0.8824,
+      "interior_ink_frac": 0.678
+    },
+    {
+      "row": 3358,
+      "col": 267,
+      "radius": 19,
+      "hough_score": 0.8749999999999992,
+      "circumference_coverage": 0.8824,
+      "interior_ink_frac": 0.6757
+    },
+    {
+      "row": 2726,
+      "col": 8408,
+      "radius": 19,
+      "hough_score": 0.8749999999999992,
+      "circumference_coverage": 0.8908,
+      "interior_ink_frac": 0.3673
+    },
+    {
+      "row": 2748,
+      "col": 8408,
+      "radius": 19,
+      "hough_score": 0.8749999999999992,
+      "circumference_coverage": 0.8908,
+      "interior_ink_frac": 0.3129
+    },
+    {
+      "row": 2425,
+      "col": 10391,
+      "radius": 19,
+      "hough_score": 0.8749999999999992,
+      "circumference_coverage": 0.8908,
+      "interior_ink_frac": 0.381
+    },
+    {
+      "row": 2400,
+      "col": 10391,
+      "radius": 19,
+      "hough_score": 0.8749999999999992,
+      "circumference_coverage": 0.8908,
+      "interior_ink_frac": 0.3152
+    },
+    {
+      "row": 6038,
+      "col": 9937,
+      "radius": 19,
+      "hough_score": 0.8749999999999992,
+      "circumference_coverage": 0.8908,
+      "interior_ink_frac": 0.3061
+    },
+    {
+      "row": 6063,
+      "col": 9937,
+      "radius": 19,
+      "hough_score": 0.8749999999999992,
+      "circumference_coverage": 0.8908,
+      "interior_ink_frac": 0.3991
+    },
+    {
+      "row": 7811,
+      "col": 6216,
+      "radius": 19,
+      "hough_score": 0.8749999999999992,
+      "circumference_coverage": 0.8908,
+      "interior_ink_frac": 0.3061
+    },
+    {
+      "row": 6582,
+      "col": 9525,
+      "radius": 19,
+      "hough_score": 0.8749999999999992,
+      "circumference_coverage": 0.8908,
+      "interior_ink_frac": 0.3333
+    },
+    {
+      "row": 6606,
+      "col": 9525,
+      "radius": 19,
+      "hough_score": 0.8749999999999992,
+      "circumference_coverage": 0.8908,
+      "interior_ink_frac": 0.3333
+    },
+    {
+      "row": 10437,
+      "col": 6562,
+      "radius": 19,
+      "hough_score": 0.8749999999999992,
+      "circumference_coverage": 0.8908,
+      "interior_ink_frac": 0.3356
+    },
+    {
+      "row": 10415,
+      "col": 6563,
+      "radius": 19,
+      "hough_score": 0.8749999999999992,
+      "circumference_coverage": 0.8908,
+      "interior_ink_frac": 0.3243
+    },
+    {
+      "row": 3380,
+      "col": 1254,
+      "radius": 17,
+      "hough_score": 0.8749999999999991,
+      "circumference_coverage": 0.8868,
+      "interior_ink_frac": 0.5332
+    },
+    {
+      "row": 5529,
+      "col": 1440,
+      "radius": 18,
+      "hough_score": 0.8749999999999991,
+      "circumference_coverage": 0.8938,
+      "interior_ink_frac": 0.5646
+    },
+    {
+      "row": 4860,
+      "col": 8277,
+      "radius": 18,
+      "hough_score": 0.8749999999999991,
+      "circumference_coverage": 0.8938,
+      "interior_ink_frac": 0.2041
+    },
+    {
+      "row": 3383,
+      "col": 1068,
+      "radius": 23,
+      "hough_score": 0.8749999999999978,
+      "circumference_coverage": 0.8819,
+      "interior_ink_frac": 0.6488
+    },
+    {
+      "row": 2820,
+      "col": 7572,
+      "radius": 19,
+      "hough_score": 0.8660714285714278,
+      "circumference_coverage": 0.8824,
+      "interior_ink_frac": 0.3311
+    },
+    {
+      "row": 7789,
+      "col": 6217,
+      "radius": 19,
+      "hough_score": 0.8660714285714278,
+      "circumference_coverage": 0.8824,
+      "interior_ink_frac": 0.3333
+    },
+    {
+      "row": 9604,
+      "col": 12570,
+      "radius": 19,
+      "hough_score": 0.8660714285714278,
+      "circumference_coverage": 0.8824,
+      "interior_ink_frac": 0.2381
+    },
+    {
+      "row": 6171,
+      "col": 6347,
+      "radius": 18,
+      "hough_score": 0.8653846153846145,
+      "circumference_coverage": 0.885,
+      "interior_ink_frac": 0.3719
+    },
+    {
+      "row": 9666,
+      "col": 10497,
+      "radius": 17,
+      "hough_score": 0.8653846153846145,
+      "circumference_coverage": 0.8868,
+      "interior_ink_frac": 0.3077
+    }
+  ]
+}

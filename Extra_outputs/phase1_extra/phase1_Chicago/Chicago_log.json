@@ -1,0 +1,25 @@
+{
+  "source": "inputs\\Chicago.pdf",
+  "dpi": 300,
+  "page_index": 0,
+  "original_size_px": [
+    17934,
+    12354
+  ],
+  "final_size_px": [
+    17934,
+    12354
+  ],
+  "skew_angle_deg": 0.0,
+  "deskew_applied": false,
+  "sauvola_window": 25,
+  "sauvola_k": 0.2,
+  "sauvola_tile_size": 2048,
+  "skew_threshold_deg": 0.5,
+  "skip_denoise": true,
+  "notes": [
+    "NLM denoising skipped (skip_denoise=True).",
+    "Skew (0.000\u00b0) below threshold; deskew not applied."
+  ],
+  "elapsed_sec": 268.62
+}

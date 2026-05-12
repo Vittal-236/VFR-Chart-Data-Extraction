@@ -1,0 +1,15 @@
+{
+  "stem": "Washington",
+  "dpi": 150,
+  "hsv_range": {
+    "h_min": 0.53,
+    "h_max": 0.72,
+    "s_min": 0.25,
+    "v_min": 0.25
+  },
+  "min_aspect": 0.55,
+  "max_aspect": 1.8,
+  "min_solidity": 0.35,
+  "coverage_pct": 1.0626,
+  "elapsed_sec": 177.12
+}

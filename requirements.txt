@@ -1,0 +1,32 @@
+# VFR Chart Extraction Pipeline — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# PDF rasterisation
+PyMuPDF>=1.23.0
+
+# Image processing core
+scikit-image>=0.21.0
+numpy>=1.24.0
+Pillow>=10.0.0
+
+# Phase 3 — Georeferencing
+rasterio>=1.3.0
+gdal>=3.6.0          # optional but recommended; rasterio often bundles it
+
+# Phase 4 — Symbol detection (HOG, template matching via skimage)
+# No extra package needed — skimage.feature covers HOG and NCC
+
+# Phase 5 — OCR
+paddlepaddle>=2.5.0
+paddleocr>=2.7.0
+
+# Phase 6/7 — Geometry
+shapely>=2.0.0
+
+# Phase 9 — Storage
+# psycopg2-binary>=2.9.0   # uncomment when PostGIS storage is set up
+
+# Utilities
+scipy>=1.11.0
+scikit-learn>=1.3.0      # KMeans for Phase 2 Tier 2 (HCAA/France)
+tqdm>=4.66.0             # progress bars for batch processing

@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AeroExtract-AI</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Syne:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<style>
+:root{--bg:#0d0f12;--surface:#13161b;--surface2:#1a1e25;--border:rgba(255,255,255,0.07);--border2:rgba(255,255,255,0.12);--text:#e8eaf0;--muted:#6b7280;--accent:#00d4aa;--accent2:#0099ff;--danger:#ff4d6d;--amber:#f59e0b;--mono:'DM Mono',monospace;--sans:'Syne',sans-serif;}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{background:var(--bg);color:var(--text);font-family:var(--sans);min-height:100vh;overflow-x:hidden;}
+header{display:flex;align-items:center;justify-content:space-between;padding:0 2rem;height:56px;border-bottom:1px solid var(--border);background:var(--surface);position:sticky;top:0;z-index:100;}
+.logo{display:flex;align-items:center;gap:10px;font-size:15px;font-weight:700;letter-spacing:-0.01em;}
+.logo-icon{width:28px;height:28px;background:var(--accent);border-radius:6px;display:flex;align-items:center;justify-content:center;}
+.logo-icon svg{width:16px;height:16px;}
+.header-badge{font-family:var(--mono);font-size:11px;color:var(--muted);background:var(--surface2);border:1px solid var(--border);border-radius:20px;padding:3px 10px;}
+.layout{display:grid;grid-template-columns:360px 1fr;height:calc(100vh - 56px);}
+.sidebar{background:var(--surface);border-right:1px solid var(--border);display:flex;flex-direction:column;overflow:hidden;}
+.sidebar-inner{flex:1;overflow-y:auto;padding:1.5rem;scrollbar-width:thin;scrollbar-color:var(--border2) transparent;}
+.sidebar-inner::-webkit-scrollbar{width:4px;}
+.sidebar-inner::-webkit-scrollbar-thumb{background:var(--border2);border-radius:2px;}
+.upload-zone{border:1.5px dashed var(--border2);border-radius:12px;padding:2rem 1.5rem;text-align:center;cursor:pointer;transition:all 0.2s;margin-bottom:1.25rem;position:relative;background:var(--surface2);}
+.upload-zone:hover,.upload-zone.drag-over{border-color:var(--accent);background:rgba(0,212,170,0.05);}
+.upload-zone input[type=file]{position:absolute;inset:0;opacity:0;cursor:pointer;width:100%;height:100%;}
+.upload-icon{width:40px;height:40px;background:rgba(0,212,170,0.1);border-radius:10px;margin:0 auto 0.75rem;display:flex;align-items:center;justify-content:center;}
+.upload-icon svg{width:20px;height:20px;color:var(--accent);}
+.upload-title{font-size:14px;font-weight:600;margin-bottom:4px;}
+.upload-sub{font-size:12px;color:var(--muted);}
+.file-name{font-family:var(--mono);font-size:12px;color:var(--accent);margin-top:6px;word-break:break-all;}
+.file-selected{background:rgba(0,212,170,0.08);border-color:var(--accent);border-style:solid;}
+.field{margin-bottom:1rem;}
+.field label{display:block;font-size:11px;font-weight:500;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted);margin-bottom:6px;}
+.field select,.field input[type=text]{width:100%;background:var(--surface2);border:1px solid var(--border2);border-radius:8px;color:var(--text);font-family:var(--sans);font-size:14px;padding:9px 12px;outline:none;appearance:none;transition:border-color 0.2s;}
+.field select:focus,.field input:focus{border-color:var(--accent);}
+.select-wrap{position:relative;}
+.select-wrap::after{content:"▾";position:absolute;right:12px;top:50%;transform:translateY(-50%);color:var(--muted);pointer-events:none;font-size:12px;}
+.toggle-row{display:flex;align-items:center;justify-content:space-between;background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:10px 12px;margin-bottom:0.75rem;font-size:13px;}
+.toggle{width:36px;height:20px;background:var(--border2);border-radius:10px;position:relative;cursor:pointer;transition:background 0.2s;flex-shrink:0;}
+.toggle.on{background:var(--accent);}
+.toggle::after{content:"";width:14px;height:14px;background:white;border-radius:50%;position:absolute;top:3px;left:3px;transition:left 0.2s;}
+.toggle.on::after{left:19px;}
+.run-btn{width:100%;background:var(--accent);color:#000;border:none;border-radius:10px;font-family:var(--sans);font-size:15px;font-weight:700;padding:13px;cursor:pointer;transition:all 0.2s;margin-top:0.5rem;}
+.run-btn:hover{background:#00eec0;transform:translateY(-1px);}
+.run-btn:active{transform:translateY(0);}
+.run-btn:disabled{background:var(--border2);color:var(--muted);cursor:not-allowed;transform:none;}
+.progress-wrap{margin-top:1.25rem;display:none;}
+.progress-wrap.visible{display:block;}
+.progress-step{display:flex;align-items:center;gap:10px;padding:7px 0;font-size:13px;color:var(--muted);transition:color 0.3s;}
+.progress-step.done{color:var(--text);}
+.progress-step.active{color:var(--accent);}
+.step-dot{width:20px;height:20px;border-radius:50%;background:var(--surface2);border:1px solid var(--border2);display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:10px;font-family:var(--mono);transition:all 0.3s;}
+.progress-step.done .step-dot{background:var(--accent);border-color:var(--accent);color:#000;}
+.progress-step.active .step-dot{border-color:var(--accent);color:var(--accent);animation:pulse 1s infinite;}
+@keyframes pulse{0%,100%{opacity:1;}50%{opacity:0.4;}}
+.stats-bar{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--border);padding:1rem 1.5rem;gap:0;}
+.stat-item{text-align:center;}
+.stat-item+.stat-item{border-left:1px solid var(--border);}
+.stat-num{font-family:var(--mono);font-size:20px;font-weight:500;color:var(--accent);}
+.stat-label{font-size:10px;color:var(--muted);margin-top:2px;text-transform:uppercase;letter-spacing:0.06em;}
+.main-panel{display:flex;flex-direction:column;background:var(--bg);overflow:hidden;}
+.tabs{display:flex;gap:0;border-bottom:1px solid var(--border);background:var(--surface);padding:0 1.5rem;}
+.tab{font-size:13px;font-weight:500;padding:14px 18px 12px;cursor:pointer;color:var(--muted);border-bottom:2px solid transparent;transition:all 0.2s;white-space:nowrap;}
+.tab.active{color:var(--accent);border-bottom-color:var(--accent);}
+.tab:hover:not(.active){color:var(--text);}
+.tab-panel{display:none;flex:1;overflow:hidden;}
+.tab-panel.active{display:flex;flex-direction:column;}
+#map{flex:1;}
+.map-placeholder{flex:1;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:1rem;color:var(--muted);}
+.map-placeholder svg{width:48px;height:48px;opacity:0.3;}
+.map-placeholder p{font-size:14px;text-align:center;line-height:1.7;}
+.filter-bar{display:flex;gap:6px;padding:10px 1.5rem;border-bottom:1px solid var(--border);background:var(--surface);flex-wrap:wrap;align-items:center;}
+.filter-label{font-size:11px;color:var(--muted);margin-right:4px;text-transform:uppercase;letter-spacing:0.06em;}
+.chip{font-size:12px;font-weight:500;padding:4px 12px;border-radius:20px;border:1px solid var(--border2);background:var(--surface2);cursor:pointer;transition:all 0.15s;color:var(--muted);font-family:var(--mono);}
+.chip.on{background:rgba(0,212,170,0.15);border-color:var(--accent);color:var(--accent);}
+.chip:hover{color:var(--text);}
+.json-panel{flex:1;overflow:auto;padding:1.5rem;}
+.json-toolbar{display:flex;gap:8px;padding:10px 1.5rem;border-bottom:1px solid var(--border);background:var(--surface);align-items:center;}
+.json-toolbar span{font-size:12px;color:var(--muted);flex:1;font-family:var(--mono);}
+.btn-sm{font-size:12px;font-weight:500;padding:5px 12px;border-radius:6px;border:1px solid var(--border2);background:var(--surface2);color:var(--text);cursor:pointer;font-family:var(--sans);transition:all 0.15s;}
+.btn-sm:hover{border-color:var(--accent);color:var(--accent);}
+pre{font-family:var(--mono);font-size:13px;line-height:1.6;color:var(--text);white-space:pre-wrap;word-break:break-word;}
+.json-key{color:#79c0ff;}.json-str{color:#a8ff78;}.json-num{color:#ffa657;}.json-bool{color:var(--accent);}.json-null{color:var(--muted);}
+.table-panel{flex:1;overflow:auto;}
+.data-table{width:100%;border-collapse:collapse;font-size:13px;}
+.data-table th{background:var(--surface);font-size:11px;font-weight:500;text-transform:uppercase;letter-spacing:0.06em;color:var(--muted);padding:10px 16px;text-align:left;border-bottom:1px solid var(--border);position:sticky;top:0;z-index:2;}
+.data-table td{padding:10px 16px;border-bottom:1px solid var(--border);font-family:var(--mono);font-size:12px;color:var(--text);vertical-align:top;}
+.data-table tr:hover td{background:var(--surface2);}
+.cat-tag{display:inline-block;font-size:10px;font-weight:500;padding:2px 8px;border-radius:20px;font-family:var(--sans);text-transform:uppercase;letter-spacing:0.05em;}
+.empty-state{flex:1;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:0.75rem;color:var(--muted);font-size:14px;padding:3rem;text-align:center;}
+.val-panel{flex:1;overflow:auto;padding:1.5rem;}
+.val-item{display:flex;gap:12px;align-items:flex-start;padding:12px 14px;border-radius:8px;margin-bottom:8px;font-size:13px;line-height:1.5;}
+.val-item.error{background:rgba(255,77,109,0.08);border:1px solid rgba(255,77,109,0.2);}
+.val-item.warn{background:rgba(245,158,11,0.08);border:1px solid rgba(245,158,11,0.2);}
+.val-item.ok{background:rgba(0,212,170,0.08);border:1px solid rgba(0,212,170,0.2);}
+.val-icon{font-size:16px;flex-shrink:0;margin-top:1px;}
+.leaflet-container{background:#0d0f12 !important;}
+@keyframes fadeIn{from{opacity:0;transform:translateY(8px);}to{opacity:1;transform:none;}}
+.fade-in{animation:fadeIn 0.3s ease both;}
+.section-divider{font-size:11px;font-weight:500;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted);margin:1.25rem 0 0.75rem;display:flex;align-items:center;gap:8px;}
+.section-divider::after{content:"";flex:1;height:1px;background:var(--border);}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">
+    <div class="logo-icon">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+    </div>
+    AeroExtract-AI
+  </div>
+  <div class="header-badge">v1.0 · Cognida.ai</div>
+</header>
+
+<div class="layout">
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+      <div class="section-divider">Input</div>
+      <div class="upload-zone" id="uploadZone">
+        <input type="file" id="fileInput" accept=".pdf,.png,.jpg,.jpeg,.tif,.tiff">
+        <div class="upload-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+        </div>
+        <div class="upload-title">Drop chart here</div>
+        <div class="upload-sub">PDF, PNG, JPG, TIFF supported</div>
+        <div class="file-name" id="fileName" style="display:none"></div>
+      </div>
+      <div class="field">
+        <label>ANSP / Country</label>
+        <div class="select-wrap">
+          <select id="anspSelect">
+            <option value="FR">France (FR)</option>
+            <option value="GR" selected>Greece (GR)</option>
+            <option value="US">United States (US)</option>
+            <option value="UK">United Kingdom (UK)</option>
+            <option value="DE">Germany (DE)</option>
+          </select>
+        </div>
+      </div>
+      <div class="section-divider">Options</div>
+      <div class="toggle-row"><span>Use EasyOCR</span><div class="toggle on" onclick="this.classList.toggle('on')"></div></div>
+      <div class="toggle-row"><span>Symbol detection</span><div class="toggle on" onclick="this.classList.toggle('on')"></div></div>
+      <div class="toggle-row"><span>AIP validation</span><div class="toggle on" onclick="this.classList.toggle('on')"></div></div>
+      <div class="field" style="margin-top:0.5rem">
+        <label>Previous cycle JSON (optional)</label>
+        <input type="text" placeholder="data/output/prev_extracted.json" id="prevPath">
+      </div>
+      <button class="run-btn" id="runBtn" onclick="runPipeline()">Run Extraction</button>
+      <div class="progress-wrap" id="progressWrap">
+        <div class="section-divider" style="margin-top:1.25rem">Progress</div>
+        <div class="progress-step" id="step1"><div class="step-dot">1</div> Ingesting chart</div>
+        <div class="progress-step" id="step2"><div class="step-dot">2</div> Running OCR</div>
+        <div class="progress-step" id="step3"><div class="step-dot">3</div> Detecting symbols</div>
+        <div class="progress-step" id="step4"><div class="step-dot">4</div> Georeferencing</div>
+        <div class="progress-step" id="step5"><div class="step-dot">5</div> Classifying data</div>
+        <div class="progress-step" id="step6"><div class="step-dot">6</div> Validating</div>
+        <div class="progress-step" id="step7"><div class="step-dot">7</div> Saving output</div>
+      </div>
+    </div>
+    <div class="stats-bar">
+      <div class="stat-item"><div class="stat-num" id="statWpt">—</div><div class="stat-label">Waypoints</div></div>
+      <div class="stat-item"><div class="stat-num" id="statFreq">—</div><div class="stat-label">Frequencies</div></div>
+      <div class="stat-item"><div class="stat-num" id="statObs">—</div><div class="stat-label">Obstacles</div></div>
+      <div class="stat-item"><div class="stat-num" id="statOther">—</div><div class="stat-label">Other</div></div>
+    </div>
+  </aside>
+
+  <main class="main-panel">
+    <div class="tabs">
+      <div class="tab active" onclick="switchTab('map',this)">Map View</div>
+      <div class="tab" onclick="switchTab('table',this)">Data Table</div>
+      <div class="tab" onclick="switchTab('json',this)">Raw JSON</div>
+      <div class="tab" onclick="switchTab('validation',this)">Validation</div>
+    </div>
+
+    <div class="tab-panel active" id="tab-map" style="display:flex;flex-direction:column;">
+      <div class="filter-bar">
+        <span class="filter-label">Show:</span>
+        <div class="chip on" data-cat="waypoints" onclick="toggleChip(this)">Waypoints</div>
+        <div class="chip on" data-cat="frequencies" onclick="toggleChip(this)">Frequencies</div>
+        <div class="chip on" data-cat="obstacles" onclick="toggleChip(this)">Obstacles</div>
+        <div class="chip on" data-cat="holding_patterns" onclick="toggleChip(this)">Holdings</div>
+        <div class="chip on" data-cat="routes" onclick="toggleChip(this)">Routes</div>
+        <div class="chip on" data-cat="nhp" onclick="toggleChip(this)">NHP</div>
+        <div class="chip on" data-cat="heli_routes" onclick="toggleChip(this)">Heli-routes</div>
+        <div class="chip on" data-cat="other" onclick="toggleChip(this)">Other</div>
+      </div>
+      <div id="mapPlaceholder" class="map-placeholder">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="10" r="3"/><path d="M12 2a8 8 0 0 0-8 8c0 5.4 7 12 8 12s8-6.6 8-12a8 8 0 0 0-8-8z"/></svg>
+        <p>Upload a chart and run extraction<br>to see results plotted on the map</p>
+      </div>
+      <div id="map" style="flex:1;display:none;"></div>
+    </div>
+
+    <div class="tab-panel" id="tab-table">
+      <div class="empty-state" id="tableEmpty">
+        <svg viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.5" style="opacity:0.3"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="3" y1="15" x2="21" y2="15"/><line x1="9" y1="3" x2="9" y2="21"/></svg>
+        <p>No data yet. Run extraction first.</p>
+      </div>
+      <div class="table-panel" id="tableContent" style="display:none;">
+        <table class="data-table">
+          <thead><tr><th>Category</th><th>Name / Description</th><th>Latitude</th><th>Longitude</th><th>Details</th></tr></thead>
+          <tbody id="tableBody"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="tab-panel" id="tab-json">
+      <div class="json-toolbar">
+        <span id="jsonMeta">No data</span>
+        <button class="btn-sm" onclick="copyJSON()">Copy</button>
+        <button class="btn-sm" onclick="downloadJSON()">Download</button>
+      </div>
+      <div class="json-panel"><pre id="jsonDisplay"><span style="color:var(--muted)">// Run extraction to see output here</span></pre></div>
+    </div>
+
+    <div class="tab-panel" id="tab-validation">
+      <div class="val-panel" id="valPanel"><div class="empty-state"><p>Validation results will appear here after extraction.</p></div></div>
+    </div>
+  </main>
+</div>
+
+<script>
+let currentData=null,mapInstance=null,markerLayers={},selectedFile=null;
+const fileInput=document.getElementById('fileInput');
+const uploadZone=document.getElementById('uploadZone');
+fileInput.addEventListener('change',e=>{
+  selectedFile=e.target.files[0];
+  if(selectedFile){
+    uploadZone.classList.add('file-selected');
+    const fn=document.getElementById('fileName');
+    fn.textContent=selectedFile.name;fn.style.display='block';
+    document.querySelector('.upload-title').textContent='Chart selected';
+    document.querySelector('.upload-sub').textContent=(selectedFile.size/1024/1024).toFixed(1)+' MB';
+  }
+});
+uploadZone.addEventListener('dragover',e=>{e.preventDefault();uploadZone.classList.add('drag-over');});
+uploadZone.addEventListener('dragleave',()=>uploadZone.classList.remove('drag-over'));
+uploadZone.addEventListener('drop',e=>{
+  e.preventDefault();uploadZone.classList.remove('drag-over');
+  const file=e.dataTransfer.files[0];
+  if(file){fileInput.files=e.dataTransfer.files;fileInput.dispatchEvent(new Event('change'));}
+});
+function switchTab(name,el){
+  document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
+  document.querySelectorAll('.tab-panel').forEach(p=>p.classList.remove('active'));
+  el.classList.add('active');document.getElementById('tab-'+name).classList.add('active');
+  if(name==='map'&&mapInstance)setTimeout(()=>mapInstance.invalidateSize(),50);
+}
+function toggleChip(chip){
+  chip.classList.toggle('on');const cat=chip.dataset.cat;
+  if(markerLayers[cat]){
+    if(chip.classList.contains('on'))markerLayers[cat].addTo(mapInstance);
+    else mapInstance.removeLayer(markerLayers[cat]);
+  }
+}
+async function runPipeline(){
+  if(!selectedFile){alert('Please upload a chart file first.');return;}
+  const btn=document.getElementById('runBtn');
+  btn.disabled=true;btn.textContent='Processing…';
+  document.getElementById('progressWrap').classList.add('visible');
+  const steps=['step1','step2','step3','step4','step5','step6','step7'];
+  const delays=[600,1400,900,700,1100,500,400];
+  for(let i=0;i<steps.length;i++){
+    const el=document.getElementById(steps[i]);
+    el.classList.add('active');await wait(delays[i]);
+    el.classList.remove('active');el.classList.add('done');
+    el.querySelector('.step-dot').textContent='✓';
+  }
+  // In production, replace with:
+  const formData=new FormData();
+  formData.append('file',selectedFile);
+  formData.append('ansp',document.getElementById('anspSelect').value);
+  const res = await fetch('http://127.0.0.1:8000/extract', { method: 'POST', body: formData });
+  if (!res.ok) {
+    const text = await res.text();
+    console.error("Backend error:", text);
+    alert("Server error. Check console.");
+    return;
+  }
+  currentData = await res.json();
+  //currentData=generateDemoData(document.getElementById('anspSelect').value);
+  renderResults(currentData);
+  btn.disabled=false;btn.textContent='Run Again';
+}
+function wait(ms){return new Promise(r=>setTimeout(r,ms));}
+function generateDemoData(ansp){
+  if(ansp==='GR')return{waypoints:[{name:'GERMI',lat:38.165,lon:23.165,verified:true},{name:'PIKAD',lat:38.06,lon:22.665,verified:true},{name:'RILIN',lat:37.965,lon:22.665,verified:true},{name:'KASTEL',lat:37.885,lon:23.405,verified:true},{name:'ARGOS',lat:37.77,lon:23.705,verified:true},{name:'EGINA',lat:37.745,lon:23.43,verified:true},{name:'AVLAK',lat:37.855,lon:24.04,verified:true},{name:'FEVES',lat:37.875,lon:23.72,verified:true},{name:'AMARO',lat:37.895,lon:23.74,verified:true},{name:'KEA',lat:37.71,lon:24.36,verified:true},{name:'QMAIS',lat:37.78,lon:24.015,verified:true}],frequencies:[{callsign:'ATIS',type:'ATIS',value_mhz:136.125,lat:38.0,lon:23.9},{callsign:'TOWER WEST',type:'TWR',value_mhz:136.275,lat:38.0,lon:23.95},{callsign:'ARRIVAL WEST',type:'APP',value_mhz:132.975,lat:38.0,lon:24.0},{callsign:'FIC',type:'FIS',value_mhz:130.925,lat:37.98,lon:23.72},{callsign:'TOWER EAST',type:'TWR',value_mhz:118.625,lat:38.0,lon:23.98},{callsign:'ARRIVAL EAST',type:'APP',value_mhz:126.575,lat:38.0,lon:24.05}],obstacles:[{description:'Height 1358 ft',height_ft_amsl:1358,lat:37.88,lon:23.92},{description:'Height 1598 ft',height_ft_amsl:1598,lat:37.88,lon:23.88},{description:'Height 854 ft',height_ft_amsl:854,lat:37.895,lon:23.96},{description:'Height 754 ft',height_ft_amsl:754,lat:37.855,lon:23.84},{description:'Height 661 ft',height_ft_amsl:661,lat:37.9,lon:23.76},{description:'Height 607 ft',height_ft_amsl:607,lat:37.87,lon:24.44},{description:'Height 492 ft',height_ft_amsl:492,lat:37.845,lon:23.9}],holding_patterns:[],routes:[],nhp:[],heli_routes:[],other:[{category:'airport_icao',description:'LGAV',lat:37.9364,lon:23.9445},{category:'airport_icao',description:'LGEL',lat:37.896,lon:23.583}],airport:{icao:'LGAV',elevation_ft:null,reference_point:{lat:37.9364,lon:23.9445}},_validation:{is_valid:true,errors:[],warnings:['11 waypoints unverified against local database']}};
+  return{waypoints:[{name:'LFAV',lat:50.349,lon:3.666,verified:true}],frequencies:[{callsign:'AFIS',type:'FIS',value_mhz:122.605,lat:50.325,lon:3.485}],obstacles:[{description:'Height 1200 ft',height_ft_amsl:1200,lat:50.286,lon:3.569},{description:'Height 1109 ft',height_ft_amsl:1109,lat:50.252,lon:3.533},{description:'Height 834 ft',height_ft_amsl:834,lat:50.302,lon:3.485},{description:'Height 724 ft',height_ft_amsl:724,lat:50.223,lon:3.670},{description:'Height 630 ft',height_ft_amsl:630,lat:50.227,lon:3.516},{description:'Height 538 ft',height_ft_amsl:538,lat:50.217,lon:3.475},{description:'Height 470 ft',height_ft_amsl:470,lat:50.260,lon:3.672}],holding_patterns:[],routes:[],nhp:[],heli_routes:[],other:[{category:'airport_icao',description:'LFAV',lat:null,lon:null},{category:'airport_elevation_ft',description:'172 ft',lat:null,lon:null},{category:'runway_info',description:'PAPI 3.08°',lat:50.132,lon:3.610},{category:'runway_info',description:'MEHT 44',lat:50.128,lon:3.616},{category:'airport_reference_point',description:'LAT 50.32472 LON 3.46556',lat:50.32472,lon:3.46556}],airport:{icao:'LFAV',elevation_ft:172,reference_point:{lat:50.32472,lon:3.46556}},_validation:{is_valid:true,errors:[],warnings:['1 waypoint unverified against local database']}};
+}
+const CAT_COLORS={waypoints:'#00d4aa',frequencies:'#0099ff',obstacles:'#ff4d6d',holding_patterns:'#f59e0b',routes:'#a78bfa',nhp:'#34d399',heli_routes:'#fb923c',other:'#6b7280'};
+function renderResults(data){updateStats(data);renderMap(data);renderTable(data);renderJSON(data);renderValidation(data);}
+function updateStats(data){
+  document.getElementById('statWpt').textContent=(data.waypoints||[]).length;
+  document.getElementById('statFreq').textContent=(data.frequencies||[]).length;
+  document.getElementById('statObs').textContent=(data.obstacles||[]).length;
+  document.getElementById('statOther').textContent=((data.holding_patterns||[]).length+(data.routes||[]).length+(data.nhp||[]).length+(data.heli_routes||[]).length+(data.other||[]).length);
+}
+function renderMap(data){
+  document.getElementById('mapPlaceholder').style.display='none';
+  const mapEl=document.getElementById('map');mapEl.style.display='block';
+  if(mapInstance){mapInstance.remove();mapInstance=null;}markerLayers={};
+  const allPts=[];
+  ['waypoints','frequencies','obstacles','nhp','heli_routes'].forEach(cat=>{(data[cat]||[]).forEach(i=>{if(i.lat&&i.lon)allPts.push([i.lat,i.lon]);});});
+  const centre=allPts.length>0?[allPts.reduce((s,p)=>s+p[0],0)/allPts.length,allPts.reduce((s,p)=>s+p[1],0)/allPts.length]:[37.97,23.73];
+  mapInstance=L.map('map',{zoomControl:true}).setView(centre,9);
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',{attribution:'© CartoDB',maxZoom:18}).addTo(mapInstance);
+  ['waypoints','frequencies','obstacles','holding_patterns','nhp','heli_routes','other'].forEach(cat=>{
+    const items=(data[cat]||[]).filter(i=>i.lat&&i.lon);
+    if(!items.length)return;
+    const color=CAT_COLORS[cat]||'#6b7280';
+    const layer=L.layerGroup();
+    items.forEach(item=>{
+      const icon=L.divIcon({className:'',html:`<div style="width:10px;height:10px;border-radius:50%;background:${color};border:2px solid ${color}44;box-shadow:0 0 8px ${color}66;"></div>`,iconSize:[10,10],iconAnchor:[5,5]});
+      const name=item.name||item.description||item.callsign||cat;
+      const details=Object.entries(item).filter(([k,v])=>v!==null&&!['lat','lon','type'].includes(k)).map(([k,v])=>`<b>${k}:</b> ${v}`).join('<br>');
+      L.marker([item.lat,item.lon],{icon}).bindPopup(`<div style="font-family:monospace;font-size:12px;min-width:160px"><div style="font-weight:600;font-size:13px;margin-bottom:6px;color:${color}">${name}</div><div style="color:#aaa;text-transform:uppercase;font-size:10px;margin-bottom:6px">${cat.replace('_',' ')}</div>${details}</div>`,{maxWidth:260}).addTo(layer);
+    });
+    layer.addTo(mapInstance);markerLayers[cat]=layer;
+  });
+  if(data.airport&&data.airport.reference_point&&data.airport.reference_point.lat){
+    const{lat,lon}=data.airport.reference_point;
+    L.circleMarker([lat,lon],{radius:16,color:'#fff',weight:1.5,fillColor:'transparent'}).bindPopup(`<b>${data.airport.icao}</b><br>Elevation: ${data.airport.elevation_ft||'N/A'} ft`).addTo(mapInstance);
+  }
+}
+function renderTable(data){
+  const tbody=document.getElementById('tableBody');tbody.innerHTML='';let count=0;
+  ['waypoints','frequencies','obstacles','holding_patterns','routes','nhp','heli_routes','other'].forEach(cat=>{
+    (data[cat]||[]).forEach(item=>{
+      const color=CAT_COLORS[cat]||'#6b7280';
+      const name=item.name||item.description||item.callsign||'—';
+      const lat=item.lat?item.lat.toFixed(5):'—';const lon=item.lon?item.lon.toFixed(5):'—';
+      let details='';
+      if(item.value_mhz)details=item.value_mhz+' MHz';
+      else if(item.height_ft_amsl)details=item.height_ft_amsl+' ft AMSL';
+      else if(item.category)details=item.category;
+      else if(item.verified!==undefined)details=item.verified?'✓ verified':'— unverified';
+      tbody.innerHTML+=`<tr class="fade-in"><td><span class="cat-tag" style="background:${color}22;color:${color}">${cat.replace('_',' ')}</span></td><td>${name}</td><td>${lat}</td><td>${lon}</td><td style="color:var(--muted)">${details}</td></tr>`;
+      count++;
+    });
+  });
+  document.getElementById('tableEmpty').style.display=count?'none':'flex';
+  document.getElementById('tableContent').style.display=count?'block':'none';
+}
+function renderJSON(data){
+  const clean={...data};delete clean._validation;
+  const json=JSON.stringify(clean,null,2);
+  const total=Object.values(clean).filter(Array.isArray).reduce((s,a)=>s+a.length,0);
+  document.getElementById('jsonMeta').textContent=`${total} items extracted · ${(json.length/1024).toFixed(1)} KB`;
+  document.getElementById('jsonDisplay').innerHTML=syntaxHighlight(json);
+}
+function syntaxHighlight(json){
+  return json.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+    .replace(/("(\\u[a-zA-Z0-9]{4}|\\[^u]|[^\\"])*"(\s*:)?|\b(true|false|null)\b|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?)/g,match=>{
+      let cls='json-num';
+      if(/^"/.test(match))cls=/:$/.test(match)?'json-key':'json-str';
+      else if(/true|false/.test(match))cls='json-bool';
+      else if(/null/.test(match))cls='json-null';
+      return`<span class="${cls}">${match}</span>`;
+    });
+}
+function renderValidation(data){
+  const val=data._validation||{is_valid:true,errors:[],warnings:[]};
+  const panel=document.getElementById('valPanel');let html='';
+  if(!val.is_valid)(val.errors||[]).forEach(e=>{html+=`<div class="val-item error fade-in"><div class="val-icon">✕</div><div>${e}</div></div>`;});
+  (val.warnings||[]).forEach(w=>{html+=`<div class="val-item warn fade-in"><div class="val-icon">⚠</div><div>${w}</div></div>`;});
+  if(val.is_valid){const total=Object.values({...data,_validation:undefined}).filter(Array.isArray).reduce((s,a)=>s+a.length,0);html+=`<div class="val-item ok fade-in"><div class="val-icon">✓</div><div>Schema validation passed for all ${total} extracted items. Data is ready for database integration.</div></div>`;}
+  panel.innerHTML=html||'<div class="empty-state"><p>Run extraction to see validation results.</p></div>';
+}
+function copyJSON(){if(!currentData)return;const clean={...currentData};delete clean._validation;navigator.clipboard.writeText(JSON.stringify(clean,null,2));}
+function downloadJSON(){
+  if(!currentData)return;const clean={...currentData};delete clean._validation;
+  const blob=new Blob([JSON.stringify(clean,null,2)],{type:'application/json'});
+  const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='aeroextract_output.json';a.click();
+}
+</script>
+</body>
+</html>

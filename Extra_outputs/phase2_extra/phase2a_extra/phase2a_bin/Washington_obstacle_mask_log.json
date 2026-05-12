@@ -1,0 +1,15 @@
+{
+  "stem": "Washington",
+  "dpi": 300,
+  "version": "2a_binary",
+  "source": "binary_map",
+  "min_area": 400,
+  "max_area": 1600,
+  "min_solidity": 0.45,
+  "max_solidity": 0.65,
+  "max_eccen": 0.7,
+  "min_aspect": 0.7,
+  "max_aspect": 1.4,
+  "coverage_pct": 0.3599,
+  "elapsed_sec": 188.44
+}

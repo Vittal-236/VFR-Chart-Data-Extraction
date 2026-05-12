@@ -1,0 +1,32 @@
+PB3 Circle Detector — Test Summary
+============================================================
+Image     : outputs/phase4_symbol_detection/circle_detector_v4/annotated_map.png
+Reference : outputs/phase4_symbol_detection/circle_detector_v4/circles.json
+Params    : CANNY=1.0  CLUSTER_CELL=4  MIN_CLUSTER=80  MIN_COV=0.25
+           RADIUS=15-28  MIN_CHORD=8  N_TRIPLETS=500
+
+tile_A        det=  7  ref= 8  TP=6  FP=1  FN=2  P=0.86  R=0.75
+tile_B        det=  1  ref= 1  TP=1  FP=0  FN=0  P=1.00  R=1.00
+tile_C        det=  1  ref= 1  TP=1  FP=0  FN=0  P=1.00  R=1.00
+
+============================================================
+OVERALL  det=9  ref=10  TP=8  P=0.89  R=0.80
+
+What each metric tells you:
+  P (precision) — fraction of detections that are real circles
+  R (recall)    — fraction of real circles that were detected
+  n=  in label  — number of triplet estimates in the cluster (confidence)
+  c=  in label  — circumference coverage (0-1, higher = cleaner ring)
+
+Tuning guide:
+  Too many FP → raise MIN_CLUSTER_COUNT (now 80)
+  Too many FP → raise MIN_COVERAGE (now 0.25)
+  Too many FP → lower CLUSTER_CELL (now 4) for tighter bins
+  Too many FN → lower MIN_CLUSTER_COUNT
+  Too many FN → lower MIN_COVERAGE
+  Too many FN → raise N_TRIPLETS (now 500) for more samples
+
+Data-driven thresholds (measured from tile_A/B/C run):
+  True symbol circles  → n=228-933  c=0.27-0.78
+  False positive curves → n=13-54   c=0.15-0.35
+  MIN_CLUSTER_COUNT=80 and MIN_COVERAGE=0.25 sit cleanly in the gap.
