@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment / secrets
+.env
+*.env
+
+# Claude local settings
+.claude/settings.local.json
+
+# VS Code
+.vscode/
+
+# Input source files (too large for GitHub)
+inputs/
+
+# Large output images (>50 MB)
+Extra_outputs/FINAL_CLEAN_OUTPUT.png
+Extra_outputs/FULL_MAP_DETECTIONS.png
+"Extra_outputs/Mid map obstacles.png"
+Extra_outputs/STEP1_SYMBOL_DETECTION_FULL.png
+Extra_outputs/phase1_extra/phase1_Chicago/Chicago_rgb.png
+Extra_outputs/phase1_extra/phase1_Washington_150/Washington_rgb.png
+outputs/phase1_preprocessing/Washington_rgb_300dpi.png
+outputs/phase3_georeferencing/detections_overlay.png

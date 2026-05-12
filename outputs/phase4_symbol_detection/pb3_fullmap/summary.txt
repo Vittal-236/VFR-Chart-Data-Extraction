@@ -1,0 +1,30 @@
+PB3 Full-Map Circle Detector — Summary
+============================================================
+Image          : outputs/phase4_symbol_detection/circle_detector_v4/annotated_map.png
+Total circles  : 377
+Runtime        : 789.3s
+
+Parameters:
+  is_binary                     : False
+  radius_min                    : 15
+  radius_max                    : 28
+  canny_sigma                   : 1.0
+  min_cc_len                    : 12
+  n_triplets                    : 1000
+  min_chord                     : 8
+  cluster_cell                  : 4
+  min_cluster_count             : 80
+  min_coverage                  : 0.25
+  min_circle_dist               : 15
+  legend_strip_width            : 140
+  tile_size                     : 2048
+  tile_overlap                  : 38
+
+Detection statistics:
+  cluster_n : min=102  max=2150  mean=704
+  coverage  : min=0.250  max=0.887  mean=0.475
+
+Next step:
+  Run letter_reader.py with circles.json as input.
+  The letter reader reads the letter inside each confirmed circle
+  (R=private airspace, H=heliport, U=unverified, F=ultralight, etc.)

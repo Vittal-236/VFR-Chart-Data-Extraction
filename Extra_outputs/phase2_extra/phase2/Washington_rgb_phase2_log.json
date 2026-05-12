@@ -1,0 +1,17 @@
+{
+  "stem": "Washington_rgb",
+  "image_shape": [
+    12345,
+    16770,
+    3
+  ],
+  "hsv_tile_size": 2048,
+  "coverage_pct": {
+    "text": 5.321,
+    "routes": 2.38,
+    "symbols": 5.143,
+    "boundaries": 15.012
+  },
+  "notes": [],
+  "elapsed_sec": 4219.14
+}
