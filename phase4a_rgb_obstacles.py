@@ -343,7 +343,7 @@ if __name__ == "__main__":
     Image.MAX_IMAGE_PIXELS = None
 
     # ── CONFIG ──────────────────────────────────────────────────────────────────
-    RGB_PATH   = "outputs/phase1_preprocessing/chart_rgb.png"  # RGB chart image
+    RGB_PATH   = "outputs/phase1_preprocessing/Washington_binary.png"  # RGB chart image``
     OUTPUT_DIR = "outputs/phase4_symbol_detection/phase4a_rgb_obstacles"
     STEM       = None   # None = derived from RGB filename
     DPI        = 150
