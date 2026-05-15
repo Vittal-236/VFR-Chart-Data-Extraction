@@ -1,0 +1,14 @@
+{
+  "stem": "Washington_binary",
+  "dpi": 150,
+  "template_size_px": [
+    14,
+    14
+  ],
+  "ncc_threshold": 0.65,
+  "overlap_threshold": 0.25,
+  "n_candidates": 0,
+  "n_detections": 0,
+  "detections": [],
+  "elapsed_sec": 148.81
+}

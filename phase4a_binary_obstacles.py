@@ -62,7 +62,7 @@ from skimage.measure import label, regionprops
 
 # Phase 2c symbols-only binary (white ink on black, dots likely missing).
 # NCC template matching runs on this — lines are gone, less clutter.
-SYMBOLS_PATH = r"outputs/phase2_layer_segmentation/phase2c_only_symbols_binary/washington_symbols_only.png"
+SYMBOLS_PATH = r"outputs/phase2_layer_segmentation/phase2c_symbols_only_binary/washington_symbols_only.png"
 
 # Phase 1 full binary (white ink on black, ALL ink including dots present).
 # Dot verification searches this — dots were never filtered out here.
