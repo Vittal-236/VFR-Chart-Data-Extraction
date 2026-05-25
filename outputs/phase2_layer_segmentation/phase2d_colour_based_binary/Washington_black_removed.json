@@ -1,0 +1,12 @@
+{
+  "binary_path": "outputs\\phase1_preprocessing\\Washington_binary.png",
+  "rgb_path": "outputs\\phase1_preprocessing\\Washington_rgb_300dpi.png",
+  "output_path": "outputs\\phase2_layer_segmentation\\phase2d_clean_binary\\Washington_black_removed.png",
+  "img_width": 16770,
+  "img_height": 12345,
+  "V_MAX": 80,
+  "input_fg_pct": 13.1784,
+  "output_fg_pct": 11.0836,
+  "px_removed": 4336766,
+  "elapsed_sec": 8.99
+}

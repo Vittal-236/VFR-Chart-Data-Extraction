@@ -266,7 +266,7 @@ if __name__ == "__main__":
     Image.MAX_IMAGE_PIXELS = None
 
     # ── CONFIG ──────────────────────────────────────────────────────────────────
-    BINARY_PATH = "outputs/phase1_preprocessing/chart_binary.png"  # Phase 1 binary PNG
+    BINARY_PATH = "outputs/phase1_preprocessing/Washington_binary.png"  # Phase 1 binary PNG
     OUTPUT_DIR  = "outputs/phase2_layer_segmentation/phase2a_obstacles_only_binary"
     STEM        = None  # Custom output stem; None = derived from input filename
     DPI         = 150
