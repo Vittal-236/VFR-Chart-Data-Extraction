@@ -89,7 +89,11 @@ USAGE
   CLI:
       python phase2c_symbol_mask.py \\
           --input   outputs/phase1_preprocessing/Washington_binary.png \\
+<<<<<<< HEAD
           --output  outputs/phase2_layer_segmentation/phase2c_only_symbols_binary/Washington_symbols_only.png \\
+=======
+          --output  outputs/phase2_layer_segmentation/phase2c_symbols_only_binary/Washington_symbols_only.png \\
+>>>>>>> 7f83d0e331697e0923ded85901d09b52a4a2ccd8
           --obstacle-ref obstacle.png Double_obstacle.png
 
   Module:
@@ -583,8 +587,13 @@ def build_symbol_mask(
 
 if __name__ == "__main__":
     # ── CONFIG ──────────────────────────────────────────────────────────────────
+<<<<<<< HEAD
     INPUT_PATH    = "outputs/phase1_preprocessing/chart_binary.png"  # Phase 1 binary PNG
     OUTPUT_PATH   = None  # None = <stem>_symbols_only.png next to input
+=======
+    INPUT_PATH    = "outputs/phase1_preprocessing/Washington_binary.png"  # Phase 1 binary PNG
+    OUTPUT_PATH   = "outputs/phase2_layer_segmentation/phase2c_symbols_only_binary/Washington_symbols_only.png"
+>>>>>>> 7f83d0e331697e0923ded85901d09b52a4a2ccd8
     OBSTACLE_REFS = ["obstacle.png", "Double_obstacle.png"]  # FAA obstacle reference PNGs
     # ────────────────────────────────────────────────────────────────────────────
 

@@ -1,0 +1,18 @@
+{
+  "binary_path": "outputs\\phase1_preprocessing\\Washington_binary.png",
+  "rgb_path": "outputs\\phase1_preprocessing\\Washington_rgb_300dpi.png",
+  "output_path": "outputs\\phase2_layer_segmentation\\phase2d_clean_binary\\Washington_blue_only.png",
+  "img_width": 16770,
+  "img_height": 12345,
+  "hsv_thresholds": {
+    "H_MIN": 88,
+    "H_MAX": 105,
+    "S_MIN": 180,
+    "V_MIN": 80,
+    "V_MAX": 190
+  },
+  "input_fg_pct": 13.1784,
+  "output_fg_pct": 4.9168,
+  "px_kept": 10179006,
+  "elapsed_sec": 8.58
+}

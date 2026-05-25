@@ -534,7 +534,11 @@ def preprocess_chart(
 
 if __name__ == "__main__":
     # ── CONFIG ──────────────────────────────────────────────────────────────────
+<<<<<<< HEAD
     INPUT_PATH        = "inputs/chart.pdf"                 # Path to input PDF or raster image
+=======
+    INPUT_PATH        = "inputs/Washington.pdf"             # Path to input PDF or raster image
+>>>>>>> 7f83d0e331697e0923ded85901d09b52a4a2ccd8
     OUTPUT_DIR        = "outputs/phase1_preprocessing"
     DPI               = 300                                # Render DPI for PDF inputs
     PAGE_INDEX        = 0                                  # Zero-based page index for PDFs
