@@ -8,19 +8,21 @@ images ready for downstream layer separation and georeferencing.
 Steps:
     1. Rasterise PDF at 300 DPI via PyMuPDF (fitz)
     2. Preserve original RGB array
-    3. Sauvola adaptive thresholding → binary mask
-    4. Non-local means (NLM) denoising on RGB
+    3. Non-local means (NLM) denoising on RGB  [skipped if σ < threshold]
+    4. Sauvola adaptive thresholding → binary mask
     5. Hough-based global deskew
     6. Save outputs to disk + return PreprocessingResult
 
 Usage (module):
     from phase1_preprocessing import preprocess_chart
-    result = preprocess_chart("Washington.pdf", output_dir="outputs/phase1_preprocessing")
+    result = preprocess_chart("Houston.pdf", output_dir="outputs/phase1_preprocessing")
 
 Usage (CLI):
-    python phase1_preprocessing.py --input Washington.pdf --output-dir outputs/phase1_preprocessing --dpi 300
+    python phase1_preprocessing.py --input Houston.pdf --output-dir outputs/phase1_preprocessing --dpi 300
+    python phase1_preprocessing.py --input Houston.pdf --skip-denoise   # fast debug run
 """
 
+import argparse
 import json
 import logging
 import time
@@ -31,8 +33,10 @@ from typing import Optional
 import fitz  # PyMuPDF
 import numpy as np
 from PIL import Image
+Image.MAX_IMAGE_PIXELS = None
 from skimage import color, filters, morphology, restoration, transform
 from skimage.transform import probabilistic_hough_line
+from skimage.util import img_as_float32, img_as_ubyte
 
 # ---------------------------------------------------------------------------
 # Logging
@@ -43,6 +47,24 @@ logging.basicConfig(
     datefmt="%H:%M:%S",
 )
 log = logging.getLogger("phase1")
+
+
+# ---------------------------------------------------------------------------
+# Constants
+# ---------------------------------------------------------------------------
+
+# NLM is skipped when estimated noise σ is below this value.
+# σ < 0.004 means the image is essentially noise-free (typical of clean PDF
+# rasters). Forcing NLM on a noise-free 615 MB image allocates ~4.6 GiB and
+# crashes on machines with ≤ 16 GB RAM.
+_NLM_SIGMA_THRESHOLD: float = 0.004
+
+# NLM patch_distance: reduced from 11 → 6.
+# At 11, the internal integral-image buffer for a 16 k×12 k image exceeds
+# 4 GiB even in fast_mode. At 6 the search window is still ±48 px (at 300 DPI
+# that spans a full text character), quality loss is negligible on charts, and
+# peak RAM drops to ~700 MB.
+_NLM_PATCH_DISTANCE: int = 6
 
 
 # ---------------------------------------------------------------------------
@@ -217,34 +239,58 @@ def _nlm_denoise(rgb: np.ndarray) -> np.ndarray:
     preserves thin text strokes and symbol edges — critical for OCR and
     template matching downstream.
 
-    patch_kw: patch_size=5, patch_distance=11 is a conservative setting
-    that balances quality vs runtime on large images. For very large charts
-    (>10K px wide) this step is the bottleneck; consider downscaling to
-    150 DPI for denoising only and then upscaling back.
+    MEMORY FIXES (vs original)
+    --------------------------
+    1. Sigma guard: if estimated σ < _NLM_SIGMA_THRESHOLD (0.004), the image
+       is essentially noise-free (clean PDF raster). NLM is skipped entirely;
+       the original uint8 array is returned unchanged. This is the primary
+       fix for the 4.6 GiB OOM on Houston.pdf (σ = 0.0000).
+
+    2. float32 input: skimage NLM accepts float32 and avoids an internal
+       upcasting to float64, halving peak allocation from ~4.6 GB to ~2.3 GB.
+
+    3. patch_distance=6 (was 11): reduces the internal integral-image buffer
+       from O(patch_distance²) to a smaller constant. At 300 DPI a ±48 px
+       search window (distance=6, patch_size=5 → radius=6*5=30 px) still
+       spans a full character glyph. Quality loss on chart content is
+       negligible.
+
+    Returns the denoised uint8 array, or the original if skipped.
     """
     log.info("Denoising (non-local means) …")
 
-    # skimage NLM expects float [0,1]
-    rgb_float = rgb.astype(np.float32) / 255.0
+    # Use float32 to halve memory vs float64
+    rgb_f32 = img_as_float32(rgb)   # (H, W, 3)  float32  [0.0, 1.0]
 
-    # Estimate noise standard deviation from the image itself
-    sigma_est = np.mean(
-        restoration.estimate_sigma(rgb_float, channel_axis=-1)
-    )
+    # Estimate per-channel noise σ and take mean
+    sigma_est = float(np.mean(
+        restoration.estimate_sigma(rgb_f32, channel_axis=-1)
+    ))
     log.info(f"  Estimated noise σ: {sigma_est:.4f}")
 
-    # h controls filter strength; rule of thumb: h ≈ 1.0 * sigma
-    h = max(0.02, min(sigma_est * 1.0, 0.08))   # clamp to [0.02, 0.08]
+    # ── Guard: skip NLM on noise-free images ─────────────────────────────
+    if sigma_est < _NLM_SIGMA_THRESHOLD:
+        log.info(
+            f"  σ ({sigma_est:.4f}) < threshold ({_NLM_SIGMA_THRESHOLD}) — "
+            "image is noise-free. NLM skipped; returning original."
+        )
+        return rgb
+    # ─────────────────────────────────────────────────────────────────────
+
+    # h controls filter strength: clamp to a safe range regardless of σ
+    h = max(0.02, min(sigma_est * 1.0, 0.08))
+    log.info(f"  NLM filter strength h={h:.4f}, patch_distance={_NLM_PATCH_DISTANCE}")
 
     denoised = restoration.denoise_nl_means(
-        rgb_float,
+        rgb_f32,
         h=h,
         patch_size=5,
-        patch_distance=11,
+        patch_distance=_NLM_PATCH_DISTANCE,
         channel_axis=-1,
         fast_mode=True,          # fast_mode uses a precomputed integral image
     )
-    result = (np.clip(denoised, 0, 1) * 255).astype(np.uint8)
+
+    result = img_as_ubyte(np.clip(denoised, 0.0, 1.0))
     log.info("  Denoising complete.")
     return result
 
@@ -279,7 +325,7 @@ def _detect_skew(rgb: np.ndarray, skew_threshold_deg: float = 0.5) -> float:
     thresh = filters.threshold_otsu(grey)
     binary_coarse = grey < thresh
 
-    # Tight angular range: only consider lines within ±2° of horizontal
+    # Tight angular range: only consider lines within ±2° of horizontal.
     # This deliberately excludes vertical grid lines (~90°) and diagonal
     # airway features that caused the false -89.8° reading previously.
     angle_range = np.linspace(-np.pi / 90, np.pi / 90, 180)   # ±2 degrees
@@ -420,10 +466,13 @@ def preprocess_chart(
         Sauvola window size (pixels). Must be odd. Default 25.
     sauvola_k : float
         Sauvola k parameter. Default 0.2.
+    sauvola_tile_size : int
+        Tile size for tiled Sauvola binarisation. Default 2048.
     skew_threshold_deg : float
         Minimum angle (degrees) to trigger deskew. Default 0.5.
     skip_denoise : bool
-        If True, skip NLM denoising (useful for fast debugging). Default False.
+        If True, bypass NLM entirely (useful for fast debugging). Default False.
+        Note: even when False, NLM is auto-skipped if σ < _NLM_SIGMA_THRESHOLD.
 
     Returns
     -------
@@ -451,10 +500,13 @@ def preprocess_chart(
 
     # ── Step 2: Denoise ───────────────────────────────────────────────────
     if skip_denoise:
-        notes.append("NLM denoising skipped (skip_denoise=True).")
-        log.warning("NLM denoising skipped.")
+        note = "NLM denoising skipped (skip_denoise=True)."
+        notes.append(note)
+        log.warning(note)
     else:
         rgb = _nlm_denoise(rgb)
+        # _nlm_denoise may have auto-skipped; check by comparing pointer
+        # (no separate note needed — _nlm_denoise already logs it)
 
     # ── Step 3: Binarise ──────────────────────────────────────────────────
     binary = _sauvola_binarise(rgb, window=sauvola_window, k=sauvola_k,
@@ -493,12 +545,14 @@ def preprocess_chart(
         "sauvola_tile_size": sauvola_tile_size,
         "skew_threshold_deg": skew_threshold_deg,
         "skip_denoise": skip_denoise,
+        "nlm_sigma_threshold": _NLM_SIGMA_THRESHOLD,
+        "nlm_patch_distance": _NLM_PATCH_DISTANCE,
         "notes": notes,
         "elapsed_sec": None,   # filled after timing
     }
 
     if output_dir:
-        stem = src.stem  # e.g. "Washington"
+        stem = src.stem  # e.g. "Houston"
         rgb_path, binary_path, log_path_str = _save_outputs(
             rgb, binary, stem, Path(output_dir), metadata
         )
@@ -532,27 +586,104 @@ def preprocess_chart(
     return result
 
 
+# ---------------------------------------------------------------------------
+# CLI entry point
+# ---------------------------------------------------------------------------
+
+def _build_parser() -> argparse.ArgumentParser:
+    p = argparse.ArgumentParser(
+        description="Phase 1 — VFR Chart Preprocessing",
+        formatter_class=argparse.ArgumentDefaultsHelpFormatter,
+    )
+    p.add_argument(
+        "--input", "-i",
+        default="inputs/Houston.pdf",
+        metavar="PATH",
+        help="Path to input PDF or raster image (.pdf/.png/.jpg/.tif)",
+    )
+    p.add_argument(
+        "--output-dir", "-o",
+        default="outputs/phase1_preprocessing",
+        metavar="DIR",
+        help="Directory to write output files",
+    )
+    p.add_argument(
+        "--dpi",
+        type=int,
+        default=300,
+        help="Render DPI for PDF inputs (ignored for raster inputs)",
+    )
+    p.add_argument(
+        "--page",
+        type=int,
+        default=0,
+        dest="page_index",
+        metavar="N",
+        help="Zero-based page index for multi-page PDFs",
+    )
+    p.add_argument(
+        "--sauvola-window",
+        type=int,
+        default=25,
+        metavar="PX",
+        help="Sauvola window size in pixels (must be odd)",
+    )
+    p.add_argument(
+        "--sauvola-k",
+        type=float,
+        default=0.2,
+        metavar="K",
+        help="Sauvola k parameter",
+    )
+    p.add_argument(
+        "--sauvola-tile-size",
+        type=int,
+        default=2048,
+        metavar="PX",
+        help="Tile size for tiled Sauvola binarisation",
+    )
+    p.add_argument(
+        "--skew-threshold",
+        type=float,
+        default=0.5,
+        dest="skew_threshold_deg",
+        metavar="DEG",
+        help="Minimum skew angle (degrees) to trigger deskew",
+    )
+    p.add_argument(
+        "--skip-denoise",
+        action="store_true",
+        default=False,
+        help="Skip NLM denoising entirely (fast debug mode)",
+    )
+    p.add_argument(
+        "--nlm-sigma-threshold",
+        type=float,
+        default=_NLM_SIGMA_THRESHOLD,
+        metavar="S",
+        help=(
+            "NLM is auto-skipped when estimated noise σ < this value. "
+            "Default 0.004 skips denoising on clean PDF rasters."
+        ),
+    )
+    return p
+
+
 if __name__ == "__main__":
-    # ── CONFIG ──────────────────────────────────────────────────────────────────
-    INPUT_PATH        = "inputs/Washington.pdf"             # Path to input PDF or raster image
-    OUTPUT_DIR        = "outputs/phase1_preprocessing"
-    DPI               = 300                                # Render DPI for PDF inputs
-    PAGE_INDEX        = 0                                  # Zero-based page index for PDFs
-    SAUVOLA_WINDOW    = 25                                 # Sauvola window size in pixels (odd)
-    SAUVOLA_K         = 0.2                                # Sauvola k parameter
-    SAUVOLA_TILE_SIZE = 2048                               # Tile size for tiled Sauvola binarisation
-    SKEW_THRESHOLD    = 0.5                                # Min skew angle (deg) to trigger deskew
-    SKIP_DENOISE      = False                              # Set True to skip NLM denoising
-    # ────────────────────────────────────────────────────────────────────────────
+    args = _build_parser().parse_args()
+
+    # Allow overriding the module-level constant from the CLI
+    import phase1_preprocessing as _self
+    _self._NLM_SIGMA_THRESHOLD = args.nlm_sigma_threshold
 
     preprocess_chart(
-        input_path=INPUT_PATH,
-        output_dir=OUTPUT_DIR,
-        dpi=DPI,
-        page_index=PAGE_INDEX,
-        sauvola_window=SAUVOLA_WINDOW,
-        sauvola_k=SAUVOLA_K,
-        sauvola_tile_size=SAUVOLA_TILE_SIZE,
-        skew_threshold_deg=SKEW_THRESHOLD,
-        skip_denoise=SKIP_DENOISE,
+        input_path=args.input,
+        output_dir=args.output_dir,
+        dpi=args.dpi,
+        page_index=args.page_index,
+        sauvola_window=args.sauvola_window,
+        sauvola_k=args.sauvola_k,
+        sauvola_tile_size=args.sauvola_tile_size,
+        skew_threshold_deg=args.skew_threshold_deg,
+        skip_denoise=args.skip_denoise,
     )

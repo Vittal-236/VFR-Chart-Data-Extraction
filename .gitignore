@@ -26,3 +26,10 @@ Extra_outputs/phase1_extra/phase1_Chicago/Chicago_rgb.png
 Extra_outputs/phase1_extra/phase1_Washington_150/Washington_rgb.png
 outputs/phase1_preprocessing/Washington_rgb_300dpi.png
 outputs/phase3_georeferencing/detections_overlay.png
+
+# Large output images
+outputs/**/*.png
+Koustav_airport_detection/*_overlay.png
+outputs/phase1_preprocessing/*_rgb*.png
+outputs/phase1_preprocessing/*_300dpi*.png
+outputs/phase1_preprocessing/*_150dpi*.png

@@ -1,0 +1,21 @@
+ITCiD Test Summary
+============================================================
+Image     : D:\Cognida Internship\VFR extraction\outputs\phase1_preprocessing\Washington_binary.png
+Reference : outputs/phase4_symbol_detection/circle_detector_v4/circles.json
+Params    : CANNY_SIGMA=0.8  TOL=35°  MIN_COV=0.45  MIN_VOTES=5
+
+tile_A        detected=  2  ref= 8  TP=2  FP=0  FN=6  P=1.00  R=0.25
+    Missed: [(712, 232), (961, 244), (961, 412), (775, 261), (841, 236), (841, 573)]
+tile_B        detected=  1  ref= 1  TP=1  FP=0  FN=0  P=1.00  R=1.00
+tile_C        detected=  0  ref= 1  TP=0  FP=0  FN=1  P=0.00  R=0.00
+    Missed: [(802, 5472)]
+
+============================================================
+OVERALL   detected=3  ref=10  TP=3  P=1.00  R=0.30
+
+Notes:
+  - Reference circles are from circle_detector_v4 (Hough method).
+  - ITCiD is run on a compressed chart image, not the clean binary.
+  - On the clean binary, coverage and recall should be significantly higher.
+  - Tuning: raise MIN_COVERAGE or MIN_VOTES to cut false positives.
+  - Tuning: lower GRADIENT_ANGLE_TOL to make IT criterion stricter.

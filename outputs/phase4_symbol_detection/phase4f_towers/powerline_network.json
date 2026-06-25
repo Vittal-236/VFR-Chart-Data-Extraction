@@ -1,0 +1,1579 @@
+{
+  "source_detections": "outputs\\phase4_symbol_detection\\phase4f_towers\\detections.json",
+  "parameters": {
+    "max_tower_dist_px": 1200,
+    "ink_density_thresh": 0.03,
+    "corridor_width_px": 12
+  },
+  "summary": {
+    "total_towers": 159,
+    "multi_tower_routes": 7,
+    "isolated_towers": 70
+  },
+  "routes": [
+    {
+      "route_id": 1,
+      "tower_count": 55,
+      "towers": [
+        {
+          "map_r": 2092.5,
+          "map_c": 8444.0,
+          "area": 117,
+          "solidity": 0.286,
+          "eccen": 0.943,
+          "maj_ax": 40.1,
+          "score": 0.466,
+          "route_order": 0
+        },
+        {
+          "map_r": 2638.6,
+          "map_c": 8475.7,
+          "area": 151,
+          "solidity": 0.346,
+          "eccen": 0.94,
+          "maj_ax": 39.6,
+          "score": 0.6,
+          "route_order": 1
+        },
+        {
+          "map_r": 1887.7,
+          "map_c": 7648.7,
+          "area": 143,
+          "solidity": 0.326,
+          "eccen": 0.946,
+          "maj_ax": 40.1,
+          "score": 0.516,
+          "route_order": 2
+        },
+        {
+          "map_r": 1375.7,
+          "map_c": 6901.0,
+          "area": 148,
+          "solidity": 0.334,
+          "eccen": 0.945,
+          "maj_ax": 40.8,
+          "score": 0.504,
+          "route_order": 3
+        },
+        {
+          "map_r": 865.5,
+          "map_c": 6989.7,
+          "area": 193,
+          "solidity": 0.398,
+          "eccen": 0.94,
+          "maj_ax": 40.9,
+          "score": 0.552,
+          "route_order": 4
+        },
+        {
+          "map_r": 1915.6,
+          "map_c": 7440.0,
+          "area": 42,
+          "solidity": 0.467,
+          "eccen": 0.978,
+          "maj_ax": 23.5,
+          "score": 0.511,
+          "route_order": 5
+        },
+        {
+          "map_r": 2747.0,
+          "map_c": 6902.9,
+          "area": 108,
+          "solidity": 0.261,
+          "eccen": 0.956,
+          "maj_ax": 44.8,
+          "score": 0.461,
+          "route_order": 6
+        },
+        {
+          "map_r": 2382.6,
+          "map_c": 5853.0,
+          "area": 125,
+          "solidity": 0.294,
+          "eccen": 0.941,
+          "maj_ax": 39.7,
+          "score": 0.501,
+          "route_order": 7
+        },
+        {
+          "map_r": 2369.0,
+          "map_c": 5213.9,
+          "area": 142,
+          "solidity": 0.351,
+          "eccen": 0.944,
+          "maj_ax": 39.1,
+          "score": 0.501,
+          "route_order": 8
+        },
+        {
+          "map_r": 339.2,
+          "map_c": 5806.1,
+          "area": 183,
+          "solidity": 0.4,
+          "eccen": 0.946,
+          "maj_ax": 41.4,
+          "score": 0.609,
+          "route_order": 9
+        },
+        {
+          "map_r": 4265.9,
+          "map_c": 10138.7,
+          "area": 168,
+          "solidity": 0.364,
+          "eccen": 0.944,
+          "maj_ax": 41.2,
+          "score": 0.584,
+          "route_order": 10
+        },
+        {
+          "map_r": 1345.0,
+          "map_c": 3936.6,
+          "area": 165,
+          "solidity": 0.359,
+          "eccen": 0.939,
+          "maj_ax": 40.4,
+          "score": 0.577,
+          "route_order": 11
+        },
+        {
+          "map_r": 1328.2,
+          "map_c": 3374.7,
+          "area": 157,
+          "solidity": 0.362,
+          "eccen": 0.943,
+          "maj_ax": 39.6,
+          "score": 0.586,
+          "route_order": 12
+        },
+        {
+          "map_r": 411.9,
+          "map_c": 11676.4,
+          "area": 173,
+          "solidity": 0.372,
+          "eccen": 0.943,
+          "maj_ax": 41.0,
+          "score": 0.463,
+          "route_order": 13
+        },
+        {
+          "map_r": 3471.4,
+          "map_c": 8287.2,
+          "area": 125,
+          "solidity": 0.303,
+          "eccen": 0.947,
+          "maj_ax": 40.9,
+          "score": 0.462,
+          "route_order": 14
+        },
+        {
+          "map_r": 1136.9,
+          "map_c": 12595.7,
+          "area": 159,
+          "solidity": 0.353,
+          "eccen": 0.946,
+          "maj_ax": 41.1,
+          "score": 0.565,
+          "route_order": 15
+        },
+        {
+          "map_r": 383.3,
+          "map_c": 10123.6,
+          "area": 190,
+          "solidity": 0.4,
+          "eccen": 0.944,
+          "maj_ax": 41.3,
+          "score": 0.562,
+          "route_order": 16
+        },
+        {
+          "map_r": 1849.9,
+          "map_c": 8333.9,
+          "area": 140,
+          "solidity": 0.325,
+          "eccen": 0.942,
+          "maj_ax": 40.9,
+          "score": 0.459,
+          "route_order": 17
+        },
+        {
+          "map_r": 145.8,
+          "map_c": 10825.2,
+          "area": 149,
+          "solidity": 0.359,
+          "eccen": 0.942,
+          "maj_ax": 39.2,
+          "score": 0.561,
+          "route_order": 18
+        },
+        {
+          "map_r": 4878.1,
+          "map_c": 9872.0,
+          "area": 139,
+          "solidity": 0.296,
+          "eccen": 0.945,
+          "maj_ax": 41.9,
+          "score": 0.56,
+          "route_order": 19
+        },
+        {
+          "map_r": 1945.8,
+          "map_c": 7411.9,
+          "area": 135,
+          "solidity": 0.339,
+          "eccen": 0.947,
+          "maj_ax": 40.0,
+          "score": 0.454,
+          "route_order": 20
+        },
+        {
+          "map_r": 432.2,
+          "map_c": 8315.1,
+          "area": 153,
+          "solidity": 0.352,
+          "eccen": 0.947,
+          "maj_ax": 42.0,
+          "score": 0.554,
+          "route_order": 21
+        },
+        {
+          "map_r": 639.8,
+          "map_c": 11726.8,
+          "area": 113,
+          "solidity": 0.252,
+          "eccen": 0.941,
+          "maj_ax": 41.1,
+          "score": 0.453,
+          "route_order": 22
+        },
+        {
+          "map_r": 1386.9,
+          "map_c": 6956.9,
+          "area": 157,
+          "solidity": 0.357,
+          "eccen": 0.943,
+          "maj_ax": 40.5,
+          "score": 0.551,
+          "route_order": 23
+        },
+        {
+          "map_r": 556.0,
+          "map_c": 7292.8,
+          "area": 129,
+          "solidity": 0.293,
+          "eccen": 0.944,
+          "maj_ax": 42.8,
+          "score": 0.45,
+          "route_order": 24
+        },
+        {
+          "map_r": 3930.8,
+          "map_c": 9075.0,
+          "area": 163,
+          "solidity": 0.37,
+          "eccen": 0.945,
+          "maj_ax": 39.7,
+          "score": 0.534,
+          "route_order": 25
+        },
+        {
+          "map_r": 1070.5,
+          "map_c": 5379.6,
+          "area": 170,
+          "solidity": 0.385,
+          "eccen": 0.94,
+          "maj_ax": 40.0,
+          "score": 0.532,
+          "route_order": 26
+        },
+        {
+          "map_r": 3728.2,
+          "map_c": 7880.5,
+          "area": 212,
+          "solidity": 0.359,
+          "eccen": 0.938,
+          "maj_ax": 46.8,
+          "score": 0.53,
+          "route_order": 27
+        },
+        {
+          "map_r": 1961.9,
+          "map_c": 5841.7,
+          "area": 180,
+          "solidity": 0.377,
+          "eccen": 0.943,
+          "maj_ax": 41.8,
+          "score": 0.528,
+          "route_order": 28
+        },
+        {
+          "map_r": 246.9,
+          "map_c": 9881.5,
+          "area": 179,
+          "solidity": 0.392,
+          "eccen": 0.935,
+          "maj_ax": 40.6,
+          "score": 0.525,
+          "route_order": 29
+        },
+        {
+          "map_r": 1261.9,
+          "map_c": 5383.5,
+          "area": 128,
+          "solidity": 0.327,
+          "eccen": 0.948,
+          "maj_ax": 39.3,
+          "score": 0.523,
+          "route_order": 30
+        },
+        {
+          "map_r": 1785.1,
+          "map_c": 10212.1,
+          "area": 153,
+          "solidity": 0.349,
+          "eccen": 0.941,
+          "maj_ax": 40.0,
+          "score": 0.52,
+          "route_order": 31
+        },
+        {
+          "map_r": 1342.7,
+          "map_c": 4583.1,
+          "area": 100,
+          "solidity": 0.243,
+          "eccen": 0.941,
+          "maj_ax": 39.1,
+          "score": 0.515,
+          "route_order": 32
+        },
+        {
+          "map_r": 912.8,
+          "map_c": 10729.6,
+          "area": 155,
+          "solidity": 0.366,
+          "eccen": 0.948,
+          "maj_ax": 40.5,
+          "score": 0.515,
+          "route_order": 33
+        },
+        {
+          "map_r": 593.0,
+          "map_c": 10575.3,
+          "area": 142,
+          "solidity": 0.345,
+          "eccen": 0.944,
+          "maj_ax": 39.8,
+          "score": 0.514,
+          "route_order": 34
+        },
+        {
+          "map_r": 913.8,
+          "map_c": 4576.7,
+          "area": 134,
+          "solidity": 0.315,
+          "eccen": 0.948,
+          "maj_ax": 39.8,
+          "score": 0.51,
+          "route_order": 35
+        },
+        {
+          "map_r": 1117.2,
+          "map_c": 9345.5,
+          "area": 152,
+          "solidity": 0.357,
+          "eccen": 0.943,
+          "maj_ax": 39.6,
+          "score": 0.508,
+          "route_order": 36
+        },
+        {
+          "map_r": 2484.5,
+          "map_c": 9659.8,
+          "area": 171,
+          "solidity": 0.395,
+          "eccen": 0.947,
+          "maj_ax": 40.1,
+          "score": 0.506,
+          "route_order": 37
+        },
+        {
+          "map_r": 1577.2,
+          "map_c": 10100.2,
+          "area": 164,
+          "solidity": 0.368,
+          "eccen": 0.937,
+          "maj_ax": 39.1,
+          "score": 0.505,
+          "route_order": 38
+        },
+        {
+          "map_r": 963.2,
+          "map_c": 6591.4,
+          "area": 142,
+          "solidity": 0.355,
+          "eccen": 0.948,
+          "maj_ax": 38.4,
+          "score": 0.504,
+          "route_order": 39
+        },
+        {
+          "map_r": 916.3,
+          "map_c": 8197.1,
+          "area": 151,
+          "solidity": 0.326,
+          "eccen": 0.941,
+          "maj_ax": 42.2,
+          "score": 0.503,
+          "route_order": 40
+        },
+        {
+          "map_r": 3204.9,
+          "map_c": 9058.0,
+          "area": 141,
+          "solidity": 0.345,
+          "eccen": 0.945,
+          "maj_ax": 40.1,
+          "score": 0.503,
+          "route_order": 41
+        },
+        {
+          "map_r": 858.7,
+          "map_c": 9637.7,
+          "area": 157,
+          "solidity": 0.374,
+          "eccen": 0.943,
+          "maj_ax": 39.0,
+          "score": 0.5,
+          "route_order": 42
+        },
+        {
+          "map_r": 4951.0,
+          "map_c": 9035.5,
+          "area": 139,
+          "solidity": 0.519,
+          "eccen": 0.923,
+          "maj_ax": 31.3,
+          "score": 0.498,
+          "route_order": 43
+        },
+        {
+          "map_r": 363.4,
+          "map_c": 3946.0,
+          "area": 127,
+          "solidity": 0.328,
+          "eccen": 0.949,
+          "maj_ax": 39.4,
+          "score": 0.496,
+          "route_order": 44
+        },
+        {
+          "map_r": 4951.3,
+          "map_c": 9006.6,
+          "area": 132,
+          "solidity": 0.498,
+          "eccen": 0.929,
+          "maj_ax": 31.7,
+          "score": 0.496,
+          "route_order": 45
+        },
+        {
+          "map_r": 1008.3,
+          "map_c": 9978.7,
+          "area": 154,
+          "solidity": 0.339,
+          "eccen": 0.94,
+          "maj_ax": 41.0,
+          "score": 0.493,
+          "route_order": 46
+        },
+        {
+          "map_r": 1227.1,
+          "map_c": 7282.2,
+          "area": 177,
+          "solidity": 0.386,
+          "eccen": 0.946,
+          "maj_ax": 40.4,
+          "score": 0.491,
+          "route_order": 47
+        },
+        {
+          "map_r": 881.6,
+          "map_c": 10067.9,
+          "area": 146,
+          "solidity": 0.348,
+          "eccen": 0.943,
+          "maj_ax": 39.6,
+          "score": 0.491,
+          "route_order": 48
+        },
+        {
+          "map_r": 961.0,
+          "map_c": 6183.9,
+          "area": 127,
+          "solidity": 0.289,
+          "eccen": 0.938,
+          "maj_ax": 40.4,
+          "score": 0.489,
+          "route_order": 49
+        },
+        {
+          "map_r": 1475.2,
+          "map_c": 6154.6,
+          "area": 178,
+          "solidity": 0.407,
+          "eccen": 0.942,
+          "maj_ax": 40.2,
+          "score": 0.488,
+          "route_order": 50
+        },
+        {
+          "map_r": 655.9,
+          "map_c": 6142.5,
+          "area": 176,
+          "solidity": 0.396,
+          "eccen": 0.944,
+          "maj_ax": 40.1,
+          "score": 0.482,
+          "route_order": 51
+        },
+        {
+          "map_r": 285.5,
+          "map_c": 6046.8,
+          "area": 138,
+          "solidity": 0.285,
+          "eccen": 0.938,
+          "maj_ax": 42.2,
+          "score": 0.481,
+          "route_order": 52
+        },
+        {
+          "map_r": 554.1,
+          "map_c": 6039.1,
+          "area": 155,
+          "solidity": 0.349,
+          "eccen": 0.941,
+          "maj_ax": 39.8,
+          "score": 0.48,
+          "route_order": 53
+        },
+        {
+          "map_r": 4534.5,
+          "map_c": 7742.4,
+          "area": 176,
+          "solidity": 0.378,
+          "eccen": 0.939,
+          "maj_ax": 40.2,
+          "score": 0.473,
+          "route_order": 54
+        }
+      ]
+    },
+    {
+      "route_id": 2,
+      "tower_count": 11,
+      "towers": [
+        {
+          "map_r": 4074.1,
+          "map_c": 3799.8,
+          "area": 176,
+          "solidity": 0.365,
+          "eccen": 0.94,
+          "maj_ax": 40.9,
+          "score": 0.506,
+          "route_order": 0
+        },
+        {
+          "map_r": 3094.1,
+          "map_c": 3395.7,
+          "area": 181,
+          "solidity": 0.39,
+          "eccen": 0.941,
+          "maj_ax": 40.4,
+          "score": 0.502,
+          "route_order": 1
+        },
+        {
+          "map_r": 3457.6,
+          "map_c": 3415.7,
+          "area": 168,
+          "solidity": 0.39,
+          "eccen": 0.939,
+          "maj_ax": 39.0,
+          "score": 0.63,
+          "route_order": 2
+        },
+        {
+          "map_r": 3205.9,
+          "map_c": 3820.1,
+          "area": 160,
+          "solidity": 0.375,
+          "eccen": 0.946,
+          "maj_ax": 40.5,
+          "score": 0.508,
+          "route_order": 3
+        },
+        {
+          "map_r": 3617.5,
+          "map_c": 4045.7,
+          "area": 127,
+          "solidity": 0.295,
+          "eccen": 0.94,
+          "maj_ax": 40.9,
+          "score": 0.509,
+          "route_order": 4
+        },
+        {
+          "map_r": 2595.3,
+          "map_c": 3769.4,
+          "area": 157,
+          "solidity": 0.353,
+          "eccen": 0.948,
+          "maj_ax": 40.4,
+          "score": 0.467,
+          "route_order": 5
+        },
+        {
+          "map_r": 3548.9,
+          "map_c": 3073.1,
+          "area": 129,
+          "solidity": 0.314,
+          "eccen": 0.944,
+          "maj_ax": 39.2,
+          "score": 0.484,
+          "route_order": 6
+        },
+        {
+          "map_r": 3571.8,
+          "map_c": 2370.0,
+          "area": 145,
+          "solidity": 0.335,
+          "eccen": 0.943,
+          "maj_ax": 39.2,
+          "score": 0.524,
+          "route_order": 7
+        },
+        {
+          "map_r": 3458.7,
+          "map_c": 2724.2,
+          "area": 139,
+          "solidity": 0.343,
+          "eccen": 0.948,
+          "maj_ax": 39.2,
+          "score": 0.463,
+          "route_order": 8
+        },
+        {
+          "map_r": 2302.9,
+          "map_c": 3662.1,
+          "area": 169,
+          "solidity": 0.394,
+          "eccen": 0.942,
+          "maj_ax": 39.3,
+          "score": 0.55,
+          "route_order": 9
+        },
+        {
+          "map_r": 3430.3,
+          "map_c": 4072.3,
+          "area": 144,
+          "solidity": 0.356,
+          "eccen": 0.945,
+          "maj_ax": 38.3,
+          "score": 0.474,
+          "route_order": 10
+        }
+      ]
+    },
+    {
+      "route_id": 3,
+      "tower_count": 10,
+      "towers": [
+        {
+          "map_r": 6317.4,
+          "map_c": 2150.5,
+          "area": 155,
+          "solidity": 0.328,
+          "eccen": 0.931,
+          "maj_ax": 40.1,
+          "score": 0.458,
+          "route_order": 0
+        },
+        {
+          "map_r": 6544.6,
+          "map_c": 3199.1,
+          "area": 137,
+          "solidity": 0.293,
+          "eccen": 0.942,
+          "maj_ax": 42.5,
+          "score": 0.486,
+          "route_order": 1
+        },
+        {
+          "map_r": 6566.5,
+          "map_c": 2518.9,
+          "area": 176,
+          "solidity": 0.367,
+          "eccen": 0.94,
+          "maj_ax": 41.1,
+          "score": 0.628,
+          "route_order": 2
+        },
+        {
+          "map_r": 5731.2,
+          "map_c": 2000.1,
+          "area": 190,
+          "solidity": 0.393,
+          "eccen": 0.94,
+          "maj_ax": 41.2,
+          "score": 0.551,
+          "route_order": 3
+        },
+        {
+          "map_r": 5564.9,
+          "map_c": 2732.9,
+          "area": 171,
+          "solidity": 0.361,
+          "eccen": 0.937,
+          "maj_ax": 40.5,
+          "score": 0.561,
+          "route_order": 4
+        },
+        {
+          "map_r": 6077.2,
+          "map_c": 3083.3,
+          "area": 180,
+          "solidity": 0.371,
+          "eccen": 0.943,
+          "maj_ax": 43.0,
+          "score": 0.479,
+          "route_order": 5
+        },
+        {
+          "map_r": 5596.6,
+          "map_c": 3095.3,
+          "area": 147,
+          "solidity": 0.368,
+          "eccen": 0.945,
+          "maj_ax": 38.5,
+          "score": 0.526,
+          "route_order": 6
+        },
+        {
+          "map_r": 7067.4,
+          "map_c": 2843.2,
+          "area": 117,
+          "solidity": 0.306,
+          "eccen": 0.951,
+          "maj_ax": 38.7,
+          "score": 0.463,
+          "route_order": 7
+        },
+        {
+          "map_r": 5765.8,
+          "map_c": 3909.2,
+          "area": 165,
+          "solidity": 0.368,
+          "eccen": 0.943,
+          "maj_ax": 39.8,
+          "score": 0.48,
+          "route_order": 8
+        },
+        {
+          "map_r": 7164.1,
+          "map_c": 3146.7,
+          "area": 127,
+          "solidity": 0.321,
+          "eccen": 0.947,
+          "maj_ax": 40.1,
+          "score": 0.452,
+          "route_order": 9
+        }
+      ]
+    },
+    {
+      "route_id": 4,
+      "tower_count": 5,
+      "towers": [
+        {
+          "map_r": 3615.4,
+          "map_c": 16350.6,
+          "area": 179,
+          "solidity": 0.352,
+          "eccen": 0.945,
+          "maj_ax": 44.6,
+          "score": 0.471,
+          "route_order": 0
+        },
+        {
+          "map_r": 3165.9,
+          "map_c": 16158.2,
+          "area": 143,
+          "solidity": 0.366,
+          "eccen": 0.945,
+          "maj_ax": 38.4,
+          "score": 0.494,
+          "route_order": 1
+        },
+        {
+          "map_r": 2020.2,
+          "map_c": 16184.2,
+          "area": 155,
+          "solidity": 0.374,
+          "eccen": 0.943,
+          "maj_ax": 38.9,
+          "score": 0.528,
+          "route_order": 2
+        },
+        {
+          "map_r": 1614.9,
+          "map_c": 16122.7,
+          "area": 161,
+          "solidity": 0.351,
+          "eccen": 0.945,
+          "maj_ax": 40.5,
+          "score": 0.523,
+          "route_order": 3
+        },
+        {
+          "map_r": 3849.6,
+          "map_c": 16237.8,
+          "area": 187,
+          "solidity": 0.4,
+          "eccen": 0.94,
+          "maj_ax": 40.1,
+          "score": 0.488,
+          "route_order": 4
+        }
+      ]
+    },
+    {
+      "route_id": 5,
+      "tower_count": 3,
+      "towers": [
+        {
+          "map_r": 2095.2,
+          "map_c": 2241.3,
+          "area": 140,
+          "solidity": 0.295,
+          "eccen": 0.944,
+          "maj_ax": 42.5,
+          "score": 0.574,
+          "route_order": 0
+        },
+        {
+          "map_r": 915.6,
+          "map_c": 2213.1,
+          "area": 156,
+          "solidity": 0.384,
+          "eccen": 0.95,
+          "maj_ax": 38.2,
+          "score": 0.489,
+          "route_order": 1
+        },
+        {
+          "map_r": 438.7,
+          "map_c": 2709.0,
+          "area": 172,
+          "solidity": 0.368,
+          "eccen": 0.941,
+          "maj_ax": 40.7,
+          "score": 0.487,
+          "route_order": 2
+        }
+      ]
+    },
+    {
+      "route_id": 6,
+      "tower_count": 3,
+      "towers": [
+        {
+          "map_r": 8941.5,
+          "map_c": 3690.5,
+          "area": 156,
+          "solidity": 0.364,
+          "eccen": 0.954,
+          "maj_ax": 40.7,
+          "score": 0.508,
+          "route_order": 0
+        },
+        {
+          "map_r": 8619.0,
+          "map_c": 3620.0,
+          "area": 188,
+          "solidity": 0.413,
+          "eccen": 0.945,
+          "maj_ax": 41.3,
+          "score": 0.524,
+          "route_order": 1
+        },
+        {
+          "map_r": 8728.0,
+          "map_c": 2978.9,
+          "area": 123,
+          "solidity": 0.31,
+          "eccen": 0.949,
+          "maj_ax": 38.0,
+          "score": 0.488,
+          "route_order": 2
+        }
+      ]
+    },
+    {
+      "route_id": 7,
+      "tower_count": 2,
+      "towers": [
+        {
+          "map_r": 8158.8,
+          "map_c": 3922.6,
+          "area": 159,
+          "solidity": 0.387,
+          "eccen": 0.949,
+          "maj_ax": 39.2,
+          "score": 0.479,
+          "route_order": 0
+        },
+        {
+          "map_r": 8596.8,
+          "map_c": 3673.2,
+          "area": 159,
+          "solidity": 0.349,
+          "eccen": 0.945,
+          "maj_ax": 40.7,
+          "score": 0.508,
+          "route_order": 1
+        }
+      ]
+    }
+  ],
+  "isolated_towers": [
+    {
+      "map_r": 3547.4,
+      "map_c": 5607.9,
+      "area": 162,
+      "solidity": 0.342,
+      "eccen": 0.945,
+      "maj_ax": 42.8,
+      "score": 0.611
+    },
+    {
+      "map_r": 3909.4,
+      "map_c": 15128.6,
+      "area": 177,
+      "solidity": 0.388,
+      "eccen": 0.941,
+      "maj_ax": 41.2,
+      "score": 0.592
+    },
+    {
+      "map_r": 6065.7,
+      "map_c": 10775.6,
+      "area": 160,
+      "solidity": 0.408,
+      "eccen": 0.942,
+      "maj_ax": 40.5,
+      "score": 0.573
+    },
+    {
+      "map_r": 7269.3,
+      "map_c": 5040.4,
+      "area": 158,
+      "solidity": 0.357,
+      "eccen": 0.944,
+      "maj_ax": 39.9,
+      "score": 0.573
+    },
+    {
+      "map_r": 2900.3,
+      "map_c": 15849.5,
+      "area": 163,
+      "solidity": 0.37,
+      "eccen": 0.941,
+      "maj_ax": 40.5,
+      "score": 0.568
+    },
+    {
+      "map_r": 10071.1,
+      "map_c": 1852.2,
+      "area": 128,
+      "solidity": 0.31,
+      "eccen": 0.944,
+      "maj_ax": 40.1,
+      "score": 0.567
+    },
+    {
+      "map_r": 4718.4,
+      "map_c": 11657.6,
+      "area": 173,
+      "solidity": 0.379,
+      "eccen": 0.941,
+      "maj_ax": 40.4,
+      "score": 0.565
+    },
+    {
+      "map_r": 215.3,
+      "map_c": 2734.4,
+      "area": 165,
+      "solidity": 0.35,
+      "eccen": 0.946,
+      "maj_ax": 42.6,
+      "score": 0.561
+    },
+    {
+      "map_r": 4280.7,
+      "map_c": 12339.7,
+      "area": 189,
+      "solidity": 0.392,
+      "eccen": 0.941,
+      "maj_ax": 41.7,
+      "score": 0.559
+    },
+    {
+      "map_r": 3655.0,
+      "map_c": 15322.1,
+      "area": 142,
+      "solidity": 0.363,
+      "eccen": 0.944,
+      "maj_ax": 38.4,
+      "score": 0.557
+    },
+    {
+      "map_r": 6619.5,
+      "map_c": 6225.5,
+      "area": 192,
+      "solidity": 0.42,
+      "eccen": 0.94,
+      "maj_ax": 40.0,
+      "score": 0.557
+    },
+    {
+      "map_r": 2061.0,
+      "map_c": 16424.8,
+      "area": 162,
+      "solidity": 0.345,
+      "eccen": 0.933,
+      "maj_ax": 40.2,
+      "score": 0.556
+    },
+    {
+      "map_r": 1569.1,
+      "map_c": 11326.2,
+      "area": 117,
+      "solidity": 0.285,
+      "eccen": 0.941,
+      "maj_ax": 39.7,
+      "score": 0.545
+    },
+    {
+      "map_r": 2165.7,
+      "map_c": 2737.3,
+      "area": 169,
+      "solidity": 0.371,
+      "eccen": 0.941,
+      "maj_ax": 40.0,
+      "score": 0.542
+    },
+    {
+      "map_r": 4534.0,
+      "map_c": 3732.4,
+      "area": 180,
+      "solidity": 0.404,
+      "eccen": 0.939,
+      "maj_ax": 39.2,
+      "score": 0.542
+    },
+    {
+      "map_r": 5875.1,
+      "map_c": 11985.5,
+      "area": 157,
+      "solidity": 0.366,
+      "eccen": 0.945,
+      "maj_ax": 40.4,
+      "score": 0.541
+    },
+    {
+      "map_r": 7023.4,
+      "map_c": 7753.8,
+      "area": 103,
+      "solidity": 0.248,
+      "eccen": 0.956,
+      "maj_ax": 41.1,
+      "score": 0.54
+    },
+    {
+      "map_r": 5475.6,
+      "map_c": 6523.5,
+      "area": 181,
+      "solidity": 0.404,
+      "eccen": 0.945,
+      "maj_ax": 41.6,
+      "score": 0.536
+    },
+    {
+      "map_r": 1070.2,
+      "map_c": 13117.7,
+      "area": 178,
+      "solidity": 0.4,
+      "eccen": 0.939,
+      "maj_ax": 39.6,
+      "score": 0.532
+    },
+    {
+      "map_r": 6257.9,
+      "map_c": 13118.3,
+      "area": 169,
+      "solidity": 0.369,
+      "eccen": 0.935,
+      "maj_ax": 40.6,
+      "score": 0.532
+    },
+    {
+      "map_r": 4051.3,
+      "map_c": 4192.7,
+      "area": 144,
+      "solidity": 0.351,
+      "eccen": 0.95,
+      "maj_ax": 39.1,
+      "score": 0.524
+    },
+    {
+      "map_r": 3284.4,
+      "map_c": 10375.4,
+      "area": 146,
+      "solidity": 0.354,
+      "eccen": 0.947,
+      "maj_ax": 39.7,
+      "score": 0.524
+    },
+    {
+      "map_r": 4395.9,
+      "map_c": 13128.5,
+      "area": 178,
+      "solidity": 0.374,
+      "eccen": 0.942,
+      "maj_ax": 41.2,
+      "score": 0.524
+    },
+    {
+      "map_r": 4834.1,
+      "map_c": 11359.5,
+      "area": 164,
+      "solidity": 0.408,
+      "eccen": 0.946,
+      "maj_ax": 40.1,
+      "score": 0.523
+    },
+    {
+      "map_r": 4782.9,
+      "map_c": 4338.8,
+      "area": 155,
+      "solidity": 0.347,
+      "eccen": 0.947,
+      "maj_ax": 41.5,
+      "score": 0.522
+    },
+    {
+      "map_r": 4878.6,
+      "map_c": 14160.7,
+      "area": 130,
+      "solidity": 0.303,
+      "eccen": 0.941,
+      "maj_ax": 38.7,
+      "score": 0.52
+    },
+    {
+      "map_r": 304.9,
+      "map_c": 12954.8,
+      "area": 181,
+      "solidity": 0.372,
+      "eccen": 0.946,
+      "maj_ax": 42.0,
+      "score": 0.519
+    },
+    {
+      "map_r": 8961.4,
+      "map_c": 4616.9,
+      "area": 171,
+      "solidity": 0.366,
+      "eccen": 0.944,
+      "maj_ax": 40.9,
+      "score": 0.516
+    },
+    {
+      "map_r": 9864.7,
+      "map_c": 8144.9,
+      "area": 36,
+      "solidity": 0.462,
+      "eccen": 0.962,
+      "maj_ax": 19.4,
+      "score": 0.516
+    },
+    {
+      "map_r": 4240.5,
+      "map_c": 3815.9,
+      "area": 169,
+      "solidity": 0.385,
+      "eccen": 0.94,
+      "maj_ax": 40.3,
+      "score": 0.512
+    },
+    {
+      "map_r": 3896.2,
+      "map_c": 16107.9,
+      "area": 171,
+      "solidity": 0.398,
+      "eccen": 0.942,
+      "maj_ax": 39.1,
+      "score": 0.511
+    },
+    {
+      "map_r": 3766.2,
+      "map_c": 10640.7,
+      "area": 155,
+      "solidity": 0.373,
+      "eccen": 0.952,
+      "maj_ax": 40.3,
+      "score": 0.508
+    },
+    {
+      "map_r": 164.4,
+      "map_c": 2437.5,
+      "area": 145,
+      "solidity": 0.313,
+      "eccen": 0.944,
+      "maj_ax": 41.8,
+      "score": 0.501
+    },
+    {
+      "map_r": 4860.2,
+      "map_c": 4583.0,
+      "area": 167,
+      "solidity": 0.359,
+      "eccen": 0.936,
+      "maj_ax": 40.0,
+      "score": 0.501
+    },
+    {
+      "map_r": 4691.4,
+      "map_c": 2707.0,
+      "area": 136,
+      "solidity": 0.322,
+      "eccen": 0.95,
+      "maj_ax": 41.6,
+      "score": 0.5
+    },
+    {
+      "map_r": 3180.0,
+      "map_c": 12429.1,
+      "area": 73,
+      "solidity": 0.378,
+      "eccen": 0.947,
+      "maj_ax": 25.2,
+      "score": 0.496
+    },
+    {
+      "map_r": 5639.8,
+      "map_c": 11611.0,
+      "area": 177,
+      "solidity": 0.395,
+      "eccen": 0.94,
+      "maj_ax": 39.7,
+      "score": 0.495
+    },
+    {
+      "map_r": 2550.3,
+      "map_c": 12018.0,
+      "area": 140,
+      "solidity": 0.355,
+      "eccen": 0.944,
+      "maj_ax": 38.4,
+      "score": 0.494
+    },
+    {
+      "map_r": 5527.9,
+      "map_c": 4465.2,
+      "area": 165,
+      "solidity": 0.37,
+      "eccen": 0.942,
+      "maj_ax": 39.7,
+      "score": 0.491
+    },
+    {
+      "map_r": 9249.9,
+      "map_c": 2363.3,
+      "area": 112,
+      "solidity": 0.325,
+      "eccen": 0.962,
+      "maj_ax": 41.3,
+      "score": 0.491
+    },
+    {
+      "map_r": 1558.0,
+      "map_c": 12457.2,
+      "area": 154,
+      "solidity": 0.379,
+      "eccen": 0.953,
+      "maj_ax": 39.9,
+      "score": 0.49
+    },
+    {
+      "map_r": 5260.9,
+      "map_c": 10855.2,
+      "area": 104,
+      "solidity": 0.28,
+      "eccen": 0.956,
+      "maj_ax": 41.0,
+      "score": 0.49
+    },
+    {
+      "map_r": 5127.5,
+      "map_c": 14897.2,
+      "area": 186,
+      "solidity": 0.409,
+      "eccen": 0.943,
+      "maj_ax": 40.8,
+      "score": 0.489
+    },
+    {
+      "map_r": 8617.1,
+      "map_c": 3412.1,
+      "area": 149,
+      "solidity": 0.342,
+      "eccen": 0.946,
+      "maj_ax": 40.4,
+      "score": 0.487
+    },
+    {
+      "map_r": 2578.7,
+      "map_c": 11060.5,
+      "area": 129,
+      "solidity": 0.323,
+      "eccen": 0.955,
+      "maj_ax": 40.6,
+      "score": 0.483
+    },
+    {
+      "map_r": 6363.8,
+      "map_c": 14071.3,
+      "area": 148,
+      "solidity": 0.343,
+      "eccen": 0.941,
+      "maj_ax": 39.1,
+      "score": 0.482
+    },
+    {
+      "map_r": 2202.6,
+      "map_c": 3149.2,
+      "area": 184,
+      "solidity": 0.395,
+      "eccen": 0.941,
+      "maj_ax": 41.1,
+      "score": 0.478
+    },
+    {
+      "map_r": 7591.7,
+      "map_c": 4539.7,
+      "area": 133,
+      "solidity": 0.306,
+      "eccen": 0.937,
+      "maj_ax": 40.7,
+      "score": 0.477
+    },
+    {
+      "map_r": 5625.0,
+      "map_c": 9488.6,
+      "area": 164,
+      "solidity": 0.354,
+      "eccen": 0.944,
+      "maj_ax": 41.2,
+      "score": 0.476
+    },
+    {
+      "map_r": 5720.2,
+      "map_c": 15632.6,
+      "area": 141,
+      "solidity": 0.391,
+      "eccen": 0.943,
+      "maj_ax": 38.0,
+      "score": 0.476
+    },
+    {
+      "map_r": 5033.2,
+      "map_c": 16397.4,
+      "area": 136,
+      "solidity": 0.286,
+      "eccen": 0.938,
+      "maj_ax": 42.1,
+      "score": 0.476
+    },
+    {
+      "map_r": 6534.4,
+      "map_c": 9783.3,
+      "area": 138,
+      "solidity": 0.389,
+      "eccen": 0.95,
+      "maj_ax": 36.9,
+      "score": 0.476
+    },
+    {
+      "map_r": 1349.7,
+      "map_c": 13792.1,
+      "area": 196,
+      "solidity": 0.417,
+      "eccen": 0.941,
+      "maj_ax": 40.9,
+      "score": 0.475
+    },
+    {
+      "map_r": 1085.1,
+      "map_c": 11360.3,
+      "area": 147,
+      "solidity": 0.348,
+      "eccen": 0.944,
+      "maj_ax": 40.2,
+      "score": 0.469
+    },
+    {
+      "map_r": 4643.1,
+      "map_c": 4455.6,
+      "area": 118,
+      "solidity": 0.284,
+      "eccen": 0.938,
+      "maj_ax": 38.9,
+      "score": 0.468
+    },
+    {
+      "map_r": 5659.9,
+      "map_c": 10094.2,
+      "area": 190,
+      "solidity": 0.409,
+      "eccen": 0.945,
+      "maj_ax": 40.2,
+      "score": 0.467
+    },
+    {
+      "map_r": 5992.5,
+      "map_c": 13110.3,
+      "area": 37,
+      "solidity": 0.407,
+      "eccen": 0.969,
+      "maj_ax": 21.1,
+      "score": 0.467
+    },
+    {
+      "map_r": 6421.1,
+      "map_c": 8109.0,
+      "area": 120,
+      "solidity": 0.324,
+      "eccen": 0.955,
+      "maj_ax": 38.3,
+      "score": 0.465
+    },
+    {
+      "map_r": 6753.3,
+      "map_c": 9485.9,
+      "area": 141,
+      "solidity": 0.464,
+      "eccen": 0.881,
+      "maj_ax": 29.7,
+      "score": 0.465
+    },
+    {
+      "map_r": 6753.4,
+      "map_c": 9515.0,
+      "area": 145,
+      "solidity": 0.495,
+      "eccen": 0.886,
+      "maj_ax": 30.5,
+      "score": 0.464
+    },
+    {
+      "map_r": 1316.1,
+      "map_c": 12659.6,
+      "area": 178,
+      "solidity": 0.396,
+      "eccen": 0.942,
+      "maj_ax": 39.9,
+      "score": 0.46
+    },
+    {
+      "map_r": 5734.0,
+      "map_c": 10131.5,
+      "area": 52,
+      "solidity": 0.468,
+      "eccen": 0.989,
+      "maj_ax": 30.1,
+      "score": 0.46
+    },
+    {
+      "map_r": 5775.8,
+      "map_c": 11789.8,
+      "area": 127,
+      "solidity": 0.356,
+      "eccen": 0.943,
+      "maj_ax": 37.6,
+      "score": 0.46
+    },
+    {
+      "map_r": 5282.8,
+      "map_c": 6447.7,
+      "area": 137,
+      "solidity": 0.313,
+      "eccen": 0.943,
+      "maj_ax": 42.0,
+      "score": 0.459
+    },
+    {
+      "map_r": 8829.5,
+      "map_c": 2941.5,
+      "area": 62,
+      "solidity": 0.517,
+      "eccen": 0.995,
+      "maj_ax": 34.2,
+      "score": 0.458
+    },
+    {
+      "map_r": 2371.2,
+      "map_c": 11941.3,
+      "area": 103,
+      "solidity": 0.367,
+      "eccen": 0.972,
+      "maj_ax": 39.0,
+      "score": 0.456
+    },
+    {
+      "map_r": 5560.2,
+      "map_c": 15269.0,
+      "area": 132,
+      "solidity": 0.278,
+      "eccen": 0.938,
+      "maj_ax": 42.9,
+      "score": 0.456
+    },
+    {
+      "map_r": 6813.9,
+      "map_c": 9388.8,
+      "area": 84,
+      "solidity": 0.426,
+      "eccen": 0.889,
+      "maj_ax": 25.5,
+      "score": 0.455
+    },
+    {
+      "map_r": 5015.6,
+      "map_c": 3980.1,
+      "area": 115,
+      "solidity": 0.449,
+      "eccen": 0.965,
+      "maj_ax": 35.3,
+      "score": 0.454
+    },
+    {
+      "map_r": 4977.4,
+      "map_c": 10307.1,
+      "area": 139,
+      "solidity": 0.344,
+      "eccen": 0.949,
+      "maj_ax": 39.7,
+      "score": 0.454
+    }
+  ]
+}

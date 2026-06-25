@@ -1,0 +1,641 @@
+{
+  "stem": "Washington_150",
+  "dpi": 150,
+  "thresholds": {
+    "ncc": 0.65,
+    "hog": 0.0,
+    "shape": 99.0,
+    "iou": 0.3
+  },
+  "n_candidates": 97,
+  "n_after_hog": 97,
+  "n_final": 39,
+  "detections": [
+    {
+      "pixel_x": 347,
+      "pixel_y": 1080,
+      "symbol_type": "high",
+      "ncc_score": 0.8038,
+      "hog_score": 0.8535,
+      "shape_score": 0.0389,
+      "confidence": 0.8668,
+      "bbox": [
+        1071,
+        338,
+        1089,
+        356
+      ],
+      "template": "high_0deg"
+    },
+    {
+      "pixel_x": 2474,
+      "pixel_y": 735,
+      "symbol_type": "high",
+      "ncc_score": 0.7735,
+      "hog_score": 0.8754,
+      "shape_score": 0.0375,
+      "confidence": 0.8612,
+      "bbox": [
+        726,
+        2465,
+        744,
+        2483
+      ],
+      "template": "high_0deg"
+    },
+    {
+      "pixel_x": 7123,
+      "pixel_y": 4109,
+      "symbol_type": "high",
+      "ncc_score": 0.7765,
+      "hog_score": 0.8501,
+      "shape_score": 0.0388,
+      "confidence": 0.8537,
+      "bbox": [
+        4100,
+        7114,
+        4118,
+        7132
+      ],
+      "template": "high_0deg"
+    },
+    {
+      "pixel_x": 2495,
+      "pixel_y": 892,
+      "symbol_type": "high",
+      "ncc_score": 0.7393,
+      "hog_score": 0.8699,
+      "shape_score": 0.0381,
+      "confidence": 0.8439,
+      "bbox": [
+        883,
+        2486,
+        901,
+        2504
+      ],
+      "template": "high_0deg"
+    },
+    {
+      "pixel_x": 533,
+      "pixel_y": 1855,
+      "symbol_type": "high",
+      "ncc_score": 0.7344,
+      "hog_score": 0.8692,
+      "shape_score": 0.0563,
+      "confidence": 0.8414,
+      "bbox": [
+        1846,
+        524,
+        1864,
+        542
+      ],
+      "template": "high_0deg"
+    },
+    {
+      "pixel_x": 1622,
+      "pixel_y": 820,
+      "symbol_type": "high",
+      "ncc_score": 0.7155,
+      "hog_score": 0.8956,
+      "shape_score": 0.0738,
+      "confidence": 0.8414,
+      "bbox": [
+        811,
+        1613,
+        829,
+        1631
+      ],
+      "template": "high_0deg"
+    },
+    {
+      "pixel_x": 5829,
+      "pixel_y": 2573,
+      "symbol_type": "high",
+      "ncc_score": 0.7697,
+      "hog_score": 0.814,
+      "shape_score": 0.068,
+      "confidence": 0.8379,
+      "bbox": [
+        2564,
+        5820,
+        2582,
+        5838
+      ],
+      "template": "high_0deg"
+    },
+    {
+      "pixel_x": 2315,
+      "pixel_y": 865,
+      "symbol_type": "high",
+      "ncc_score": 0.7409,
+      "hog_score": 0.8247,
+      "shape_score": 0.0382,
+      "confidence": 0.829,
+      "bbox": [
+        856,
+        2306,
+        874,
+        2324
+      ],
+      "template": "high_0deg"
+    },
+    {
+      "pixel_x": 134,
+      "pixel_y": 6145,
+      "symbol_type": "high",
+      "ncc_score": 0.7562,
+      "hog_score": 0.7842,
+      "shape_score": 0.0361,
+      "confidence": 0.8212,
+      "bbox": [
+        6136,
+        125,
+        6154,
+        143
+      ],
+      "template": "high_0deg"
+    },
+    {
+      "pixel_x": 2963,
+      "pixel_y": 1182,
+      "symbol_type": "high",
+      "ncc_score": 0.7225,
+      "hog_score": 0.8223,
+      "shape_score": 0.0402,
+      "confidence": 0.8199,
+      "bbox": [
+        1173,
+        2954,
+        1191,
+        2972
+      ],
+      "template": "high_0deg"
+    },
+    {
+      "pixel_x": 5333,
+      "pixel_y": 79,
+      "symbol_type": "high",
+      "ncc_score": 0.7101,
+      "hog_score": 0.8371,
+      "shape_score": 0.0615,
+      "confidence": 0.8193,
+      "bbox": [
+        70,
+        5324,
+        88,
+        5342
+      ],
+      "template": "high_0deg"
+    },
+    {
+      "pixel_x": 8000,
+      "pixel_y": 6122,
+      "symbol_type": "high",
+      "ncc_score": 0.7321,
+      "hog_score": 0.7988,
+      "shape_score": 0.0484,
+      "confidence": 0.8159,
+      "bbox": [
+        6113,
+        7991,
+        6131,
+        8009
+      ],
+      "template": "high_0deg"
+    },
+    {
+      "pixel_x": 4233,
+      "pixel_y": 2072,
+      "symbol_type": "high",
+      "ncc_score": 0.6764,
+      "hog_score": 0.8676,
+      "shape_score": 0.0391,
+      "confidence": 0.8137,
+      "bbox": [
+        2063,
+        4224,
+        2081,
+        4242
+      ],
+      "template": "high_0deg"
+    },
+    {
+      "pixel_x": 2491,
+      "pixel_y": 1443,
+      "symbol_type": "high",
+      "ncc_score": 0.6858,
+      "hog_score": 0.8336,
+      "shape_score": 0.0554,
+      "confidence": 0.8068,
+      "bbox": [
+        1434,
+        2482,
+        1452,
+        2500
+      ],
+      "template": "high_0deg"
+    },
+    {
+      "pixel_x": 7846,
+      "pixel_y": 212,
+      "symbol_type": "high",
+      "ncc_score": 0.704,
+      "hog_score": 0.784,
+      "shape_score": 0.064,
+      "confidence": 0.7979,
+      "bbox": [
+        203,
+        7837,
+        221,
+        7855
+      ],
+      "template": "high_0deg"
+    },
+    {
+      "pixel_x": 6292,
+      "pixel_y": 4425,
+      "symbol_type": "high",
+      "ncc_score": 0.7196,
+      "hog_score": 0.7611,
+      "shape_score": 0.0798,
+      "confidence": 0.7966,
+      "bbox": [
+        4416,
+        6283,
+        4434,
+        6301
+      ],
+      "template": "high_0deg"
+    },
+    {
+      "pixel_x": 2179,
+      "pixel_y": 578,
+      "symbol_type": "high",
+      "ncc_score": 0.7091,
+      "hog_score": 0.7734,
+      "shape_score": 0.0622,
+      "confidence": 0.7965,
+      "bbox": [
+        569,
+        2170,
+        587,
+        2188
+      ],
+      "template": "high_0deg"
+    },
+    {
+      "pixel_x": 5672,
+      "pixel_y": 967,
+      "symbol_type": "high",
+      "ncc_score": 0.7447,
+      "hog_score": 0.7138,
+      "shape_score": 0.0595,
+      "confidence": 0.7897,
+      "bbox": [
+        958,
+        5663,
+        976,
+        5681
+      ],
+      "template": "high_0deg"
+    },
+    {
+      "pixel_x": 4965,
+      "pixel_y": 2184,
+      "symbol_type": "high",
+      "ncc_score": 0.6631,
+      "hog_score": 0.8087,
+      "shape_score": 0.0613,
+      "confidence": 0.7876,
+      "bbox": [
+        2175,
+        4956,
+        2193,
+        4974
+      ],
+      "template": "high_0deg"
+    },
+    {
+      "pixel_x": 2690,
+      "pixel_y": 2258,
+      "symbol_type": "high",
+      "ncc_score": 0.6591,
+      "hog_score": 0.8121,
+      "shape_score": 0.0543,
+      "confidence": 0.7869,
+      "bbox": [
+        2249,
+        2681,
+        2267,
+        2699
+      ],
+      "template": "high_0deg"
+    },
+    {
+      "pixel_x": 2169,
+      "pixel_y": 2709,
+      "symbol_type": "high",
+      "ncc_score": 0.6981,
+      "hog_score": 0.7589,
+      "shape_score": 0.0548,
+      "confidence": 0.7863,
+      "bbox": [
+        2700,
+        2160,
+        2718,
+        2178
+      ],
+      "template": "high_0deg"
+    },
+    {
+      "pixel_x": 3199,
+      "pixel_y": 1894,
+      "symbol_type": "high",
+      "ncc_score": 0.6547,
+      "hog_score": 0.8159,
+      "shape_score": 0.0703,
+      "confidence": 0.786,
+      "bbox": [
+        1885,
+        3190,
+        1903,
+        3208
+      ],
+      "template": "high_0deg"
+    },
+    {
+      "pixel_x": 6403,
+      "pixel_y": 4460,
+      "symbol_type": "high",
+      "ncc_score": 0.7061,
+      "hog_score": 0.7376,
+      "shape_score": 0.0892,
+      "confidence": 0.782,
+      "bbox": [
+        4451,
+        6394,
+        4469,
+        6412
+      ],
+      "template": "high_0deg"
+    },
+    {
+      "pixel_x": 1692,
+      "pixel_y": 2702,
+      "symbol_type": "high",
+      "ncc_score": 0.6842,
+      "hog_score": 0.7534,
+      "shape_score": 0.0775,
+      "confidence": 0.7779,
+      "bbox": [
+        2693,
+        1683,
+        2711,
+        1701
+      ],
+      "template": "high_0deg"
+    },
+    {
+      "pixel_x": 7975,
+      "pixel_y": 250,
+      "symbol_type": "high",
+      "ncc_score": 0.7027,
+      "hog_score": 0.7007,
+      "shape_score": 0.066,
+      "confidence": 0.7666,
+      "bbox": [
+        241,
+        7966,
+        259,
+        7984
+      ],
+      "template": "high_0deg"
+    },
+    {
+      "pixel_x": 5525,
+      "pixel_y": 150,
+      "symbol_type": "high",
+      "ncc_score": 0.672,
+      "hog_score": 0.6829,
+      "shape_score": 0.0569,
+      "confidence": 0.7463,
+      "bbox": [
+        141,
+        5516,
+        159,
+        5534
+      ],
+      "template": "high_+2deg"
+    },
+    {
+      "pixel_x": 3075,
+      "pixel_y": 1633,
+      "symbol_type": "high",
+      "ncc_score": 0.6635,
+      "hog_score": 0.6667,
+      "shape_score": 0.0614,
+      "confidence": 0.7363,
+      "bbox": [
+        1624,
+        3066,
+        1642,
+        3084
+      ],
+      "template": "high_+2deg"
+    },
+    {
+      "pixel_x": 5740,
+      "pixel_y": 3331,
+      "symbol_type": "high",
+      "ncc_score": 0.6526,
+      "hog_score": 0.6767,
+      "shape_score": 0.0799,
+      "confidence": 0.7352,
+      "bbox": [
+        3322,
+        5731,
+        3340,
+        5749
+      ],
+      "template": "high_0deg"
+    },
+    {
+      "pixel_x": 5213,
+      "pixel_y": 4834,
+      "symbol_type": "high",
+      "ncc_score": 0.6539,
+      "hog_score": 0.6739,
+      "shape_score": 0.0953,
+      "confidence": 0.7347,
+      "bbox": [
+        4825,
+        5204,
+        4843,
+        5222
+      ],
+      "template": "high_0deg"
+    },
+    {
+      "pixel_x": 5333,
+      "pixel_y": 4877,
+      "symbol_type": "high",
+      "ncc_score": 0.6575,
+      "hog_score": 0.6672,
+      "shape_score": 0.0567,
+      "confidence": 0.7338,
+      "bbox": [
+        4868,
+        5324,
+        4886,
+        5342
+      ],
+      "template": "high_+2deg"
+    },
+    {
+      "pixel_x": 2793,
+      "pixel_y": 3870,
+      "symbol_type": "high",
+      "ncc_score": 0.6629,
+      "hog_score": 0.6595,
+      "shape_score": 0.0987,
+      "confidence": 0.7332,
+      "bbox": [
+        3861,
+        2784,
+        3879,
+        2802
+      ],
+      "template": "high_+2deg"
+    },
+    {
+      "pixel_x": 2636,
+      "pixel_y": 1261,
+      "symbol_type": "high",
+      "ncc_score": 0.678,
+      "hog_score": 0.6321,
+      "shape_score": 0.0683,
+      "confidence": 0.7289,
+      "bbox": [
+        1252,
+        2627,
+        1270,
+        2645
+      ],
+      "template": "high_-2deg"
+    },
+    {
+      "pixel_x": 1120,
+      "pixel_y": 1399,
+      "symbol_type": "high",
+      "ncc_score": 0.6558,
+      "hog_score": 0.6538,
+      "shape_score": 0.0637,
+      "confidence": 0.7279,
+      "bbox": [
+        1390,
+        1111,
+        1408,
+        1129
+      ],
+      "template": "high_-2deg"
+    },
+    {
+      "pixel_x": 2806,
+      "pixel_y": 541,
+      "symbol_type": "high",
+      "ncc_score": 0.6688,
+      "hog_score": 0.6375,
+      "shape_score": 0.0515,
+      "confidence": 0.7272,
+      "bbox": [
+        532,
+        2797,
+        550,
+        2815
+      ],
+      "template": "high_-2deg"
+    },
+    {
+      "pixel_x": 4741,
+      "pixel_y": 2942,
+      "symbol_type": "high",
+      "ncc_score": 0.6578,
+      "hog_score": 0.6396,
+      "shape_score": 0.0618,
+      "confidence": 0.7232,
+      "bbox": [
+        2933,
+        4732,
+        2951,
+        4750
+      ],
+      "template": "high_+2deg"
+    },
+    {
+      "pixel_x": 1264,
+      "pixel_y": 91,
+      "symbol_type": "high",
+      "ncc_score": 0.6576,
+      "hog_score": 0.6355,
+      "shape_score": 0.0551,
+      "confidence": 0.7215,
+      "bbox": [
+        82,
+        1255,
+        100,
+        1273
+      ],
+      "template": "high_+2deg"
+    },
+    {
+      "pixel_x": 1051,
+      "pixel_y": 340,
+      "symbol_type": "high",
+      "ncc_score": 0.6628,
+      "hog_score": 0.6245,
+      "shape_score": 0.068,
+      "confidence": 0.7193,
+      "bbox": [
+        331,
+        1042,
+        349,
+        1060
+      ],
+      "template": "high_-2deg"
+    },
+    {
+      "pixel_x": 7213,
+      "pixel_y": 3867,
+      "symbol_type": "high",
+      "ncc_score": 0.6558,
+      "hog_score": 0.6308,
+      "shape_score": 0.0894,
+      "confidence": 0.7188,
+      "bbox": [
+        3858,
+        7204,
+        3876,
+        7222
+      ],
+      "template": "high_-2deg"
+    },
+    {
+      "pixel_x": 475,
+      "pixel_y": 1850,
+      "symbol_type": "high",
+      "ncc_score": 0.6513,
+      "hog_score": 0.4832,
+      "shape_score": 0.0951,
+      "confidence": 0.6529,
+      "bbox": [
+        1841,
+        466,
+        1859,
+        484
+      ],
+      "template": "high_+2deg"
+    }
+  ],
+  "notes": [],
+  "elapsed_sec": 126.82
+}

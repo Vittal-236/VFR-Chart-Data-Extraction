@@ -1,0 +1,5535 @@
+{
+  "stem": "Washington",
+  "dpi": 150,
+  "template_size_px": [
+    14,
+    14
+  ],
+  "ncc_threshold": 0.65,
+  "overlap_threshold": 0.25,
+  "n_candidates": 530,
+  "n_detections": 460,
+  "detections": [
+    {
+      "pixel_x": 1514,
+      "pixel_y": 4357,
+      "ncc_score": 0.657,
+      "overlap_ratio": 0.7327,
+      "bbox": [
+        4350,
+        1507,
+        4364,
+        1521
+      ]
+    },
+    {
+      "pixel_x": 1517,
+      "pixel_y": 60,
+      "ncc_score": 0.6512,
+      "overlap_ratio": 0.7129,
+      "bbox": [
+        53,
+        1510,
+        67,
+        1524
+      ]
+    },
+    {
+      "pixel_x": 1526,
+      "pixel_y": 3868,
+      "ncc_score": 0.66,
+      "overlap_ratio": 0.7228,
+      "bbox": [
+        3861,
+        1519,
+        3875,
+        1533
+      ]
+    },
+    {
+      "pixel_x": 1532,
+      "pixel_y": 194,
+      "ncc_score": 0.66,
+      "overlap_ratio": 0.7228,
+      "bbox": [
+        187,
+        1525,
+        201,
+        1539
+      ]
+    },
+    {
+      "pixel_x": 1543,
+      "pixel_y": 2632,
+      "ncc_score": 0.66,
+      "overlap_ratio": 0.7228,
+      "bbox": [
+        2625,
+        1536,
+        2639,
+        1550
+      ]
+    },
+    {
+      "pixel_x": 1557,
+      "pixel_y": 286,
+      "ncc_score": 0.65,
+      "overlap_ratio": 0.6832,
+      "bbox": [
+        279,
+        1550,
+        293,
+        1564
+      ]
+    },
+    {
+      "pixel_x": 1568,
+      "pixel_y": 5248,
+      "ncc_score": 0.6659,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        5241,
+        1561,
+        5255,
+        1575
+      ]
+    },
+    {
+      "pixel_x": 1580,
+      "pixel_y": 3346,
+      "ncc_score": 0.6572,
+      "overlap_ratio": 0.7822,
+      "bbox": [
+        3339,
+        1573,
+        3353,
+        1587
+      ]
+    },
+    {
+      "pixel_x": 1597,
+      "pixel_y": 723,
+      "ncc_score": 0.6634,
+      "overlap_ratio": 0.7129,
+      "bbox": [
+        716,
+        1590,
+        730,
+        1604
+      ]
+    },
+    {
+      "pixel_x": 1603,
+      "pixel_y": 1611,
+      "ncc_score": 0.6777,
+      "overlap_ratio": 0.7921,
+      "bbox": [
+        1604,
+        1596,
+        1618,
+        1610
+      ]
+    },
+    {
+      "pixel_x": 1603,
+      "pixel_y": 4194,
+      "ncc_score": 0.6688,
+      "overlap_ratio": 0.7327,
+      "bbox": [
+        4187,
+        1596,
+        4201,
+        1610
+      ]
+    },
+    {
+      "pixel_x": 1603,
+      "pixel_y": 5435,
+      "ncc_score": 0.6929,
+      "overlap_ratio": 0.7327,
+      "bbox": [
+        5428,
+        1596,
+        5442,
+        1610
+      ]
+    },
+    {
+      "pixel_x": 1607,
+      "pixel_y": 4405,
+      "ncc_score": 0.66,
+      "overlap_ratio": 0.7228,
+      "bbox": [
+        4398,
+        1600,
+        4412,
+        1614
+      ]
+    },
+    {
+      "pixel_x": 1611,
+      "pixel_y": 3616,
+      "ncc_score": 0.6659,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        3609,
+        1604,
+        3623,
+        1618
+      ]
+    },
+    {
+      "pixel_x": 1615,
+      "pixel_y": 5521,
+      "ncc_score": 0.6512,
+      "overlap_ratio": 0.7129,
+      "bbox": [
+        5514,
+        1608,
+        5528,
+        1622
+      ]
+    },
+    {
+      "pixel_x": 1622,
+      "pixel_y": 817,
+      "ncc_score": 0.6528,
+      "overlap_ratio": 0.8515,
+      "bbox": [
+        810,
+        1615,
+        824,
+        1629
+      ]
+    },
+    {
+      "pixel_x": 1623,
+      "pixel_y": 4686,
+      "ncc_score": 0.66,
+      "overlap_ratio": 0.7228,
+      "bbox": [
+        4679,
+        1616,
+        4693,
+        1630
+      ]
+    },
+    {
+      "pixel_x": 1629,
+      "pixel_y": 3317,
+      "ncc_score": 0.6634,
+      "overlap_ratio": 0.7129,
+      "bbox": [
+        3310,
+        1622,
+        3324,
+        1636
+      ]
+    },
+    {
+      "pixel_x": 1631,
+      "pixel_y": 5167,
+      "ncc_score": 0.65,
+      "overlap_ratio": 0.6832,
+      "bbox": [
+        5160,
+        1624,
+        5174,
+        1638
+      ]
+    },
+    {
+      "pixel_x": 1634,
+      "pixel_y": 5136,
+      "ncc_score": 0.6955,
+      "overlap_ratio": 0.7624,
+      "bbox": [
+        5129,
+        1627,
+        5143,
+        1641
+      ]
+    },
+    {
+      "pixel_x": 1654,
+      "pixel_y": 3941,
+      "ncc_score": 0.657,
+      "overlap_ratio": 0.7327,
+      "bbox": [
+        3934,
+        1647,
+        3948,
+        1661
+      ]
+    },
+    {
+      "pixel_x": 1656,
+      "pixel_y": 5419,
+      "ncc_score": 0.6882,
+      "overlap_ratio": 0.9109,
+      "bbox": [
+        5412,
+        1649,
+        5426,
+        1663
+      ]
+    },
+    {
+      "pixel_x": 1660,
+      "pixel_y": 4948,
+      "ncc_score": 0.657,
+      "overlap_ratio": 0.7327,
+      "bbox": [
+        4941,
+        1653,
+        4955,
+        1667
+      ]
+    },
+    {
+      "pixel_x": 1675,
+      "pixel_y": 4909,
+      "ncc_score": 0.6542,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        4902,
+        1668,
+        4916,
+        1682
+      ]
+    },
+    {
+      "pixel_x": 1679,
+      "pixel_y": 2883,
+      "ncc_score": 0.65,
+      "overlap_ratio": 0.6832,
+      "bbox": [
+        2876,
+        1672,
+        2890,
+        1686
+      ]
+    },
+    {
+      "pixel_x": 1708,
+      "pixel_y": 4586,
+      "ncc_score": 0.6633,
+      "overlap_ratio": 0.7525,
+      "bbox": [
+        4579,
+        1701,
+        4593,
+        1715
+      ]
+    },
+    {
+      "pixel_x": 1711,
+      "pixel_y": 5335,
+      "ncc_score": 0.6633,
+      "overlap_ratio": 0.7525,
+      "bbox": [
+        5328,
+        1704,
+        5342,
+        1718
+      ]
+    },
+    {
+      "pixel_x": 1712,
+      "pixel_y": 3507,
+      "ncc_score": 0.6839,
+      "overlap_ratio": 0.7624,
+      "bbox": [
+        3500,
+        1705,
+        3514,
+        1719
+      ]
+    },
+    {
+      "pixel_x": 1737,
+      "pixel_y": 364,
+      "ncc_score": 0.6795,
+      "overlap_ratio": 0.703,
+      "bbox": [
+        357,
+        1730,
+        371,
+        1744
+      ]
+    },
+    {
+      "pixel_x": 1746,
+      "pixel_y": 3903,
+      "ncc_score": 0.6633,
+      "overlap_ratio": 0.7525,
+      "bbox": [
+        3896,
+        1739,
+        3910,
+        1753
+      ]
+    },
+    {
+      "pixel_x": 1752,
+      "pixel_y": 5167,
+      "ncc_score": 0.6815,
+      "overlap_ratio": 0.7723,
+      "bbox": [
+        5160,
+        1745,
+        5174,
+        1759
+      ]
+    },
+    {
+      "pixel_x": 1753,
+      "pixel_y": 5001,
+      "ncc_score": 0.6633,
+      "overlap_ratio": 0.7525,
+      "bbox": [
+        4994,
+        1746,
+        5008,
+        1760
+      ]
+    },
+    {
+      "pixel_x": 1755,
+      "pixel_y": 1433,
+      "ncc_score": 0.6688,
+      "overlap_ratio": 0.7327,
+      "bbox": [
+        1426,
+        1748,
+        1440,
+        1762
+      ]
+    },
+    {
+      "pixel_x": 1756,
+      "pixel_y": 837,
+      "ncc_score": 0.6777,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        830,
+        1749,
+        844,
+        1763
+      ]
+    },
+    {
+      "pixel_x": 1758,
+      "pixel_y": 4586,
+      "ncc_score": 0.6659,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        4579,
+        1751,
+        4593,
+        1765
+      ]
+    },
+    {
+      "pixel_x": 1758,
+      "pixel_y": 5377,
+      "ncc_score": 0.6512,
+      "overlap_ratio": 0.7129,
+      "bbox": [
+        5370,
+        1751,
+        5384,
+        1765
+      ]
+    },
+    {
+      "pixel_x": 1769,
+      "pixel_y": 3415,
+      "ncc_score": 0.6667,
+      "overlap_ratio": 0.7921,
+      "bbox": [
+        3408,
+        1762,
+        3422,
+        1776
+      ]
+    },
+    {
+      "pixel_x": 1774,
+      "pixel_y": 4643,
+      "ncc_score": 0.6572,
+      "overlap_ratio": 0.7822,
+      "bbox": [
+        4636,
+        1767,
+        4650,
+        1781
+      ]
+    },
+    {
+      "pixel_x": 1781,
+      "pixel_y": 4306,
+      "ncc_score": 0.6542,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        4299,
+        1774,
+        4313,
+        1788
+      ]
+    },
+    {
+      "pixel_x": 1783,
+      "pixel_y": 36,
+      "ncc_score": 0.66,
+      "overlap_ratio": 0.7228,
+      "bbox": [
+        29,
+        1776,
+        43,
+        1790
+      ]
+    },
+    {
+      "pixel_x": 1795,
+      "pixel_y": 5501,
+      "ncc_score": 0.6867,
+      "overlap_ratio": 0.901,
+      "bbox": [
+        5494,
+        1788,
+        5508,
+        1802
+      ]
+    },
+    {
+      "pixel_x": 1805,
+      "pixel_y": 3868,
+      "ncc_score": 0.6518,
+      "overlap_ratio": 0.7525,
+      "bbox": [
+        3861,
+        1798,
+        3875,
+        1812
+      ]
+    },
+    {
+      "pixel_x": 1825,
+      "pixel_y": 4078,
+      "ncc_score": 0.6518,
+      "overlap_ratio": 0.7525,
+      "bbox": [
+        4071,
+        1818,
+        4085,
+        1832
+      ]
+    },
+    {
+      "pixel_x": 1826,
+      "pixel_y": 291,
+      "ncc_score": 0.6547,
+      "overlap_ratio": 0.703,
+      "bbox": [
+        284,
+        1819,
+        298,
+        1833
+      ]
+    },
+    {
+      "pixel_x": 1830,
+      "pixel_y": 3635,
+      "ncc_score": 0.661,
+      "overlap_ratio": 0.7624,
+      "bbox": [
+        3628,
+        1823,
+        3642,
+        1837
+      ]
+    },
+    {
+      "pixel_x": 1857,
+      "pixel_y": 5400,
+      "ncc_score": 0.6777,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        5393,
+        1850,
+        5407,
+        1864
+      ]
+    },
+    {
+      "pixel_x": 1879,
+      "pixel_y": 3837,
+      "ncc_score": 0.6702,
+      "overlap_ratio": 0.7723,
+      "bbox": [
+        3830,
+        1872,
+        3844,
+        1886
+      ]
+    },
+    {
+      "pixel_x": 1890,
+      "pixel_y": 5008,
+      "ncc_score": 0.6512,
+      "overlap_ratio": 0.7129,
+      "bbox": [
+        5001,
+        1883,
+        5015,
+        1897
+      ]
+    },
+    {
+      "pixel_x": 1892,
+      "pixel_y": 4123,
+      "ncc_score": 0.6749,
+      "overlap_ratio": 0.7525,
+      "bbox": [
+        4116,
+        1885,
+        4130,
+        1899
+      ]
+    },
+    {
+      "pixel_x": 1895,
+      "pixel_y": 4666,
+      "ncc_score": 0.657,
+      "overlap_ratio": 0.7327,
+      "bbox": [
+        4659,
+        1888,
+        4673,
+        1902
+      ]
+    },
+    {
+      "pixel_x": 1898,
+      "pixel_y": 2485,
+      "ncc_score": 0.661,
+      "overlap_ratio": 0.7624,
+      "bbox": [
+        2478,
+        1891,
+        2492,
+        1905
+      ]
+    },
+    {
+      "pixel_x": 1908,
+      "pixel_y": 3828,
+      "ncc_score": 0.6762,
+      "overlap_ratio": 0.802,
+      "bbox": [
+        3821,
+        1901,
+        3835,
+        1915
+      ]
+    },
+    {
+      "pixel_x": 1929,
+      "pixel_y": 5236,
+      "ncc_score": 0.6572,
+      "overlap_ratio": 0.7822,
+      "bbox": [
+        5229,
+        1922,
+        5243,
+        1936
+      ]
+    },
+    {
+      "pixel_x": 1930,
+      "pixel_y": 5363,
+      "ncc_score": 0.6547,
+      "overlap_ratio": 0.703,
+      "bbox": [
+        5356,
+        1923,
+        5370,
+        1937
+      ]
+    },
+    {
+      "pixel_x": 1936,
+      "pixel_y": 4104,
+      "ncc_score": 0.6512,
+      "overlap_ratio": 0.7129,
+      "bbox": [
+        4097,
+        1929,
+        4111,
+        1943
+      ]
+    },
+    {
+      "pixel_x": 1942,
+      "pixel_y": 4030,
+      "ncc_score": 0.6648,
+      "overlap_ratio": 0.8812,
+      "bbox": [
+        4023,
+        1935,
+        4037,
+        1949
+      ]
+    },
+    {
+      "pixel_x": 1943,
+      "pixel_y": 5038,
+      "ncc_score": 0.6724,
+      "overlap_ratio": 0.7624,
+      "bbox": [
+        5031,
+        1936,
+        5045,
+        1950
+      ]
+    },
+    {
+      "pixel_x": 1954,
+      "pixel_y": 1426,
+      "ncc_score": 0.6815,
+      "overlap_ratio": 0.7723,
+      "bbox": [
+        1419,
+        1947,
+        1433,
+        1961
+      ]
+    },
+    {
+      "pixel_x": 1955,
+      "pixel_y": 4731,
+      "ncc_score": 0.6512,
+      "overlap_ratio": 0.7129,
+      "bbox": [
+        4724,
+        1948,
+        4738,
+        1962
+      ]
+    },
+    {
+      "pixel_x": 1966,
+      "pixel_y": 4467,
+      "ncc_score": 0.6633,
+      "overlap_ratio": 0.7525,
+      "bbox": [
+        4460,
+        1959,
+        4474,
+        1973
+      ]
+    },
+    {
+      "pixel_x": 1970,
+      "pixel_y": 409,
+      "ncc_score": 0.7045,
+      "overlap_ratio": 0.7723,
+      "bbox": [
+        402,
+        1963,
+        416,
+        1977
+      ]
+    },
+    {
+      "pixel_x": 1970,
+      "pixel_y": 3169,
+      "ncc_score": 0.6547,
+      "overlap_ratio": 0.703,
+      "bbox": [
+        3162,
+        1963,
+        3176,
+        1977
+      ]
+    },
+    {
+      "pixel_x": 1979,
+      "pixel_y": 4888,
+      "ncc_score": 0.6531,
+      "overlap_ratio": 0.8218,
+      "bbox": [
+        4881,
+        1972,
+        4895,
+        1986
+      ]
+    },
+    {
+      "pixel_x": 1982,
+      "pixel_y": 3214,
+      "ncc_score": 0.7,
+      "overlap_ratio": 0.7921,
+      "bbox": [
+        3207,
+        1975,
+        3221,
+        1989
+      ]
+    },
+    {
+      "pixel_x": 1983,
+      "pixel_y": 4001,
+      "ncc_score": 0.6756,
+      "overlap_ratio": 0.7129,
+      "bbox": [
+        3994,
+        1976,
+        4008,
+        1990
+      ]
+    },
+    {
+      "pixel_x": 1988,
+      "pixel_y": 1481,
+      "ncc_score": 0.6547,
+      "overlap_ratio": 0.703,
+      "bbox": [
+        1474,
+        1981,
+        1488,
+        1995
+      ]
+    },
+    {
+      "pixel_x": 1988,
+      "pixel_y": 3525,
+      "ncc_score": 0.657,
+      "overlap_ratio": 0.7327,
+      "bbox": [
+        3518,
+        1981,
+        3532,
+        1995
+      ]
+    },
+    {
+      "pixel_x": 1989,
+      "pixel_y": 4781,
+      "ncc_score": 0.6542,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        4774,
+        1982,
+        4788,
+        1996
+      ]
+    },
+    {
+      "pixel_x": 1998,
+      "pixel_y": 2170,
+      "ncc_score": 0.657,
+      "overlap_ratio": 0.7327,
+      "bbox": [
+        2163,
+        1991,
+        2177,
+        2005
+      ]
+    },
+    {
+      "pixel_x": 2006,
+      "pixel_y": 3034,
+      "ncc_score": 0.7016,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        3027,
+        1999,
+        3041,
+        2013
+      ]
+    },
+    {
+      "pixel_x": 2010,
+      "pixel_y": 4764,
+      "ncc_score": 0.6724,
+      "overlap_ratio": 0.7624,
+      "bbox": [
+        4757,
+        2003,
+        4771,
+        2017
+      ]
+    },
+    {
+      "pixel_x": 2015,
+      "pixel_y": 2297,
+      "ncc_score": 0.657,
+      "overlap_ratio": 0.7327,
+      "bbox": [
+        2290,
+        2008,
+        2304,
+        2022
+      ]
+    },
+    {
+      "pixel_x": 2016,
+      "pixel_y": 3933,
+      "ncc_score": 0.6547,
+      "overlap_ratio": 0.703,
+      "bbox": [
+        3926,
+        2009,
+        3940,
+        2023
+      ]
+    },
+    {
+      "pixel_x": 2044,
+      "pixel_y": 3351,
+      "ncc_score": 0.7045,
+      "overlap_ratio": 0.7723,
+      "bbox": [
+        3344,
+        2037,
+        3358,
+        2051
+      ]
+    },
+    {
+      "pixel_x": 2047,
+      "pixel_y": 4624,
+      "ncc_score": 0.657,
+      "overlap_ratio": 0.7327,
+      "bbox": [
+        4617,
+        2040,
+        4631,
+        2054
+      ]
+    },
+    {
+      "pixel_x": 2058,
+      "pixel_y": 3452,
+      "ncc_score": 0.6777,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        3445,
+        2051,
+        3459,
+        2065
+      ]
+    },
+    {
+      "pixel_x": 2064,
+      "pixel_y": 3051,
+      "ncc_score": 0.6512,
+      "overlap_ratio": 0.7129,
+      "bbox": [
+        3044,
+        2057,
+        3058,
+        2071
+      ]
+    },
+    {
+      "pixel_x": 2065,
+      "pixel_y": 911,
+      "ncc_score": 0.657,
+      "overlap_ratio": 0.7327,
+      "bbox": [
+        904,
+        2058,
+        918,
+        2072
+      ]
+    },
+    {
+      "pixel_x": 2065,
+      "pixel_y": 4555,
+      "ncc_score": 0.66,
+      "overlap_ratio": 0.7228,
+      "bbox": [
+        4548,
+        2058,
+        4562,
+        2072
+      ]
+    },
+    {
+      "pixel_x": 2070,
+      "pixel_y": 4203,
+      "ncc_score": 0.6688,
+      "overlap_ratio": 0.7327,
+      "bbox": [
+        4196,
+        2063,
+        4210,
+        2077
+      ]
+    },
+    {
+      "pixel_x": 2075,
+      "pixel_y": 4958,
+      "ncc_score": 0.6512,
+      "overlap_ratio": 0.7129,
+      "bbox": [
+        4951,
+        2068,
+        4965,
+        2082
+      ]
+    },
+    {
+      "pixel_x": 2077,
+      "pixel_y": 1186,
+      "ncc_score": 0.66,
+      "overlap_ratio": 0.7228,
+      "bbox": [
+        1179,
+        2070,
+        1193,
+        2084
+      ]
+    },
+    {
+      "pixel_x": 2092,
+      "pixel_y": 4394,
+      "ncc_score": 0.657,
+      "overlap_ratio": 0.7327,
+      "bbox": [
+        4387,
+        2085,
+        4401,
+        2099
+      ]
+    },
+    {
+      "pixel_x": 2105,
+      "pixel_y": 1067,
+      "ncc_score": 0.6634,
+      "overlap_ratio": 0.7129,
+      "bbox": [
+        1060,
+        2098,
+        1074,
+        2112
+      ]
+    },
+    {
+      "pixel_x": 2105,
+      "pixel_y": 3993,
+      "ncc_score": 0.6547,
+      "overlap_ratio": 0.703,
+      "bbox": [
+        3986,
+        2098,
+        4000,
+        2112
+      ]
+    },
+    {
+      "pixel_x": 2109,
+      "pixel_y": 4985,
+      "ncc_score": 0.6721,
+      "overlap_ratio": 0.7228,
+      "bbox": [
+        4978,
+        2102,
+        4992,
+        2116
+      ]
+    },
+    {
+      "pixel_x": 2112,
+      "pixel_y": 2423,
+      "ncc_score": 0.6634,
+      "overlap_ratio": 0.7129,
+      "bbox": [
+        2416,
+        2105,
+        2430,
+        2119
+      ]
+    },
+    {
+      "pixel_x": 2112,
+      "pixel_y": 4080,
+      "ncc_score": 0.6749,
+      "overlap_ratio": 0.7525,
+      "bbox": [
+        4073,
+        2105,
+        4087,
+        2119
+      ]
+    },
+    {
+      "pixel_x": 2115,
+      "pixel_y": 1988,
+      "ncc_score": 0.6634,
+      "overlap_ratio": 0.7129,
+      "bbox": [
+        1981,
+        2108,
+        1995,
+        2122
+      ]
+    },
+    {
+      "pixel_x": 2120,
+      "pixel_y": 225,
+      "ncc_score": 0.6756,
+      "overlap_ratio": 0.7129,
+      "bbox": [
+        218,
+        2113,
+        232,
+        2127
+      ]
+    },
+    {
+      "pixel_x": 2131,
+      "pixel_y": 3730,
+      "ncc_score": 0.6542,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        3723,
+        2124,
+        3737,
+        2138
+      ]
+    },
+    {
+      "pixel_x": 2132,
+      "pixel_y": 92,
+      "ncc_score": 0.6585,
+      "overlap_ratio": 0.6931,
+      "bbox": [
+        85,
+        2125,
+        99,
+        2139
+      ]
+    },
+    {
+      "pixel_x": 2141,
+      "pixel_y": 4345,
+      "ncc_score": 0.66,
+      "overlap_ratio": 0.7228,
+      "bbox": [
+        4338,
+        2134,
+        4352,
+        2148
+      ]
+    },
+    {
+      "pixel_x": 2141,
+      "pixel_y": 5454,
+      "ncc_score": 0.6518,
+      "overlap_ratio": 0.7525,
+      "bbox": [
+        5447,
+        2134,
+        5461,
+        2148
+      ]
+    },
+    {
+      "pixel_x": 2153,
+      "pixel_y": 4857,
+      "ncc_score": 0.6866,
+      "overlap_ratio": 0.7525,
+      "bbox": [
+        4850,
+        2146,
+        4864,
+        2160
+      ]
+    },
+    {
+      "pixel_x": 2154,
+      "pixel_y": 2556,
+      "ncc_score": 0.6547,
+      "overlap_ratio": 0.703,
+      "bbox": [
+        2549,
+        2147,
+        2563,
+        2161
+      ]
+    },
+    {
+      "pixel_x": 2163,
+      "pixel_y": 5226,
+      "ncc_score": 0.657,
+      "overlap_ratio": 0.7327,
+      "bbox": [
+        5219,
+        2156,
+        5233,
+        2170
+      ]
+    },
+    {
+      "pixel_x": 2169,
+      "pixel_y": 2706,
+      "ncc_score": 0.6572,
+      "overlap_ratio": 0.7822,
+      "bbox": [
+        2699,
+        2162,
+        2713,
+        2176
+      ]
+    },
+    {
+      "pixel_x": 2179,
+      "pixel_y": 575,
+      "ncc_score": 0.6777,
+      "overlap_ratio": 0.7921,
+      "bbox": [
+        568,
+        2172,
+        582,
+        2186
+      ]
+    },
+    {
+      "pixel_x": 2187,
+      "pixel_y": 443,
+      "ncc_score": 0.6633,
+      "overlap_ratio": 0.7525,
+      "bbox": [
+        436,
+        2180,
+        450,
+        2194
+      ]
+    },
+    {
+      "pixel_x": 2191,
+      "pixel_y": 4312,
+      "ncc_score": 0.6749,
+      "overlap_ratio": 0.7525,
+      "bbox": [
+        4305,
+        2184,
+        4319,
+        2198
+      ]
+    },
+    {
+      "pixel_x": 2197,
+      "pixel_y": 4263,
+      "ncc_score": 0.6512,
+      "overlap_ratio": 0.7129,
+      "bbox": [
+        4256,
+        2190,
+        4270,
+        2204
+      ]
+    },
+    {
+      "pixel_x": 2198,
+      "pixel_y": 3667,
+      "ncc_score": 0.6888,
+      "overlap_ratio": 0.7921,
+      "bbox": [
+        3660,
+        2191,
+        3674,
+        2205
+      ]
+    },
+    {
+      "pixel_x": 2213,
+      "pixel_y": 1969,
+      "ncc_score": 0.6512,
+      "overlap_ratio": 0.7129,
+      "bbox": [
+        1962,
+        2206,
+        1976,
+        2220
+      ]
+    },
+    {
+      "pixel_x": 2231,
+      "pixel_y": 3535,
+      "ncc_score": 0.6777,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        3528,
+        2224,
+        3542,
+        2238
+      ]
+    },
+    {
+      "pixel_x": 2233,
+      "pixel_y": 3189,
+      "ncc_score": 0.6512,
+      "overlap_ratio": 0.7129,
+      "bbox": [
+        3182,
+        2226,
+        3196,
+        2240
+      ]
+    },
+    {
+      "pixel_x": 2233,
+      "pixel_y": 3467,
+      "ncc_score": 0.6688,
+      "overlap_ratio": 0.7327,
+      "bbox": [
+        3460,
+        2226,
+        3474,
+        2240
+      ]
+    },
+    {
+      "pixel_x": 2245,
+      "pixel_y": 5068,
+      "ncc_score": 0.66,
+      "overlap_ratio": 0.7228,
+      "bbox": [
+        5061,
+        2238,
+        5075,
+        2252
+      ]
+    },
+    {
+      "pixel_x": 2248,
+      "pixel_y": 766,
+      "ncc_score": 0.6929,
+      "overlap_ratio": 0.7327,
+      "bbox": [
+        759,
+        2241,
+        773,
+        2255
+      ]
+    },
+    {
+      "pixel_x": 2249,
+      "pixel_y": 3188,
+      "ncc_score": 0.6659,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        3181,
+        2242,
+        3195,
+        2256
+      ]
+    },
+    {
+      "pixel_x": 2263,
+      "pixel_y": 1458,
+      "ncc_score": 0.6749,
+      "overlap_ratio": 0.7525,
+      "bbox": [
+        1451,
+        2256,
+        1465,
+        2270
+      ]
+    },
+    {
+      "pixel_x": 2274,
+      "pixel_y": 5561,
+      "ncc_score": 0.6777,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        5554,
+        2267,
+        5568,
+        2281
+      ]
+    },
+    {
+      "pixel_x": 2286,
+      "pixel_y": 5267,
+      "ncc_score": 0.66,
+      "overlap_ratio": 0.7228,
+      "bbox": [
+        5260,
+        2279,
+        5274,
+        2293
+      ]
+    },
+    {
+      "pixel_x": 2292,
+      "pixel_y": 4908,
+      "ncc_score": 0.6808,
+      "overlap_ratio": 0.7327,
+      "bbox": [
+        4901,
+        2285,
+        4915,
+        2299
+      ]
+    },
+    {
+      "pixel_x": 2295,
+      "pixel_y": 426,
+      "ncc_score": 0.6633,
+      "overlap_ratio": 0.7525,
+      "bbox": [
+        419,
+        2288,
+        433,
+        2302
+      ]
+    },
+    {
+      "pixel_x": 2307,
+      "pixel_y": 502,
+      "ncc_score": 0.657,
+      "overlap_ratio": 0.7327,
+      "bbox": [
+        495,
+        2300,
+        509,
+        2314
+      ]
+    },
+    {
+      "pixel_x": 2312,
+      "pixel_y": 3449,
+      "ncc_score": 0.66,
+      "overlap_ratio": 0.7228,
+      "bbox": [
+        3442,
+        2305,
+        3456,
+        2319
+      ]
+    },
+    {
+      "pixel_x": 2315,
+      "pixel_y": 862,
+      "ncc_score": 0.6683,
+      "overlap_ratio": 0.7822,
+      "bbox": [
+        855,
+        2308,
+        869,
+        2322
+      ]
+    },
+    {
+      "pixel_x": 2324,
+      "pixel_y": 4622,
+      "ncc_score": 0.6518,
+      "overlap_ratio": 0.7525,
+      "bbox": [
+        4615,
+        2317,
+        4629,
+        2331
+      ]
+    },
+    {
+      "pixel_x": 2334,
+      "pixel_y": 317,
+      "ncc_score": 0.66,
+      "overlap_ratio": 0.7228,
+      "bbox": [
+        310,
+        2327,
+        324,
+        2341
+      ]
+    },
+    {
+      "pixel_x": 2337,
+      "pixel_y": 2093,
+      "ncc_score": 0.6878,
+      "overlap_ratio": 0.9901,
+      "bbox": [
+        2086,
+        2330,
+        2100,
+        2344
+      ]
+    },
+    {
+      "pixel_x": 2337,
+      "pixel_y": 3281,
+      "ncc_score": 0.6542,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        3274,
+        2330,
+        3288,
+        2344
+      ]
+    },
+    {
+      "pixel_x": 2340,
+      "pixel_y": 4619,
+      "ncc_score": 0.6512,
+      "overlap_ratio": 0.7129,
+      "bbox": [
+        4612,
+        2333,
+        4626,
+        2347
+      ]
+    },
+    {
+      "pixel_x": 2341,
+      "pixel_y": 3426,
+      "ncc_score": 0.6547,
+      "overlap_ratio": 0.703,
+      "bbox": [
+        3419,
+        2334,
+        3433,
+        2348
+      ]
+    },
+    {
+      "pixel_x": 2345,
+      "pixel_y": 2962,
+      "ncc_score": 0.6633,
+      "overlap_ratio": 0.7525,
+      "bbox": [
+        2955,
+        2338,
+        2969,
+        2352
+      ]
+    },
+    {
+      "pixel_x": 2350,
+      "pixel_y": 2584,
+      "ncc_score": 0.6929,
+      "overlap_ratio": 0.7327,
+      "bbox": [
+        2577,
+        2343,
+        2591,
+        2357
+      ]
+    },
+    {
+      "pixel_x": 2353,
+      "pixel_y": 296,
+      "ncc_score": 0.6512,
+      "overlap_ratio": 0.7129,
+      "bbox": [
+        289,
+        2346,
+        303,
+        2360
+      ]
+    },
+    {
+      "pixel_x": 2361,
+      "pixel_y": 495,
+      "ncc_score": 0.6815,
+      "overlap_ratio": 0.7723,
+      "bbox": [
+        488,
+        2354,
+        502,
+        2368
+      ]
+    },
+    {
+      "pixel_x": 2369,
+      "pixel_y": 4167,
+      "ncc_score": 0.6721,
+      "overlap_ratio": 0.7228,
+      "bbox": [
+        4160,
+        2362,
+        4174,
+        2376
+      ]
+    },
+    {
+      "pixel_x": 2381,
+      "pixel_y": 4127,
+      "ncc_score": 0.657,
+      "overlap_ratio": 0.7327,
+      "bbox": [
+        4120,
+        2374,
+        4134,
+        2388
+      ]
+    },
+    {
+      "pixel_x": 2389,
+      "pixel_y": 4097,
+      "ncc_score": 0.6547,
+      "overlap_ratio": 0.703,
+      "bbox": [
+        4090,
+        2382,
+        4104,
+        2396
+      ]
+    },
+    {
+      "pixel_x": 2392,
+      "pixel_y": 2998,
+      "ncc_score": 0.6542,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        2991,
+        2385,
+        3005,
+        2399
+      ]
+    },
+    {
+      "pixel_x": 2395,
+      "pixel_y": 3138,
+      "ncc_score": 0.659,
+      "overlap_ratio": 0.7723,
+      "bbox": [
+        3131,
+        2388,
+        3145,
+        2402
+      ]
+    },
+    {
+      "pixel_x": 2404,
+      "pixel_y": 3941,
+      "ncc_score": 0.661,
+      "overlap_ratio": 0.7624,
+      "bbox": [
+        3934,
+        2397,
+        3948,
+        2411
+      ]
+    },
+    {
+      "pixel_x": 2413,
+      "pixel_y": 2408,
+      "ncc_score": 0.6866,
+      "overlap_ratio": 0.7525,
+      "bbox": [
+        2401,
+        2406,
+        2415,
+        2420
+      ]
+    },
+    {
+      "pixel_x": 2417,
+      "pixel_y": 535,
+      "ncc_score": 0.6756,
+      "overlap_ratio": 0.7129,
+      "bbox": [
+        528,
+        2410,
+        542,
+        2424
+      ]
+    },
+    {
+      "pixel_x": 2422,
+      "pixel_y": 2358,
+      "ncc_score": 0.693,
+      "overlap_ratio": 0.7723,
+      "bbox": [
+        2351,
+        2415,
+        2365,
+        2429
+      ]
+    },
+    {
+      "pixel_x": 2432,
+      "pixel_y": 2484,
+      "ncc_score": 0.6512,
+      "overlap_ratio": 0.7129,
+      "bbox": [
+        2477,
+        2425,
+        2491,
+        2439
+      ]
+    },
+    {
+      "pixel_x": 2432,
+      "pixel_y": 2784,
+      "ncc_score": 0.661,
+      "overlap_ratio": 0.7624,
+      "bbox": [
+        2777,
+        2425,
+        2791,
+        2439
+      ]
+    },
+    {
+      "pixel_x": 2438,
+      "pixel_y": 2850,
+      "ncc_score": 0.6512,
+      "overlap_ratio": 0.7129,
+      "bbox": [
+        2843,
+        2431,
+        2857,
+        2445
+      ]
+    },
+    {
+      "pixel_x": 2449,
+      "pixel_y": 3357,
+      "ncc_score": 0.6724,
+      "overlap_ratio": 0.7624,
+      "bbox": [
+        3350,
+        2442,
+        3364,
+        2456
+      ]
+    },
+    {
+      "pixel_x": 2460,
+      "pixel_y": 5045,
+      "ncc_score": 0.6896,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        5038,
+        2453,
+        5052,
+        2467
+      ]
+    },
+    {
+      "pixel_x": 2462,
+      "pixel_y": 1160,
+      "ncc_score": 0.6659,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        1153,
+        2455,
+        1167,
+        2469
+      ]
+    },
+    {
+      "pixel_x": 2467,
+      "pixel_y": 3260,
+      "ncc_score": 0.657,
+      "overlap_ratio": 0.7327,
+      "bbox": [
+        3253,
+        2460,
+        3267,
+        2474
+      ]
+    },
+    {
+      "pixel_x": 2474,
+      "pixel_y": 732,
+      "ncc_score": 0.675,
+      "overlap_ratio": 0.8119,
+      "bbox": [
+        725,
+        2467,
+        739,
+        2481
+      ]
+    },
+    {
+      "pixel_x": 2477,
+      "pixel_y": 5433,
+      "ncc_score": 0.6547,
+      "overlap_ratio": 0.703,
+      "bbox": [
+        5426,
+        2470,
+        5440,
+        2484
+      ]
+    },
+    {
+      "pixel_x": 2483,
+      "pixel_y": 287,
+      "ncc_score": 0.6627,
+      "overlap_ratio": 0.6832,
+      "bbox": [
+        280,
+        2476,
+        294,
+        2490
+      ]
+    },
+    {
+      "pixel_x": 2484,
+      "pixel_y": 95,
+      "ncc_score": 0.66,
+      "overlap_ratio": 0.7228,
+      "bbox": [
+        88,
+        2477,
+        102,
+        2491
+      ]
+    },
+    {
+      "pixel_x": 2485,
+      "pixel_y": 5144,
+      "ncc_score": 0.6721,
+      "overlap_ratio": 0.7228,
+      "bbox": [
+        5137,
+        2478,
+        5151,
+        2492
+      ]
+    },
+    {
+      "pixel_x": 2487,
+      "pixel_y": 5380,
+      "ncc_score": 0.65,
+      "overlap_ratio": 0.6832,
+      "bbox": [
+        5373,
+        2480,
+        5387,
+        2494
+      ]
+    },
+    {
+      "pixel_x": 2488,
+      "pixel_y": 2679,
+      "ncc_score": 0.6842,
+      "overlap_ratio": 0.7228,
+      "bbox": [
+        2672,
+        2481,
+        2686,
+        2495
+      ]
+    },
+    {
+      "pixel_x": 2491,
+      "pixel_y": 1440,
+      "ncc_score": 0.6943,
+      "overlap_ratio": 0.8812,
+      "bbox": [
+        1433,
+        2484,
+        1447,
+        2498
+      ]
+    },
+    {
+      "pixel_x": 2494,
+      "pixel_y": 4912,
+      "ncc_score": 0.6542,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        4905,
+        2487,
+        4919,
+        2501
+      ]
+    },
+    {
+      "pixel_x": 2495,
+      "pixel_y": 889,
+      "ncc_score": 0.6572,
+      "overlap_ratio": 0.7822,
+      "bbox": [
+        882,
+        2488,
+        896,
+        2502
+      ]
+    },
+    {
+      "pixel_x": 2495,
+      "pixel_y": 3733,
+      "ncc_score": 0.6659,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        3726,
+        2488,
+        3740,
+        2502
+      ]
+    },
+    {
+      "pixel_x": 2498,
+      "pixel_y": 5008,
+      "ncc_score": 0.6842,
+      "overlap_ratio": 0.7228,
+      "bbox": [
+        5001,
+        2491,
+        5015,
+        2505
+      ]
+    },
+    {
+      "pixel_x": 2500,
+      "pixel_y": 4036,
+      "ncc_score": 0.6585,
+      "overlap_ratio": 0.6931,
+      "bbox": [
+        4029,
+        2493,
+        4043,
+        2507
+      ]
+    },
+    {
+      "pixel_x": 2508,
+      "pixel_y": 2699,
+      "ncc_score": 0.6547,
+      "overlap_ratio": 0.703,
+      "bbox": [
+        2692,
+        2501,
+        2706,
+        2515
+      ]
+    },
+    {
+      "pixel_x": 2518,
+      "pixel_y": 297,
+      "ncc_score": 0.6542,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        290,
+        2511,
+        304,
+        2525
+      ]
+    },
+    {
+      "pixel_x": 2518,
+      "pixel_y": 387,
+      "ncc_score": 0.7137,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        380,
+        2511,
+        394,
+        2525
+      ]
+    },
+    {
+      "pixel_x": 2524,
+      "pixel_y": 4667,
+      "ncc_score": 0.6518,
+      "overlap_ratio": 0.7525,
+      "bbox": [
+        4660,
+        2517,
+        4674,
+        2531
+      ]
+    },
+    {
+      "pixel_x": 2535,
+      "pixel_y": 4197,
+      "ncc_score": 0.6512,
+      "overlap_ratio": 0.7129,
+      "bbox": [
+        4190,
+        2528,
+        4204,
+        2542
+      ]
+    },
+    {
+      "pixel_x": 2536,
+      "pixel_y": 1043,
+      "ncc_score": 0.6585,
+      "overlap_ratio": 0.6931,
+      "bbox": [
+        1036,
+        2529,
+        1050,
+        2543
+      ]
+    },
+    {
+      "pixel_x": 2538,
+      "pixel_y": 4216,
+      "ncc_score": 0.6634,
+      "overlap_ratio": 0.7129,
+      "bbox": [
+        4209,
+        2531,
+        4223,
+        2545
+      ]
+    },
+    {
+      "pixel_x": 2554,
+      "pixel_y": 2344,
+      "ncc_score": 0.6795,
+      "overlap_ratio": 0.7822,
+      "bbox": [
+        2337,
+        2547,
+        2351,
+        2561
+      ]
+    },
+    {
+      "pixel_x": 2559,
+      "pixel_y": 2757,
+      "ncc_score": 0.6547,
+      "overlap_ratio": 0.703,
+      "bbox": [
+        2750,
+        2552,
+        2764,
+        2566
+      ]
+    },
+    {
+      "pixel_x": 2567,
+      "pixel_y": 4049,
+      "ncc_score": 0.6547,
+      "overlap_ratio": 0.703,
+      "bbox": [
+        4042,
+        2560,
+        4056,
+        2574
+      ]
+    },
+    {
+      "pixel_x": 2570,
+      "pixel_y": 657,
+      "ncc_score": 0.6872,
+      "overlap_ratio": 0.9703,
+      "bbox": [
+        650,
+        2563,
+        664,
+        2577
+      ]
+    },
+    {
+      "pixel_x": 2573,
+      "pixel_y": 3333,
+      "ncc_score": 0.6815,
+      "overlap_ratio": 0.7723,
+      "bbox": [
+        3326,
+        2566,
+        3340,
+        2580
+      ]
+    },
+    {
+      "pixel_x": 2576,
+      "pixel_y": 3200,
+      "ncc_score": 0.7,
+      "overlap_ratio": 0.7921,
+      "bbox": [
+        3193,
+        2569,
+        3207,
+        2583
+      ]
+    },
+    {
+      "pixel_x": 2578,
+      "pixel_y": 3173,
+      "ncc_score": 0.6702,
+      "overlap_ratio": 0.7723,
+      "bbox": [
+        3166,
+        2571,
+        3180,
+        2585
+      ]
+    },
+    {
+      "pixel_x": 2578,
+      "pixel_y": 4904,
+      "ncc_score": 0.6815,
+      "overlap_ratio": 0.7723,
+      "bbox": [
+        4897,
+        2571,
+        4911,
+        2585
+      ]
+    },
+    {
+      "pixel_x": 2580,
+      "pixel_y": 2591,
+      "ncc_score": 0.66,
+      "overlap_ratio": 0.7228,
+      "bbox": [
+        2584,
+        2573,
+        2598,
+        2587
+      ]
+    },
+    {
+      "pixel_x": 2606,
+      "pixel_y": 2060,
+      "ncc_score": 0.6633,
+      "overlap_ratio": 0.7525,
+      "bbox": [
+        2053,
+        2599,
+        2067,
+        2613
+      ]
+    },
+    {
+      "pixel_x": 2622,
+      "pixel_y": 5249,
+      "ncc_score": 0.6842,
+      "overlap_ratio": 0.7228,
+      "bbox": [
+        5242,
+        2615,
+        5256,
+        2629
+      ]
+    },
+    {
+      "pixel_x": 2626,
+      "pixel_y": 5209,
+      "ncc_score": 0.6749,
+      "overlap_ratio": 0.7525,
+      "bbox": [
+        5202,
+        2619,
+        5216,
+        2633
+      ]
+    },
+    {
+      "pixel_x": 2630,
+      "pixel_y": 3415,
+      "ncc_score": 0.6777,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        3408,
+        2623,
+        3422,
+        2637
+      ]
+    },
+    {
+      "pixel_x": 2632,
+      "pixel_y": 2266,
+      "ncc_score": 0.6512,
+      "overlap_ratio": 0.7129,
+      "bbox": [
+        2259,
+        2625,
+        2273,
+        2639
+      ]
+    },
+    {
+      "pixel_x": 2635,
+      "pixel_y": 1548,
+      "ncc_score": 0.6808,
+      "overlap_ratio": 0.7327,
+      "bbox": [
+        1541,
+        2628,
+        1555,
+        2642
+      ]
+    },
+    {
+      "pixel_x": 2650,
+      "pixel_y": 1128,
+      "ncc_score": 0.66,
+      "overlap_ratio": 0.7228,
+      "bbox": [
+        1121,
+        2643,
+        1135,
+        2657
+      ]
+    },
+    {
+      "pixel_x": 2665,
+      "pixel_y": 5076,
+      "ncc_score": 0.6659,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        5069,
+        2658,
+        5083,
+        2672
+      ]
+    },
+    {
+      "pixel_x": 2676,
+      "pixel_y": 2824,
+      "ncc_score": 0.6896,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        2817,
+        2669,
+        2831,
+        2683
+      ]
+    },
+    {
+      "pixel_x": 2676,
+      "pixel_y": 3504,
+      "ncc_score": 0.66,
+      "overlap_ratio": 0.7228,
+      "bbox": [
+        3497,
+        2669,
+        3511,
+        2683
+      ]
+    },
+    {
+      "pixel_x": 2677,
+      "pixel_y": 3613,
+      "ncc_score": 0.6721,
+      "overlap_ratio": 0.7228,
+      "bbox": [
+        3606,
+        2670,
+        3620,
+        2684
+      ]
+    },
+    {
+      "pixel_x": 2684,
+      "pixel_y": 2627,
+      "ncc_score": 0.657,
+      "overlap_ratio": 0.7327,
+      "bbox": [
+        2620,
+        2677,
+        2634,
+        2691
+      ]
+    },
+    {
+      "pixel_x": 2685,
+      "pixel_y": 4374,
+      "ncc_score": 0.6721,
+      "overlap_ratio": 0.7228,
+      "bbox": [
+        4367,
+        2678,
+        4381,
+        2692
+      ]
+    },
+    {
+      "pixel_x": 2696,
+      "pixel_y": 3963,
+      "ncc_score": 0.66,
+      "overlap_ratio": 0.7228,
+      "bbox": [
+        3956,
+        2689,
+        3970,
+        2703
+      ]
+    },
+    {
+      "pixel_x": 2698,
+      "pixel_y": 75,
+      "ncc_score": 0.66,
+      "overlap_ratio": 0.7228,
+      "bbox": [
+        68,
+        2691,
+        82,
+        2705
+      ]
+    },
+    {
+      "pixel_x": 2706,
+      "pixel_y": 5418,
+      "ncc_score": 0.661,
+      "overlap_ratio": 0.7624,
+      "bbox": [
+        5411,
+        2699,
+        5425,
+        2713
+      ]
+    },
+    {
+      "pixel_x": 2721,
+      "pixel_y": 2544,
+      "ncc_score": 0.6634,
+      "overlap_ratio": 0.7129,
+      "bbox": [
+        2537,
+        2714,
+        2551,
+        2728
+      ]
+    },
+    {
+      "pixel_x": 2725,
+      "pixel_y": 5014,
+      "ncc_score": 0.66,
+      "overlap_ratio": 0.7228,
+      "bbox": [
+        5007,
+        2718,
+        5021,
+        2732
+      ]
+    },
+    {
+      "pixel_x": 2743,
+      "pixel_y": 1372,
+      "ncc_score": 0.6633,
+      "overlap_ratio": 0.7525,
+      "bbox": [
+        1365,
+        2736,
+        1379,
+        2750
+      ]
+    },
+    {
+      "pixel_x": 2756,
+      "pixel_y": 4330,
+      "ncc_score": 0.657,
+      "overlap_ratio": 0.7327,
+      "bbox": [
+        4323,
+        2749,
+        4337,
+        2763
+      ]
+    },
+    {
+      "pixel_x": 2758,
+      "pixel_y": 5437,
+      "ncc_score": 0.6724,
+      "overlap_ratio": 0.7624,
+      "bbox": [
+        5430,
+        2751,
+        5444,
+        2765
+      ]
+    },
+    {
+      "pixel_x": 2767,
+      "pixel_y": 3951,
+      "ncc_score": 0.6542,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        3944,
+        2760,
+        3958,
+        2774
+      ]
+    },
+    {
+      "pixel_x": 2796,
+      "pixel_y": 5022,
+      "ncc_score": 0.6659,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        5015,
+        2789,
+        5029,
+        2803
+      ]
+    },
+    {
+      "pixel_x": 2798,
+      "pixel_y": 2662,
+      "ncc_score": 0.661,
+      "overlap_ratio": 0.7624,
+      "bbox": [
+        2655,
+        2791,
+        2669,
+        2805
+      ]
+    },
+    {
+      "pixel_x": 2802,
+      "pixel_y": 497,
+      "ncc_score": 0.66,
+      "overlap_ratio": 0.7228,
+      "bbox": [
+        490,
+        2795,
+        504,
+        2809
+      ]
+    },
+    {
+      "pixel_x": 2805,
+      "pixel_y": 4190,
+      "ncc_score": 0.7,
+      "overlap_ratio": 0.7921,
+      "bbox": [
+        4183,
+        2798,
+        4197,
+        2812
+      ]
+    },
+    {
+      "pixel_x": 2806,
+      "pixel_y": 538,
+      "ncc_score": 0.6636,
+      "overlap_ratio": 0.8218,
+      "bbox": [
+        531,
+        2799,
+        545,
+        2813
+      ]
+    },
+    {
+      "pixel_x": 2812,
+      "pixel_y": 1576,
+      "ncc_score": 0.6572,
+      "overlap_ratio": 0.7822,
+      "bbox": [
+        1569,
+        2805,
+        1583,
+        2819
+      ]
+    },
+    {
+      "pixel_x": 2814,
+      "pixel_y": 1200,
+      "ncc_score": 0.734,
+      "overlap_ratio": 0.9505,
+      "bbox": [
+        1193,
+        2807,
+        1207,
+        2821
+      ]
+    },
+    {
+      "pixel_x": 2815,
+      "pixel_y": 4765,
+      "ncc_score": 0.66,
+      "overlap_ratio": 0.7228,
+      "bbox": [
+        4758,
+        2808,
+        4772,
+        2822
+      ]
+    },
+    {
+      "pixel_x": 2835,
+      "pixel_y": 2664,
+      "ncc_score": 0.6688,
+      "overlap_ratio": 0.7327,
+      "bbox": [
+        2657,
+        2828,
+        2671,
+        2842
+      ]
+    },
+    {
+      "pixel_x": 2835,
+      "pixel_y": 5270,
+      "ncc_score": 0.6547,
+      "overlap_ratio": 0.703,
+      "bbox": [
+        5263,
+        2828,
+        5277,
+        2842
+      ]
+    },
+    {
+      "pixel_x": 2842,
+      "pixel_y": 58,
+      "ncc_score": 0.6633,
+      "overlap_ratio": 0.7525,
+      "bbox": [
+        51,
+        2835,
+        65,
+        2849
+      ]
+    },
+    {
+      "pixel_x": 2842,
+      "pixel_y": 3677,
+      "ncc_score": 0.6907,
+      "overlap_ratio": 0.7822,
+      "bbox": [
+        3670,
+        2835,
+        3684,
+        2849
+      ]
+    },
+    {
+      "pixel_x": 2851,
+      "pixel_y": 4255,
+      "ncc_score": 0.6808,
+      "overlap_ratio": 0.7327,
+      "bbox": [
+        4248,
+        2844,
+        4262,
+        2858
+      ]
+    },
+    {
+      "pixel_x": 2858,
+      "pixel_y": 2207,
+      "ncc_score": 0.6688,
+      "overlap_ratio": 0.7327,
+      "bbox": [
+        2200,
+        2851,
+        2214,
+        2865
+      ]
+    },
+    {
+      "pixel_x": 2870,
+      "pixel_y": 2606,
+      "ncc_score": 0.6721,
+      "overlap_ratio": 0.7228,
+      "bbox": [
+        2599,
+        2863,
+        2613,
+        2877
+      ]
+    },
+    {
+      "pixel_x": 2881,
+      "pixel_y": 2531,
+      "ncc_score": 0.7,
+      "overlap_ratio": 0.7921,
+      "bbox": [
+        2524,
+        2874,
+        2538,
+        2888
+      ]
+    },
+    {
+      "pixel_x": 2888,
+      "pixel_y": 5173,
+      "ncc_score": 0.6671,
+      "overlap_ratio": 0.703,
+      "bbox": [
+        5166,
+        2881,
+        5180,
+        2895
+      ]
+    },
+    {
+      "pixel_x": 2896,
+      "pixel_y": 3355,
+      "ncc_score": 0.6688,
+      "overlap_ratio": 0.7327,
+      "bbox": [
+        3348,
+        2889,
+        3362,
+        2903
+      ]
+    },
+    {
+      "pixel_x": 2897,
+      "pixel_y": 2715,
+      "ncc_score": 0.6572,
+      "overlap_ratio": 0.7822,
+      "bbox": [
+        2708,
+        2890,
+        2722,
+        2904
+      ]
+    },
+    {
+      "pixel_x": 2899,
+      "pixel_y": 1413,
+      "ncc_score": 0.6721,
+      "overlap_ratio": 0.7228,
+      "bbox": [
+        1406,
+        2892,
+        1420,
+        2906
+      ]
+    },
+    {
+      "pixel_x": 2909,
+      "pixel_y": 1497,
+      "ncc_score": 0.6721,
+      "overlap_ratio": 0.7228,
+      "bbox": [
+        1490,
+        2902,
+        1504,
+        2916
+      ]
+    },
+    {
+      "pixel_x": 2909,
+      "pixel_y": 4924,
+      "ncc_score": 0.6542,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        4917,
+        2902,
+        4931,
+        2916
+      ]
+    },
+    {
+      "pixel_x": 2930,
+      "pixel_y": 181,
+      "ncc_score": 0.6671,
+      "overlap_ratio": 0.703,
+      "bbox": [
+        174,
+        2923,
+        188,
+        2937
+      ]
+    },
+    {
+      "pixel_x": 2937,
+      "pixel_y": 4647,
+      "ncc_score": 0.6808,
+      "overlap_ratio": 0.7327,
+      "bbox": [
+        4640,
+        2930,
+        4654,
+        2944
+      ]
+    },
+    {
+      "pixel_x": 2946,
+      "pixel_y": 3811,
+      "ncc_score": 0.65,
+      "overlap_ratio": 0.6832,
+      "bbox": [
+        3804,
+        2939,
+        3818,
+        2953
+      ]
+    },
+    {
+      "pixel_x": 2947,
+      "pixel_y": 1347,
+      "ncc_score": 0.6659,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        1340,
+        2940,
+        1354,
+        2954
+      ]
+    },
+    {
+      "pixel_x": 2950,
+      "pixel_y": 5484,
+      "ncc_score": 0.6808,
+      "overlap_ratio": 0.7327,
+      "bbox": [
+        5477,
+        2943,
+        5491,
+        2957
+      ]
+    },
+    {
+      "pixel_x": 2956,
+      "pixel_y": 5381,
+      "ncc_score": 0.6671,
+      "overlap_ratio": 0.703,
+      "bbox": [
+        5374,
+        2949,
+        5388,
+        2963
+      ]
+    },
+    {
+      "pixel_x": 2959,
+      "pixel_y": 531,
+      "ncc_score": 0.7063,
+      "overlap_ratio": 0.8218,
+      "bbox": [
+        524,
+        2952,
+        538,
+        2966
+      ]
+    },
+    {
+      "pixel_x": 2961,
+      "pixel_y": 2750,
+      "ncc_score": 0.6866,
+      "overlap_ratio": 0.7525,
+      "bbox": [
+        2743,
+        2954,
+        2757,
+        2968
+      ]
+    },
+    {
+      "pixel_x": 2963,
+      "pixel_y": 1179,
+      "ncc_score": 0.6654,
+      "overlap_ratio": 0.802,
+      "bbox": [
+        1172,
+        2956,
+        1186,
+        2970
+      ]
+    },
+    {
+      "pixel_x": 2966,
+      "pixel_y": 2770,
+      "ncc_score": 0.6512,
+      "overlap_ratio": 0.7129,
+      "bbox": [
+        2763,
+        2959,
+        2777,
+        2973
+      ]
+    },
+    {
+      "pixel_x": 2978,
+      "pixel_y": 5347,
+      "ncc_score": 0.7021,
+      "overlap_ratio": 0.7822,
+      "bbox": [
+        5340,
+        2971,
+        5354,
+        2985
+      ]
+    },
+    {
+      "pixel_x": 2981,
+      "pixel_y": 968,
+      "ncc_score": 0.6659,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        961,
+        2974,
+        975,
+        2988
+      ]
+    },
+    {
+      "pixel_x": 2983,
+      "pixel_y": 4724,
+      "ncc_score": 0.66,
+      "overlap_ratio": 0.7228,
+      "bbox": [
+        4717,
+        2976,
+        4731,
+        2990
+      ]
+    },
+    {
+      "pixel_x": 2984,
+      "pixel_y": 5244,
+      "ncc_score": 0.657,
+      "overlap_ratio": 0.7327,
+      "bbox": [
+        5237,
+        2977,
+        5251,
+        2991
+      ]
+    },
+    {
+      "pixel_x": 2987,
+      "pixel_y": 216,
+      "ncc_score": 0.693,
+      "overlap_ratio": 0.7723,
+      "bbox": [
+        209,
+        2980,
+        223,
+        2994
+      ]
+    },
+    {
+      "pixel_x": 2991,
+      "pixel_y": 465,
+      "ncc_score": 0.6749,
+      "overlap_ratio": 0.7525,
+      "bbox": [
+        458,
+        2984,
+        472,
+        2998
+      ]
+    },
+    {
+      "pixel_x": 2994,
+      "pixel_y": 3000,
+      "ncc_score": 0.66,
+      "overlap_ratio": 0.7228,
+      "bbox": [
+        2993,
+        2987,
+        3007,
+        3001
+      ]
+    },
+    {
+      "pixel_x": 2996,
+      "pixel_y": 4794,
+      "ncc_score": 0.6724,
+      "overlap_ratio": 0.7624,
+      "bbox": [
+        4787,
+        2989,
+        4801,
+        3003
+      ]
+    },
+    {
+      "pixel_x": 3003,
+      "pixel_y": 4202,
+      "ncc_score": 0.6542,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        4195,
+        2996,
+        4209,
+        3010
+      ]
+    },
+    {
+      "pixel_x": 3013,
+      "pixel_y": 3647,
+      "ncc_score": 0.6512,
+      "overlap_ratio": 0.7129,
+      "bbox": [
+        3640,
+        3006,
+        3654,
+        3020
+      ]
+    },
+    {
+      "pixel_x": 3045,
+      "pixel_y": 3493,
+      "ncc_score": 0.66,
+      "overlap_ratio": 0.7228,
+      "bbox": [
+        3486,
+        3038,
+        3500,
+        3052
+      ]
+    },
+    {
+      "pixel_x": 3053,
+      "pixel_y": 5565,
+      "ncc_score": 0.6542,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        5558,
+        3046,
+        5572,
+        3060
+      ]
+    },
+    {
+      "pixel_x": 3055,
+      "pixel_y": 3230,
+      "ncc_score": 0.6518,
+      "overlap_ratio": 0.7525,
+      "bbox": [
+        3223,
+        3048,
+        3237,
+        3062
+      ]
+    },
+    {
+      "pixel_x": 3056,
+      "pixel_y": 1952,
+      "ncc_score": 0.6731,
+      "overlap_ratio": 0.8515,
+      "bbox": [
+        1945,
+        3049,
+        1959,
+        3063
+      ]
+    },
+    {
+      "pixel_x": 3064,
+      "pixel_y": 4736,
+      "ncc_score": 0.6724,
+      "overlap_ratio": 0.7624,
+      "bbox": [
+        4729,
+        3057,
+        4743,
+        3071
+      ]
+    },
+    {
+      "pixel_x": 3075,
+      "pixel_y": 1630,
+      "ncc_score": 0.6558,
+      "overlap_ratio": 0.7921,
+      "bbox": [
+        1623,
+        3068,
+        1637,
+        3082
+      ]
+    },
+    {
+      "pixel_x": 3078,
+      "pixel_y": 3402,
+      "ncc_score": 0.6542,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        3395,
+        3071,
+        3409,
+        3085
+      ]
+    },
+    {
+      "pixel_x": 3084,
+      "pixel_y": 975,
+      "ncc_score": 0.6866,
+      "overlap_ratio": 0.7525,
+      "bbox": [
+        968,
+        3077,
+        982,
+        3091
+      ]
+    },
+    {
+      "pixel_x": 3092,
+      "pixel_y": 4145,
+      "ncc_score": 0.6907,
+      "overlap_ratio": 0.7822,
+      "bbox": [
+        4138,
+        3085,
+        4152,
+        3099
+      ]
+    },
+    {
+      "pixel_x": 3093,
+      "pixel_y": 441,
+      "ncc_score": 0.6724,
+      "overlap_ratio": 0.7624,
+      "bbox": [
+        434,
+        3086,
+        448,
+        3100
+      ]
+    },
+    {
+      "pixel_x": 3104,
+      "pixel_y": 3702,
+      "ncc_score": 0.6542,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        3695,
+        3097,
+        3709,
+        3111
+      ]
+    },
+    {
+      "pixel_x": 3105,
+      "pixel_y": 4095,
+      "ncc_score": 0.6866,
+      "overlap_ratio": 0.7525,
+      "bbox": [
+        4088,
+        3098,
+        4102,
+        3112
+      ]
+    },
+    {
+      "pixel_x": 3113,
+      "pixel_y": 209,
+      "ncc_score": 0.6512,
+      "overlap_ratio": 0.7129,
+      "bbox": [
+        202,
+        3106,
+        216,
+        3120
+      ]
+    },
+    {
+      "pixel_x": 3119,
+      "pixel_y": 1716,
+      "ncc_score": 0.657,
+      "overlap_ratio": 0.7327,
+      "bbox": [
+        1709,
+        3112,
+        1723,
+        3126
+      ]
+    },
+    {
+      "pixel_x": 3127,
+      "pixel_y": 4933,
+      "ncc_score": 0.6756,
+      "overlap_ratio": 0.7129,
+      "bbox": [
+        4926,
+        3120,
+        4940,
+        3134
+      ]
+    },
+    {
+      "pixel_x": 3137,
+      "pixel_y": 4555,
+      "ncc_score": 0.66,
+      "overlap_ratio": 0.7228,
+      "bbox": [
+        4548,
+        3130,
+        4562,
+        3144
+      ]
+    },
+    {
+      "pixel_x": 3139,
+      "pixel_y": 5179,
+      "ncc_score": 0.6634,
+      "overlap_ratio": 0.7129,
+      "bbox": [
+        5172,
+        3132,
+        5186,
+        3146
+      ]
+    },
+    {
+      "pixel_x": 3142,
+      "pixel_y": 3691,
+      "ncc_score": 0.657,
+      "overlap_ratio": 0.7327,
+      "bbox": [
+        3684,
+        3135,
+        3698,
+        3149
+      ]
+    },
+    {
+      "pixel_x": 3159,
+      "pixel_y": 2419,
+      "ncc_score": 0.6542,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        2412,
+        3152,
+        2426,
+        3166
+      ]
+    },
+    {
+      "pixel_x": 3160,
+      "pixel_y": 913,
+      "ncc_score": 0.66,
+      "overlap_ratio": 0.7228,
+      "bbox": [
+        906,
+        3153,
+        920,
+        3167
+      ]
+    },
+    {
+      "pixel_x": 3167,
+      "pixel_y": 3194,
+      "ncc_score": 0.6815,
+      "overlap_ratio": 0.7723,
+      "bbox": [
+        3187,
+        3160,
+        3201,
+        3174
+      ]
+    },
+    {
+      "pixel_x": 3185,
+      "pixel_y": 2268,
+      "ncc_score": 0.659,
+      "overlap_ratio": 0.7723,
+      "bbox": [
+        2261,
+        3178,
+        2275,
+        3192
+      ]
+    },
+    {
+      "pixel_x": 3191,
+      "pixel_y": 4534,
+      "ncc_score": 0.6788,
+      "overlap_ratio": 0.9109,
+      "bbox": [
+        4527,
+        3184,
+        4541,
+        3198
+      ]
+    },
+    {
+      "pixel_x": 3195,
+      "pixel_y": 4874,
+      "ncc_score": 0.6839,
+      "overlap_ratio": 0.7624,
+      "bbox": [
+        4867,
+        3188,
+        4881,
+        3202
+      ]
+    },
+    {
+      "pixel_x": 3199,
+      "pixel_y": 1891,
+      "ncc_score": 0.6631,
+      "overlap_ratio": 0.8317,
+      "bbox": [
+        1884,
+        3192,
+        1898,
+        3206
+      ]
+    },
+    {
+      "pixel_x": 3203,
+      "pixel_y": 5546,
+      "ncc_score": 0.657,
+      "overlap_ratio": 0.7327,
+      "bbox": [
+        5539,
+        3196,
+        5553,
+        3210
+      ]
+    },
+    {
+      "pixel_x": 3212,
+      "pixel_y": 4517,
+      "ncc_score": 0.6777,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        4510,
+        3205,
+        4524,
+        3219
+      ]
+    },
+    {
+      "pixel_x": 3219,
+      "pixel_y": 5230,
+      "ncc_score": 0.66,
+      "overlap_ratio": 0.7228,
+      "bbox": [
+        5223,
+        3212,
+        5237,
+        3226
+      ]
+    },
+    {
+      "pixel_x": 3228,
+      "pixel_y": 520,
+      "ncc_score": 0.6634,
+      "overlap_ratio": 0.7129,
+      "bbox": [
+        513,
+        3221,
+        527,
+        3235
+      ]
+    },
+    {
+      "pixel_x": 3236,
+      "pixel_y": 3305,
+      "ncc_score": 0.7073,
+      "overlap_ratio": 0.9109,
+      "bbox": [
+        3298,
+        3229,
+        3312,
+        3243
+      ]
+    },
+    {
+      "pixel_x": 3238,
+      "pixel_y": 2991,
+      "ncc_score": 0.6929,
+      "overlap_ratio": 0.7327,
+      "bbox": [
+        2984,
+        3231,
+        2998,
+        3245
+      ]
+    },
+    {
+      "pixel_x": 3248,
+      "pixel_y": 4400,
+      "ncc_score": 0.66,
+      "overlap_ratio": 0.7228,
+      "bbox": [
+        4393,
+        3241,
+        4407,
+        3255
+      ]
+    },
+    {
+      "pixel_x": 3251,
+      "pixel_y": 5305,
+      "ncc_score": 0.6659,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        5298,
+        3244,
+        5312,
+        3258
+      ]
+    },
+    {
+      "pixel_x": 3253,
+      "pixel_y": 2376,
+      "ncc_score": 0.6542,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        2369,
+        3246,
+        2383,
+        3260
+      ]
+    },
+    {
+      "pixel_x": 3258,
+      "pixel_y": 615,
+      "ncc_score": 0.66,
+      "overlap_ratio": 0.7228,
+      "bbox": [
+        608,
+        3251,
+        622,
+        3265
+      ]
+    },
+    {
+      "pixel_x": 3284,
+      "pixel_y": 2864,
+      "ncc_score": 0.6808,
+      "overlap_ratio": 0.7327,
+      "bbox": [
+        2857,
+        3277,
+        2871,
+        3291
+      ]
+    },
+    {
+      "pixel_x": 3285,
+      "pixel_y": 3373,
+      "ncc_score": 0.6955,
+      "overlap_ratio": 0.7624,
+      "bbox": [
+        3366,
+        3278,
+        3380,
+        3292
+      ]
+    },
+    {
+      "pixel_x": 3287,
+      "pixel_y": 831,
+      "ncc_score": 0.6749,
+      "overlap_ratio": 0.7525,
+      "bbox": [
+        824,
+        3280,
+        838,
+        3294
+      ]
+    },
+    {
+      "pixel_x": 3300,
+      "pixel_y": 3411,
+      "ncc_score": 0.657,
+      "overlap_ratio": 0.7327,
+      "bbox": [
+        3404,
+        3293,
+        3418,
+        3307
+      ]
+    },
+    {
+      "pixel_x": 3314,
+      "pixel_y": 3939,
+      "ncc_score": 0.6633,
+      "overlap_ratio": 0.7525,
+      "bbox": [
+        3932,
+        3307,
+        3946,
+        3321
+      ]
+    },
+    {
+      "pixel_x": 3314,
+      "pixel_y": 3977,
+      "ncc_score": 0.657,
+      "overlap_ratio": 0.7327,
+      "bbox": [
+        3970,
+        3307,
+        3984,
+        3321
+      ]
+    },
+    {
+      "pixel_x": 3329,
+      "pixel_y": 884,
+      "ncc_score": 0.7298,
+      "overlap_ratio": 0.8119,
+      "bbox": [
+        877,
+        3322,
+        891,
+        3336
+      ]
+    },
+    {
+      "pixel_x": 3344,
+      "pixel_y": 19,
+      "ncc_score": 0.6721,
+      "overlap_ratio": 0.7228,
+      "bbox": [
+        12,
+        3337,
+        26,
+        3351
+      ]
+    },
+    {
+      "pixel_x": 3347,
+      "pixel_y": 2450,
+      "ncc_score": 0.6512,
+      "overlap_ratio": 0.7129,
+      "bbox": [
+        2443,
+        3340,
+        2457,
+        3354
+      ]
+    },
+    {
+      "pixel_x": 3349,
+      "pixel_y": 733,
+      "ncc_score": 0.657,
+      "overlap_ratio": 0.7327,
+      "bbox": [
+        726,
+        3342,
+        740,
+        3356
+      ]
+    },
+    {
+      "pixel_x": 3352,
+      "pixel_y": 5002,
+      "ncc_score": 0.6512,
+      "overlap_ratio": 0.7129,
+      "bbox": [
+        4995,
+        3345,
+        5009,
+        3359
+      ]
+    },
+    {
+      "pixel_x": 3358,
+      "pixel_y": 1980,
+      "ncc_score": 0.6671,
+      "overlap_ratio": 0.703,
+      "bbox": [
+        1973,
+        3351,
+        1987,
+        3365
+      ]
+    },
+    {
+      "pixel_x": 3361,
+      "pixel_y": 4365,
+      "ncc_score": 0.6777,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        4358,
+        3354,
+        4372,
+        3368
+      ]
+    },
+    {
+      "pixel_x": 3363,
+      "pixel_y": 2490,
+      "ncc_score": 0.6633,
+      "overlap_ratio": 0.7525,
+      "bbox": [
+        2483,
+        3356,
+        2497,
+        3370
+      ]
+    },
+    {
+      "pixel_x": 3364,
+      "pixel_y": 2297,
+      "ncc_score": 0.6659,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        2290,
+        3357,
+        2304,
+        3371
+      ]
+    },
+    {
+      "pixel_x": 3366,
+      "pixel_y": 106,
+      "ncc_score": 0.6512,
+      "overlap_ratio": 0.7129,
+      "bbox": [
+        99,
+        3359,
+        113,
+        3373
+      ]
+    },
+    {
+      "pixel_x": 3371,
+      "pixel_y": 2618,
+      "ncc_score": 0.66,
+      "overlap_ratio": 0.7228,
+      "bbox": [
+        2611,
+        3364,
+        2625,
+        3378
+      ]
+    },
+    {
+      "pixel_x": 3372,
+      "pixel_y": 2942,
+      "ncc_score": 0.6633,
+      "overlap_ratio": 0.7525,
+      "bbox": [
+        2935,
+        3365,
+        2949,
+        3379
+      ]
+    },
+    {
+      "pixel_x": 3380,
+      "pixel_y": 2232,
+      "ncc_score": 0.6896,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        2225,
+        3373,
+        2239,
+        3387
+      ]
+    },
+    {
+      "pixel_x": 3386,
+      "pixel_y": 1942,
+      "ncc_score": 0.6929,
+      "overlap_ratio": 0.7327,
+      "bbox": [
+        1935,
+        3379,
+        1949,
+        3393
+      ]
+    },
+    {
+      "pixel_x": 3402,
+      "pixel_y": 3659,
+      "ncc_score": 0.6633,
+      "overlap_ratio": 0.7525,
+      "bbox": [
+        3652,
+        3395,
+        3666,
+        3409
+      ]
+    },
+    {
+      "pixel_x": 3407,
+      "pixel_y": 4354,
+      "ncc_score": 0.6512,
+      "overlap_ratio": 0.7129,
+      "bbox": [
+        4347,
+        3400,
+        4361,
+        3414
+      ]
+    },
+    {
+      "pixel_x": 3421,
+      "pixel_y": 387,
+      "ncc_score": 0.6777,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        380,
+        3414,
+        394,
+        3428
+      ]
+    },
+    {
+      "pixel_x": 3424,
+      "pixel_y": 3307,
+      "ncc_score": 0.6866,
+      "overlap_ratio": 0.7525,
+      "bbox": [
+        3300,
+        3417,
+        3314,
+        3431
+      ]
+    },
+    {
+      "pixel_x": 3434,
+      "pixel_y": 4071,
+      "ncc_score": 0.659,
+      "overlap_ratio": 0.7723,
+      "bbox": [
+        4064,
+        3427,
+        4078,
+        3441
+      ]
+    },
+    {
+      "pixel_x": 3447,
+      "pixel_y": 310,
+      "ncc_score": 0.657,
+      "overlap_ratio": 0.7327,
+      "bbox": [
+        303,
+        3440,
+        317,
+        3454
+      ]
+    },
+    {
+      "pixel_x": 3460,
+      "pixel_y": 53,
+      "ncc_score": 0.6907,
+      "overlap_ratio": 0.7822,
+      "bbox": [
+        46,
+        3453,
+        60,
+        3467
+      ]
+    },
+    {
+      "pixel_x": 3464,
+      "pixel_y": 4529,
+      "ncc_score": 0.6506,
+      "overlap_ratio": 0.9109,
+      "bbox": [
+        4522,
+        3457,
+        4536,
+        3471
+      ]
+    },
+    {
+      "pixel_x": 3473,
+      "pixel_y": 404,
+      "ncc_score": 0.657,
+      "overlap_ratio": 0.7327,
+      "bbox": [
+        397,
+        3466,
+        411,
+        3480
+      ]
+    },
+    {
+      "pixel_x": 3482,
+      "pixel_y": 5464,
+      "ncc_score": 0.6518,
+      "overlap_ratio": 0.7525,
+      "bbox": [
+        5457,
+        3475,
+        5471,
+        3489
+      ]
+    },
+    {
+      "pixel_x": 3488,
+      "pixel_y": 2595,
+      "ncc_score": 0.6634,
+      "overlap_ratio": 0.7129,
+      "bbox": [
+        2588,
+        3481,
+        2602,
+        3495
+      ]
+    },
+    {
+      "pixel_x": 3492,
+      "pixel_y": 4522,
+      "ncc_score": 0.6808,
+      "overlap_ratio": 0.9208,
+      "bbox": [
+        4515,
+        3485,
+        4529,
+        3499
+      ]
+    },
+    {
+      "pixel_x": 3496,
+      "pixel_y": 149,
+      "ncc_score": 0.6547,
+      "overlap_ratio": 0.703,
+      "bbox": [
+        142,
+        3489,
+        156,
+        3503
+      ]
+    },
+    {
+      "pixel_x": 3500,
+      "pixel_y": 3181,
+      "ncc_score": 0.6547,
+      "overlap_ratio": 0.703,
+      "bbox": [
+        3174,
+        3493,
+        3188,
+        3507
+      ]
+    },
+    {
+      "pixel_x": 3500,
+      "pixel_y": 5290,
+      "ncc_score": 0.6984,
+      "overlap_ratio": 0.7525,
+      "bbox": [
+        5283,
+        3493,
+        5297,
+        3507
+      ]
+    },
+    {
+      "pixel_x": 3512,
+      "pixel_y": 285,
+      "ncc_score": 0.657,
+      "overlap_ratio": 0.7327,
+      "bbox": [
+        278,
+        3505,
+        292,
+        3519
+      ]
+    },
+    {
+      "pixel_x": 3535,
+      "pixel_y": 5338,
+      "ncc_score": 0.6659,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        5331,
+        3528,
+        5345,
+        3542
+      ]
+    },
+    {
+      "pixel_x": 3551,
+      "pixel_y": 2507,
+      "ncc_score": 0.6955,
+      "overlap_ratio": 0.7624,
+      "bbox": [
+        2500,
+        3544,
+        2514,
+        3558
+      ]
+    },
+    {
+      "pixel_x": 3558,
+      "pixel_y": 5452,
+      "ncc_score": 0.6542,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        5445,
+        3551,
+        5459,
+        3565
+      ]
+    },
+    {
+      "pixel_x": 3573,
+      "pixel_y": 3113,
+      "ncc_score": 0.6671,
+      "overlap_ratio": 0.703,
+      "bbox": [
+        3106,
+        3566,
+        3120,
+        3580
+      ]
+    },
+    {
+      "pixel_x": 3582,
+      "pixel_y": 4610,
+      "ncc_score": 0.6815,
+      "overlap_ratio": 0.7723,
+      "bbox": [
+        4603,
+        3575,
+        4617,
+        3589
+      ]
+    },
+    {
+      "pixel_x": 3585,
+      "pixel_y": 3244,
+      "ncc_score": 0.7,
+      "overlap_ratio": 0.7921,
+      "bbox": [
+        3237,
+        3578,
+        3251,
+        3592
+      ]
+    },
+    {
+      "pixel_x": 3595,
+      "pixel_y": 524,
+      "ncc_score": 0.6721,
+      "overlap_ratio": 0.7228,
+      "bbox": [
+        517,
+        3588,
+        531,
+        3602
+      ]
+    },
+    {
+      "pixel_x": 3617,
+      "pixel_y": 5055,
+      "ncc_score": 0.6866,
+      "overlap_ratio": 0.7525,
+      "bbox": [
+        5048,
+        3610,
+        5062,
+        3624
+      ]
+    },
+    {
+      "pixel_x": 3623,
+      "pixel_y": 955,
+      "ncc_score": 0.7,
+      "overlap_ratio": 0.7921,
+      "bbox": [
+        948,
+        3616,
+        962,
+        3630
+      ]
+    },
+    {
+      "pixel_x": 3631,
+      "pixel_y": 5556,
+      "ncc_score": 0.6777,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        5549,
+        3624,
+        5563,
+        3638
+      ]
+    },
+    {
+      "pixel_x": 3634,
+      "pixel_y": 594,
+      "ncc_score": 0.6982,
+      "overlap_ratio": 0.802,
+      "bbox": [
+        587,
+        3627,
+        601,
+        3641
+      ]
+    },
+    {
+      "pixel_x": 3641,
+      "pixel_y": 4991,
+      "ncc_score": 0.6671,
+      "overlap_ratio": 0.703,
+      "bbox": [
+        4984,
+        3634,
+        4998,
+        3648
+      ]
+    },
+    {
+      "pixel_x": 3665,
+      "pixel_y": 4908,
+      "ncc_score": 0.666,
+      "overlap_ratio": 0.8911,
+      "bbox": [
+        4901,
+        3658,
+        4915,
+        3672
+      ]
+    },
+    {
+      "pixel_x": 3683,
+      "pixel_y": 1343,
+      "ncc_score": 0.6572,
+      "overlap_ratio": 0.7822,
+      "bbox": [
+        1336,
+        3676,
+        1350,
+        3690
+      ]
+    },
+    {
+      "pixel_x": 3693,
+      "pixel_y": 1129,
+      "ncc_score": 0.6842,
+      "overlap_ratio": 0.7228,
+      "bbox": [
+        1122,
+        3686,
+        1136,
+        3700
+      ]
+    },
+    {
+      "pixel_x": 3705,
+      "pixel_y": 571,
+      "ncc_score": 0.6815,
+      "overlap_ratio": 0.7723,
+      "bbox": [
+        564,
+        3698,
+        578,
+        3712
+      ]
+    },
+    {
+      "pixel_x": 3756,
+      "pixel_y": 1537,
+      "ncc_score": 0.6936,
+      "overlap_ratio": 0.8515,
+      "bbox": [
+        1530,
+        3749,
+        1544,
+        3763
+      ]
+    },
+    {
+      "pixel_x": 3759,
+      "pixel_y": 1011,
+      "ncc_score": 0.7051,
+      "overlap_ratio": 0.7327,
+      "bbox": [
+        1004,
+        3752,
+        1018,
+        3766
+      ]
+    },
+    {
+      "pixel_x": 3767,
+      "pixel_y": 2286,
+      "ncc_score": 0.7399,
+      "overlap_ratio": 0.9703,
+      "bbox": [
+        2279,
+        3760,
+        2293,
+        3774
+      ]
+    },
+    {
+      "pixel_x": 3769,
+      "pixel_y": 5539,
+      "ncc_score": 0.7251,
+      "overlap_ratio": 0.7822,
+      "bbox": [
+        5532,
+        3762,
+        5546,
+        3776
+      ]
+    },
+    {
+      "pixel_x": 3787,
+      "pixel_y": 4874,
+      "ncc_score": 0.6564,
+      "overlap_ratio": 0.8911,
+      "bbox": [
+        4867,
+        3780,
+        4881,
+        3794
+      ]
+    },
+    {
+      "pixel_x": 3817,
+      "pixel_y": 801,
+      "ncc_score": 0.6622,
+      "overlap_ratio": 0.9208,
+      "bbox": [
+        794,
+        3810,
+        808,
+        3824
+      ]
+    },
+    {
+      "pixel_x": 3817,
+      "pixel_y": 4916,
+      "ncc_score": 0.6688,
+      "overlap_ratio": 0.7327,
+      "bbox": [
+        4909,
+        3810,
+        4923,
+        3824
+      ]
+    },
+    {
+      "pixel_x": 3819,
+      "pixel_y": 1740,
+      "ncc_score": 0.693,
+      "overlap_ratio": 0.7723,
+      "bbox": [
+        1733,
+        3812,
+        1747,
+        3826
+      ]
+    },
+    {
+      "pixel_x": 3820,
+      "pixel_y": 474,
+      "ncc_score": 0.6808,
+      "overlap_ratio": 0.7327,
+      "bbox": [
+        467,
+        3813,
+        481,
+        3827
+      ]
+    },
+    {
+      "pixel_x": 3829,
+      "pixel_y": 1390,
+      "ncc_score": 0.6756,
+      "overlap_ratio": 0.7129,
+      "bbox": [
+        1383,
+        3822,
+        1397,
+        3836
+      ]
+    },
+    {
+      "pixel_x": 3836,
+      "pixel_y": 1198,
+      "ncc_score": 0.7651,
+      "overlap_ratio": 0.8911,
+      "bbox": [
+        1191,
+        3829,
+        1205,
+        3843
+      ]
+    },
+    {
+      "pixel_x": 3848,
+      "pixel_y": 717,
+      "ncc_score": 0.6659,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        710,
+        3841,
+        724,
+        3855
+      ]
+    },
+    {
+      "pixel_x": 3873,
+      "pixel_y": 23,
+      "ncc_score": 0.6547,
+      "overlap_ratio": 0.703,
+      "bbox": [
+        16,
+        3866,
+        30,
+        3880
+      ]
+    },
+    {
+      "pixel_x": 3891,
+      "pixel_y": 1625,
+      "ncc_score": 0.6518,
+      "overlap_ratio": 0.7525,
+      "bbox": [
+        1618,
+        3884,
+        1632,
+        3898
+      ]
+    },
+    {
+      "pixel_x": 3897,
+      "pixel_y": 2259,
+      "ncc_score": 0.6896,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        2252,
+        3890,
+        2266,
+        3904
+      ]
+    },
+    {
+      "pixel_x": 3906,
+      "pixel_y": 4991,
+      "ncc_score": 0.6542,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        4984,
+        3899,
+        4998,
+        3913
+      ]
+    },
+    {
+      "pixel_x": 3919,
+      "pixel_y": 4153,
+      "ncc_score": 0.6636,
+      "overlap_ratio": 0.8218,
+      "bbox": [
+        4146,
+        3912,
+        4160,
+        3926
+      ]
+    },
+    {
+      "pixel_x": 3954,
+      "pixel_y": 2375,
+      "ncc_score": 0.6896,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        2368,
+        3947,
+        2382,
+        3961
+      ]
+    },
+    {
+      "pixel_x": 3955,
+      "pixel_y": 1369,
+      "ncc_score": 0.657,
+      "overlap_ratio": 0.7327,
+      "bbox": [
+        1362,
+        3948,
+        1376,
+        3962
+      ]
+    },
+    {
+      "pixel_x": 3984,
+      "pixel_y": 120,
+      "ncc_score": 0.6512,
+      "overlap_ratio": 0.7129,
+      "bbox": [
+        113,
+        3977,
+        127,
+        3991
+      ]
+    },
+    {
+      "pixel_x": 3998,
+      "pixel_y": 1504,
+      "ncc_score": 0.6721,
+      "overlap_ratio": 0.7228,
+      "bbox": [
+        1497,
+        3991,
+        1511,
+        4005
+      ]
+    },
+    {
+      "pixel_x": 4019,
+      "pixel_y": 5125,
+      "ncc_score": 0.6688,
+      "overlap_ratio": 0.7327,
+      "bbox": [
+        5118,
+        4012,
+        5132,
+        4026
+      ]
+    },
+    {
+      "pixel_x": 4022,
+      "pixel_y": 1555,
+      "ncc_score": 0.6542,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        1548,
+        4015,
+        1562,
+        4029
+      ]
+    },
+    {
+      "pixel_x": 4029,
+      "pixel_y": 3924,
+      "ncc_score": 0.6671,
+      "overlap_ratio": 0.703,
+      "bbox": [
+        3917,
+        4022,
+        3931,
+        4036
+      ]
+    },
+    {
+      "pixel_x": 4031,
+      "pixel_y": 3644,
+      "ncc_score": 0.7093,
+      "overlap_ratio": 0.802,
+      "bbox": [
+        3637,
+        4024,
+        3651,
+        4038
+      ]
+    },
+    {
+      "pixel_x": 4044,
+      "pixel_y": 3912,
+      "ncc_score": 0.6702,
+      "overlap_ratio": 0.7723,
+      "bbox": [
+        3905,
+        4037,
+        3919,
+        4051
+      ]
+    },
+    {
+      "pixel_x": 4046,
+      "pixel_y": 2031,
+      "ncc_score": 0.66,
+      "overlap_ratio": 0.7228,
+      "bbox": [
+        2024,
+        4039,
+        2038,
+        4053
+      ]
+    },
+    {
+      "pixel_x": 4049,
+      "pixel_y": 3850,
+      "ncc_score": 0.6872,
+      "overlap_ratio": 0.802,
+      "bbox": [
+        3843,
+        4042,
+        3857,
+        4056
+      ]
+    },
+    {
+      "pixel_x": 4053,
+      "pixel_y": 3816,
+      "ncc_score": 0.6896,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        3809,
+        4046,
+        3823,
+        4060
+      ]
+    },
+    {
+      "pixel_x": 4069,
+      "pixel_y": 2185,
+      "ncc_score": 0.7016,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        2178,
+        4062,
+        2192,
+        4076
+      ]
+    },
+    {
+      "pixel_x": 4083,
+      "pixel_y": 1436,
+      "ncc_score": 0.6518,
+      "overlap_ratio": 0.7525,
+      "bbox": [
+        1429,
+        4076,
+        1443,
+        4090
+      ]
+    },
+    {
+      "pixel_x": 4091,
+      "pixel_y": 905,
+      "ncc_score": 0.657,
+      "overlap_ratio": 0.7327,
+      "bbox": [
+        898,
+        4084,
+        912,
+        4098
+      ]
+    },
+    {
+      "pixel_x": 4094,
+      "pixel_y": 5264,
+      "ncc_score": 0.6585,
+      "overlap_ratio": 0.6931,
+      "bbox": [
+        5257,
+        4087,
+        5271,
+        4101
+      ]
+    },
+    {
+      "pixel_x": 4113,
+      "pixel_y": 2159,
+      "ncc_score": 0.6777,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        2152,
+        4106,
+        2166,
+        4120
+      ]
+    },
+    {
+      "pixel_x": 4114,
+      "pixel_y": 1988,
+      "ncc_score": 0.6756,
+      "overlap_ratio": 0.7129,
+      "bbox": [
+        1981,
+        4107,
+        1995,
+        4121
+      ]
+    },
+    {
+      "pixel_x": 4124,
+      "pixel_y": 589,
+      "ncc_score": 0.66,
+      "overlap_ratio": 0.7228,
+      "bbox": [
+        582,
+        4117,
+        596,
+        4131
+      ]
+    },
+    {
+      "pixel_x": 4132,
+      "pixel_y": 184,
+      "ncc_score": 0.6585,
+      "overlap_ratio": 0.6931,
+      "bbox": [
+        177,
+        4125,
+        191,
+        4139
+      ]
+    },
+    {
+      "pixel_x": 4151,
+      "pixel_y": 5391,
+      "ncc_score": 0.7072,
+      "overlap_ratio": 0.7624,
+      "bbox": [
+        5384,
+        4144,
+        5398,
+        4158
+      ]
+    },
+    {
+      "pixel_x": 4157,
+      "pixel_y": 3498,
+      "ncc_score": 0.657,
+      "overlap_ratio": 0.7327,
+      "bbox": [
+        3491,
+        4150,
+        3505,
+        4164
+      ]
+    },
+    {
+      "pixel_x": 4169,
+      "pixel_y": 1248,
+      "ncc_score": 0.7072,
+      "overlap_ratio": 0.7624,
+      "bbox": [
+        1241,
+        4162,
+        1255,
+        4176
+      ]
+    },
+    {
+      "pixel_x": 4170,
+      "pixel_y": 5415,
+      "ncc_score": 0.6693,
+      "overlap_ratio": 0.9109,
+      "bbox": [
+        5408,
+        4163,
+        5422,
+        4177
+      ]
+    },
+    {
+      "pixel_x": 4200,
+      "pixel_y": 2035,
+      "ncc_score": 0.6866,
+      "overlap_ratio": 0.7525,
+      "bbox": [
+        2028,
+        4193,
+        2042,
+        4207
+      ]
+    },
+    {
+      "pixel_x": 4205,
+      "pixel_y": 54,
+      "ncc_score": 0.6808,
+      "overlap_ratio": 0.7327,
+      "bbox": [
+        47,
+        4198,
+        61,
+        4212
+      ]
+    },
+    {
+      "pixel_x": 4220,
+      "pixel_y": 4621,
+      "ncc_score": 0.7452,
+      "overlap_ratio": 0.8614,
+      "bbox": [
+        4614,
+        4213,
+        4628,
+        4227
+      ]
+    },
+    {
+      "pixel_x": 4229,
+      "pixel_y": 1117,
+      "ncc_score": 0.6688,
+      "overlap_ratio": 0.7327,
+      "bbox": [
+        1110,
+        4222,
+        1124,
+        4236
+      ]
+    },
+    {
+      "pixel_x": 4232,
+      "pixel_y": 2069,
+      "ncc_score": 0.6654,
+      "overlap_ratio": 0.802,
+      "bbox": [
+        2062,
+        4225,
+        2076,
+        4239
+      ]
+    },
+    {
+      "pixel_x": 4258,
+      "pixel_y": 2362,
+      "ncc_score": 0.6896,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        2355,
+        4251,
+        2369,
+        4265
+      ]
+    },
+    {
+      "pixel_x": 4271,
+      "pixel_y": 2317,
+      "ncc_score": 0.6888,
+      "overlap_ratio": 0.9505,
+      "bbox": [
+        2310,
+        4264,
+        2324,
+        4278
+      ]
+    },
+    {
+      "pixel_x": 4282,
+      "pixel_y": 914,
+      "ncc_score": 0.6512,
+      "overlap_ratio": 0.7129,
+      "bbox": [
+        907,
+        4275,
+        921,
+        4289
+      ]
+    },
+    {
+      "pixel_x": 4296,
+      "pixel_y": 958,
+      "ncc_score": 0.6648,
+      "overlap_ratio": 0.8812,
+      "bbox": [
+        951,
+        4289,
+        965,
+        4303
+      ]
+    },
+    {
+      "pixel_x": 4330,
+      "pixel_y": 108,
+      "ncc_score": 0.6896,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        101,
+        4323,
+        115,
+        4337
+      ]
+    },
+    {
+      "pixel_x": 4338,
+      "pixel_y": 1332,
+      "ncc_score": 0.6671,
+      "overlap_ratio": 0.703,
+      "bbox": [
+        1325,
+        4331,
+        1339,
+        4345
+      ]
+    },
+    {
+      "pixel_x": 4349,
+      "pixel_y": 909,
+      "ncc_score": 0.6667,
+      "overlap_ratio": 0.7921,
+      "bbox": [
+        902,
+        4342,
+        916,
+        4356
+      ]
+    },
+    {
+      "pixel_x": 4354,
+      "pixel_y": 2830,
+      "ncc_score": 0.6542,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        2823,
+        4347,
+        2837,
+        4361
+      ]
+    },
+    {
+      "pixel_x": 4357,
+      "pixel_y": 1911,
+      "ncc_score": 0.6808,
+      "overlap_ratio": 0.7327,
+      "bbox": [
+        1904,
+        4350,
+        1918,
+        4364
+      ]
+    },
+    {
+      "pixel_x": 4363,
+      "pixel_y": 2314,
+      "ncc_score": 0.6551,
+      "overlap_ratio": 0.8812,
+      "bbox": [
+        2307,
+        4356,
+        2321,
+        4370
+      ]
+    },
+    {
+      "pixel_x": 4385,
+      "pixel_y": 2450,
+      "ncc_score": 0.6688,
+      "overlap_ratio": 0.7327,
+      "bbox": [
+        2443,
+        4378,
+        2457,
+        4392
+      ]
+    },
+    {
+      "pixel_x": 4402,
+      "pixel_y": 1249,
+      "ncc_score": 0.6721,
+      "overlap_ratio": 0.7228,
+      "bbox": [
+        1242,
+        4395,
+        1256,
+        4409
+      ]
+    },
+    {
+      "pixel_x": 4411,
+      "pixel_y": 3259,
+      "ncc_score": 0.6808,
+      "overlap_ratio": 0.7327,
+      "bbox": [
+        3252,
+        4404,
+        3266,
+        4418
+      ]
+    },
+    {
+      "pixel_x": 4457,
+      "pixel_y": 3170,
+      "ncc_score": 0.6896,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        3163,
+        4450,
+        3177,
+        4464
+      ]
+    },
+    {
+      "pixel_x": 4499,
+      "pixel_y": 485,
+      "ncc_score": 0.6842,
+      "overlap_ratio": 0.7228,
+      "bbox": [
+        478,
+        4492,
+        492,
+        4506
+      ]
+    },
+    {
+      "pixel_x": 4523,
+      "pixel_y": 1424,
+      "ncc_score": 0.6984,
+      "overlap_ratio": 0.7525,
+      "bbox": [
+        1417,
+        4516,
+        1431,
+        4530
+      ]
+    },
+    {
+      "pixel_x": 4542,
+      "pixel_y": 2392,
+      "ncc_score": 0.693,
+      "overlap_ratio": 0.7723,
+      "bbox": [
+        2385,
+        4535,
+        2399,
+        4549
+      ]
+    },
+    {
+      "pixel_x": 4602,
+      "pixel_y": 2476,
+      "ncc_score": 0.6896,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        2469,
+        4595,
+        2483,
+        4609
+      ]
+    },
+    {
+      "pixel_x": 4641,
+      "pixel_y": 794,
+      "ncc_score": 0.6671,
+      "overlap_ratio": 0.703,
+      "bbox": [
+        787,
+        4634,
+        801,
+        4648
+      ]
+    },
+    {
+      "pixel_x": 4659,
+      "pixel_y": 463,
+      "ncc_score": 0.6659,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        456,
+        4652,
+        470,
+        4666
+      ]
+    },
+    {
+      "pixel_x": 4680,
+      "pixel_y": 2225,
+      "ncc_score": 0.6721,
+      "overlap_ratio": 0.7228,
+      "bbox": [
+        2218,
+        4673,
+        2232,
+        4687
+      ]
+    },
+    {
+      "pixel_x": 4700,
+      "pixel_y": 765,
+      "ncc_score": 0.693,
+      "overlap_ratio": 0.7723,
+      "bbox": [
+        758,
+        4693,
+        772,
+        4707
+      ]
+    },
+    {
+      "pixel_x": 4722,
+      "pixel_y": 2292,
+      "ncc_score": 0.6888,
+      "overlap_ratio": 0.7921,
+      "bbox": [
+        2285,
+        4715,
+        2299,
+        4729
+      ]
+    },
+    {
+      "pixel_x": 4770,
+      "pixel_y": 2238,
+      "ncc_score": 0.66,
+      "overlap_ratio": 0.7228,
+      "bbox": [
+        2231,
+        4763,
+        2245,
+        4777
+      ]
+    },
+    {
+      "pixel_x": 4785,
+      "pixel_y": 2297,
+      "ncc_score": 0.6808,
+      "overlap_ratio": 0.7327,
+      "bbox": [
+        2290,
+        4778,
+        2304,
+        4792
+      ]
+    },
+    {
+      "pixel_x": 4790,
+      "pixel_y": 2157,
+      "ncc_score": 0.6907,
+      "overlap_ratio": 0.7822,
+      "bbox": [
+        2150,
+        4783,
+        2164,
+        4797
+      ]
+    },
+    {
+      "pixel_x": 4800,
+      "pixel_y": 2530,
+      "ncc_score": 0.659,
+      "overlap_ratio": 0.7723,
+      "bbox": [
+        2523,
+        4793,
+        2537,
+        4807
+      ]
+    },
+    {
+      "pixel_x": 4822,
+      "pixel_y": 2055,
+      "ncc_score": 0.6815,
+      "overlap_ratio": 0.7723,
+      "bbox": [
+        2048,
+        4815,
+        2062,
+        4829
+      ]
+    },
+    {
+      "pixel_x": 4824,
+      "pixel_y": 1226,
+      "ncc_score": 0.6756,
+      "overlap_ratio": 0.7129,
+      "bbox": [
+        1219,
+        4817,
+        1233,
+        4831
+      ]
+    },
+    {
+      "pixel_x": 4827,
+      "pixel_y": 2549,
+      "ncc_score": 0.6633,
+      "overlap_ratio": 0.7525,
+      "bbox": [
+        2542,
+        4820,
+        2556,
+        4834
+      ]
+    },
+    {
+      "pixel_x": 4833,
+      "pixel_y": 1007,
+      "ncc_score": 0.7103,
+      "overlap_ratio": 0.7525,
+      "bbox": [
+        1000,
+        4826,
+        1014,
+        4840
+      ]
+    },
+    {
+      "pixel_x": 4845,
+      "pixel_y": 2480,
+      "ncc_score": 0.66,
+      "overlap_ratio": 0.7228,
+      "bbox": [
+        2473,
+        4838,
+        2487,
+        4852
+      ]
+    },
+    {
+      "pixel_x": 4874,
+      "pixel_y": 2539,
+      "ncc_score": 0.6721,
+      "overlap_ratio": 0.7228,
+      "bbox": [
+        2532,
+        4867,
+        2546,
+        4881
+      ]
+    },
+    {
+      "pixel_x": 4883,
+      "pixel_y": 1037,
+      "ncc_score": 0.657,
+      "overlap_ratio": 0.7327,
+      "bbox": [
+        1030,
+        4876,
+        1044,
+        4890
+      ]
+    },
+    {
+      "pixel_x": 4907,
+      "pixel_y": 1068,
+      "ncc_score": 0.6808,
+      "overlap_ratio": 0.7327,
+      "bbox": [
+        1061,
+        4900,
+        1075,
+        4914
+      ]
+    },
+    {
+      "pixel_x": 4913,
+      "pixel_y": 2179,
+      "ncc_score": 0.6506,
+      "overlap_ratio": 0.9109,
+      "bbox": [
+        2172,
+        4906,
+        2186,
+        4920
+      ]
+    },
+    {
+      "pixel_x": 4982,
+      "pixel_y": 1268,
+      "ncc_score": 0.6542,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        1261,
+        4975,
+        1275,
+        4989
+      ]
+    },
+    {
+      "pixel_x": 4986,
+      "pixel_y": 811,
+      "ncc_score": 0.6839,
+      "overlap_ratio": 0.7624,
+      "bbox": [
+        804,
+        4979,
+        818,
+        4993
+      ]
+    },
+    {
+      "pixel_x": 5004,
+      "pixel_y": 1336,
+      "ncc_score": 0.7021,
+      "overlap_ratio": 0.7822,
+      "bbox": [
+        1329,
+        4997,
+        1343,
+        5011
+      ]
+    },
+    {
+      "pixel_x": 5009,
+      "pixel_y": 1163,
+      "ncc_score": 0.6955,
+      "overlap_ratio": 0.7624,
+      "bbox": [
+        1156,
+        5002,
+        1170,
+        5016
+      ]
+    },
+    {
+      "pixel_x": 5106,
+      "pixel_y": 1720,
+      "ncc_score": 0.6724,
+      "overlap_ratio": 0.7624,
+      "bbox": [
+        1713,
+        5099,
+        1727,
+        5113
+      ]
+    },
+    {
+      "pixel_x": 5117,
+      "pixel_y": 2801,
+      "ncc_score": 0.6556,
+      "overlap_ratio": 0.9307,
+      "bbox": [
+        2794,
+        5110,
+        2808,
+        5124
+      ]
+    },
+    {
+      "pixel_x": 5163,
+      "pixel_y": 852,
+      "ncc_score": 0.7045,
+      "overlap_ratio": 0.7723,
+      "bbox": [
+        845,
+        5156,
+        859,
+        5170
+      ]
+    },
+    {
+      "pixel_x": 5175,
+      "pixel_y": 4831,
+      "ncc_score": 0.6556,
+      "overlap_ratio": 0.9307,
+      "bbox": [
+        4824,
+        5168,
+        4838,
+        5182
+      ]
+    },
+    {
+      "pixel_x": 5192,
+      "pixel_y": 557,
+      "ncc_score": 0.6896,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        550,
+        5185,
+        564,
+        5199
+      ]
+    },
+    {
+      "pixel_x": 5241,
+      "pixel_y": 1495,
+      "ncc_score": 0.7161,
+      "overlap_ratio": 0.7723,
+      "bbox": [
+        1488,
+        5234,
+        1502,
+        5248
+      ]
+    },
+    {
+      "pixel_x": 5253,
+      "pixel_y": 416,
+      "ncc_score": 0.6955,
+      "overlap_ratio": 0.7624,
+      "bbox": [
+        409,
+        5246,
+        423,
+        5260
+      ]
+    },
+    {
+      "pixel_x": 5258,
+      "pixel_y": 1244,
+      "ncc_score": 0.6547,
+      "overlap_ratio": 0.703,
+      "bbox": [
+        1237,
+        5251,
+        1251,
+        5265
+      ]
+    },
+    {
+      "pixel_x": 5261,
+      "pixel_y": 249,
+      "ncc_score": 0.7135,
+      "overlap_ratio": 0.7822,
+      "bbox": [
+        242,
+        5254,
+        256,
+        5268
+      ]
+    },
+    {
+      "pixel_x": 5279,
+      "pixel_y": 935,
+      "ncc_score": 0.6547,
+      "overlap_ratio": 0.703,
+      "bbox": [
+        928,
+        5272,
+        942,
+        5286
+      ]
+    },
+    {
+      "pixel_x": 5289,
+      "pixel_y": 656,
+      "ncc_score": 0.6585,
+      "overlap_ratio": 0.6931,
+      "bbox": [
+        649,
+        5282,
+        663,
+        5296
+      ]
+    },
+    {
+      "pixel_x": 5307,
+      "pixel_y": 1332,
+      "ncc_score": 0.6721,
+      "overlap_ratio": 0.7228,
+      "bbox": [
+        1325,
+        5300,
+        1339,
+        5314
+      ]
+    },
+    {
+      "pixel_x": 5315,
+      "pixel_y": 340,
+      "ncc_score": 0.6585,
+      "overlap_ratio": 0.6931,
+      "bbox": [
+        333,
+        5308,
+        347,
+        5322
+      ]
+    },
+    {
+      "pixel_x": 5320,
+      "pixel_y": 553,
+      "ncc_score": 0.693,
+      "overlap_ratio": 0.7723,
+      "bbox": [
+        546,
+        5313,
+        560,
+        5327
+      ]
+    },
+    {
+      "pixel_x": 5342,
+      "pixel_y": 1059,
+      "ncc_score": 0.6547,
+      "overlap_ratio": 0.703,
+      "bbox": [
+        1052,
+        5335,
+        1066,
+        5349
+      ]
+    },
+    {
+      "pixel_x": 5469,
+      "pixel_y": 1173,
+      "ncc_score": 0.657,
+      "overlap_ratio": 0.7327,
+      "bbox": [
+        1166,
+        5462,
+        1180,
+        5476
+      ]
+    },
+    {
+      "pixel_x": 5525,
+      "pixel_y": 146,
+      "ncc_score": 0.6858,
+      "overlap_ratio": 0.8119,
+      "bbox": [
+        139,
+        5518,
+        153,
+        5532
+      ]
+    },
+    {
+      "pixel_x": 5536,
+      "pixel_y": 1048,
+      "ncc_score": 0.6795,
+      "overlap_ratio": 0.7822,
+      "bbox": [
+        1041,
+        5529,
+        1055,
+        5543
+      ]
+    },
+    {
+      "pixel_x": 5701,
+      "pixel_y": 3328,
+      "ncc_score": 0.6709,
+      "overlap_ratio": 0.9505,
+      "bbox": [
+        3321,
+        5694,
+        3335,
+        5708
+      ]
+    },
+    {
+      "pixel_x": 5702,
+      "pixel_y": 1536,
+      "ncc_score": 0.7883,
+      "overlap_ratio": 0.9406,
+      "bbox": [
+        1529,
+        5695,
+        1543,
+        5709
+      ]
+    },
+    {
+      "pixel_x": 5740,
+      "pixel_y": 821,
+      "ncc_score": 0.6777,
+      "overlap_ratio": 0.7426,
+      "bbox": [
+        814,
+        5733,
+        828,
+        5747
+      ]
+    },
+    {
+      "pixel_x": 5748,
+      "pixel_y": 3372,
+      "ncc_score": 0.6745,
+      "overlap_ratio": 0.9604,
+      "bbox": [
+        3365,
+        5741,
+        3379,
+        5755
+      ]
+    },
+    {
+      "pixel_x": 5829,
+      "pixel_y": 2571,
+      "ncc_score": 0.6564,
+      "overlap_ratio": 0.8911,
+      "bbox": [
+        2564,
+        5822,
+        2578,
+        5836
+      ]
+    },
+    {
+      "pixel_x": 5854,
+      "pixel_y": 350,
+      "ncc_score": 0.6512,
+      "overlap_ratio": 0.7129,
+      "bbox": [
+        343,
+        5847,
+        357,
+        5861
+      ]
+    },
+    {
+      "pixel_x": 5867,
+      "pixel_y": 506,
+      "ncc_score": 0.6683,
+      "overlap_ratio": 0.7822,
+      "bbox": [
+        499,
+        5860,
+        513,
+        5874
+      ]
+    },
+    {
+      "pixel_x": 6101,
+      "pixel_y": 905,
+      "ncc_score": 0.6527,
+      "overlap_ratio": 0.9703,
+      "bbox": [
+        898,
+        6094,
+        912,
+        6108
+      ]
+    },
+    {
+      "pixel_x": 6136,
+      "pixel_y": 840,
+      "ncc_score": 0.6659,
+      "overlap_ratio": 0.9802,
+      "bbox": [
+        833,
+        6129,
+        847,
+        6143
+      ]
+    },
+    {
+      "pixel_x": 6262,
+      "pixel_y": 4426,
+      "ncc_score": 0.7099,
+      "overlap_ratio": 0.9604,
+      "bbox": [
+        4419,
+        6255,
+        4433,
+        6269
+      ]
+    },
+    {
+      "pixel_x": 6279,
+      "pixel_y": 4462,
+      "ncc_score": 0.6858,
+      "overlap_ratio": 0.9406,
+      "bbox": [
+        4455,
+        6272,
+        4469,
+        6286
+      ]
+    },
+    {
+      "pixel_x": 6316,
+      "pixel_y": 445,
+      "ncc_score": 0.746,
+      "overlap_ratio": 0.8515,
+      "bbox": [
+        438,
+        6309,
+        452,
+        6323
+      ]
+    },
+    {
+      "pixel_x": 6663,
+      "pixel_y": 1413,
+      "ncc_score": 0.66,
+      "overlap_ratio": 0.9109,
+      "bbox": [
+        1406,
+        6656,
+        1420,
+        6670
+      ]
+    },
+    {
+      "pixel_x": 7055,
+      "pixel_y": 210,
+      "ncc_score": 0.7184,
+      "overlap_ratio": 0.9208,
+      "bbox": [
+        203,
+        7048,
+        217,
+        7062
+      ]
+    },
+    {
+      "pixel_x": 7103,
+      "pixel_y": 4246,
+      "ncc_score": 0.658,
+      "overlap_ratio": 0.901,
+      "bbox": [
+        4239,
+        7096,
+        4253,
+        7110
+      ]
+    },
+    {
+      "pixel_x": 7123,
+      "pixel_y": 4106,
+      "ncc_score": 0.6858,
+      "overlap_ratio": 0.8119,
+      "bbox": [
+        4099,
+        7116,
+        4113,
+        7130
+      ]
+    },
+    {
+      "pixel_x": 7130,
+      "pixel_y": 4277,
+      "ncc_score": 0.6858,
+      "overlap_ratio": 0.9406,
+      "bbox": [
+        4270,
+        7123,
+        4284,
+        7137
+      ]
+    },
+    {
+      "pixel_x": 7133,
+      "pixel_y": 4000,
+      "ncc_score": 0.6745,
+      "overlap_ratio": 0.9604,
+      "bbox": [
+        3993,
+        7126,
+        4007,
+        7140
+      ]
+    },
+    {
+      "pixel_x": 7184,
+      "pixel_y": 4260,
+      "ncc_score": 0.6921,
+      "overlap_ratio": 0.9604,
+      "bbox": [
+        4253,
+        7177,
+        4267,
+        7191
+      ]
+    },
+    {
+      "pixel_x": 7212,
+      "pixel_y": 416,
+      "ncc_score": 0.714,
+      "overlap_ratio": 0.8614,
+      "bbox": [
+        409,
+        7205,
+        423,
+        7219
+      ]
+    },
+    {
+      "pixel_x": 7341,
+      "pixel_y": 199,
+      "ncc_score": 0.7039,
+      "overlap_ratio": 0.8713,
+      "bbox": [
+        192,
+        7334,
+        206,
+        7348
+      ]
+    },
+    {
+      "pixel_x": 7344,
+      "pixel_y": 3466,
+      "ncc_score": 0.6749,
+      "overlap_ratio": 0.7525,
+      "bbox": [
+        3459,
+        7337,
+        3473,
+        7351
+      ]
+    },
+    {
+      "pixel_x": 7364,
+      "pixel_y": 4370,
+      "ncc_score": 0.661,
+      "overlap_ratio": 0.7624,
+      "bbox": [
+        4363,
+        7357,
+        4377,
+        7371
+      ]
+    },
+    {
+      "pixel_x": 7368,
+      "pixel_y": 4420,
+      "ncc_score": 0.7093,
+      "overlap_ratio": 0.802,
+      "bbox": [
+        4413,
+        7361,
+        4427,
+        7375
+      ]
+    },
+    {
+      "pixel_x": 7615,
+      "pixel_y": 616,
+      "ncc_score": 0.658,
+      "overlap_ratio": 0.901,
+      "bbox": [
+        609,
+        7608,
+        623,
+        7622
+      ]
+    },
+    {
+      "pixel_x": 7645,
+      "pixel_y": 660,
+      "ncc_score": 0.6739,
+      "overlap_ratio": 0.9307,
+      "bbox": [
+        653,
+        7638,
+        667,
+        7652
+      ]
+    },
+    {
+      "pixel_x": 7811,
+      "pixel_y": 211,
+      "ncc_score": 0.6541,
+      "overlap_ratio": 0.8713,
+      "bbox": [
+        204,
+        7804,
+        218,
+        7818
+      ]
+    },
+    {
+      "pixel_x": 7838,
+      "pixel_y": 252,
+      "ncc_score": 0.6693,
+      "overlap_ratio": 0.9109,
+      "bbox": [
+        245,
+        7831,
+        259,
+        7845
+      ]
+    },
+    {
+      "pixel_x": 7845,
+      "pixel_y": 208,
+      "ncc_score": 0.6528,
+      "overlap_ratio": 0.8515,
+      "bbox": [
+        201,
+        7838,
+        215,
+        7852
+      ]
+    },
+    {
+      "pixel_x": 8050,
+      "pixel_y": 3471,
+      "ncc_score": 0.6936,
+      "overlap_ratio": 0.8515,
+      "bbox": [
+        3464,
+        8043,
+        3478,
+        8057
+      ]
+    },
+    {
+      "pixel_x": 8251,
+      "pixel_y": 3303,
+      "ncc_score": 0.6724,
+      "overlap_ratio": 0.7624,
+      "bbox": [
+        3296,
+        8244,
+        3310,
+        8258
+      ]
+    },
+    {
+      "pixel_x": 8257,
+      "pixel_y": 3998,
+      "ncc_score": 0.6709,
+      "overlap_ratio": 0.9505,
+      "bbox": [
+        3991,
+        8250,
+        4005,
+        8264
+      ]
+    }
+  ],
+  "elapsed_sec": 23.6
+}

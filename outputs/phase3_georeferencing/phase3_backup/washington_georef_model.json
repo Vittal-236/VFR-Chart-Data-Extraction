@@ -1,0 +1,48 @@
+{
+  "method": "bilinear_affine_v2",
+  "chart": "Washington VFR Sectional (Ed.94 Mar 2026)",
+  "dpi": 150,
+  "true_extent": {
+    "lat_min": 36.0,
+    "lat_max": 40.0,
+    "lon_min": -79.0,
+    "lon_max": -72.0
+  },
+  "gcps": [
+    [
+      1512,
+      0,
+      -79.0,
+      40.0
+    ],
+    [
+      8385,
+      0,
+      -72.0,
+      40.0
+    ],
+    [
+      1512,
+      6173,
+      -79.0,
+      36.0
+    ],
+    [
+      8385,
+      6173,
+      -72.0,
+      36.0
+    ]
+  ],
+  "lon_coeffs": [
+    -80.53993889131382,
+    0.0010184781027207873,
+    -4.03187201407707e-18
+  ],
+  "lat_coeffs": [
+    40.00000000000001,
+    1.2468324983583301e-18,
+    -0.0006479831524380356
+  ],
+  "notes": "Corrected from corner tick images. 4 GCPs at chart border corners. Lambert residual not corrected in v1."
+}

@@ -1,0 +1,17 @@
+{
+  "stem": "Washington_150",
+  "image_shape": [
+    6173,
+    8385,
+    3
+  ],
+  "hsv_tile_size": 2048,
+  "coverage_pct": {
+    "text": 3.65,
+    "routes": 2.857,
+    "symbols": 3.589,
+    "boundaries": 23.299
+  },
+  "notes": [],
+  "elapsed_sec": 187.92
+}
